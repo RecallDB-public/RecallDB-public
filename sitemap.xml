@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://recalldb-public.pages.dev/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/agencies/cpsc</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/agencies/fda</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/agencies/fsis</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/agencies/nhtsa</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/agencies/uscg</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/drug_defect</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/crash_injury</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/microbial_contamination</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/fire_burn</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/undeclared_allergen</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/chemical_toxic</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/laceration</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/choking</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/fall_injury</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/electric_shock</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://recalldb-public.pages.dev/hazards/other</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+</urlset>

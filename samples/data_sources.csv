@@ -1,0 +1,12 @@
+source_id,source_agency,endpoint_url,retrieved_at,raw_payload_bytes,raw_payload_sha256
+1,FSIS,https://www.fsis.usda.gov/fsis/api/recall/v/1,2026-07-13 16:28:56,11570810,0f20099894997943ee13a006220b3dd952aec4955f0781a288e7644fd35b1941
+319,CPSC,https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-06-01&RecallDateEnd=2026-06-30,2026-07-13 16:36:31,135628,b13d4af80ea156d65213a5bf0844d88802828344f5d6dae9479cef7657f0498b
+320,CPSC,https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-07-01&RecallDateEnd=2026-07-13,2026-07-13 16:36:33,61089,bc4fc42fe952c4c179a85c8bd3e7829f3b459facbdc0fd2b9e768524b90183d3
+321,NHTSA,https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip,2026-07-13 16:36:37,307655881,256357c6e9ef2622a46250768721223af32ce006b5f63adc55f6955f3616a0fa
+363,FDA,https://api.fda.gov/food/enforcement.json?limit=1000&skip=0&search=recall_initiation_date%3A%5B20260101+TO+20260713%5D,2026-07-13 16:47:06,738056,776c305c08159102470d9e2e4f710d50b93f0611b6ec1d8cdef07510f7bc02da
+393,FDA,https://api.fda.gov/drug/enforcement.json?limit=1000&skip=0&search=recall_initiation_date%3A%5B20260101+TO+20260713%5D,2026-07-13 16:51:10,540910,48c980758f8b2397b4ab572a683613de7bff12cbc099c3ced938c4de70490bc5
+448,FDA,https://api.fda.gov/device/enforcement.json?limit=1000&skip=1000&search=recall_initiation_date%3A%5B20260101+TO+20260713%5D,2026-07-13 17:01:20,3014173,b203cf38d784ed8ce3d1850efb8d42da5e5c0ec5cf3d7fb545d371709984b571
+450,USCG,https://www.uscgboating.org/content/recalls.php?pageNum_allRecalls=0,2026-07-13 17:42:55,32061,73c5d157efc81d7efece5168b5b44df97cca3ab995675d9db248bcdef16dfda7
+519,USCG,https://www.uscgboating.org/content/recalls.php?pageNum_allRecalls=69,2026-07-13 17:44:50,32066,2dca870d1ee7d6f5b27fdbda9581007ef5bd6dd3ee70c1bf8156302a53af1b58
+520,USCG,https://www.uscgboating.org/content/recalls.php?pageNum_allRecalls=70,2026-07-13 17:44:51,28385,57dfa470bf0f3be248bc188f8eb42aaf8ed22b4cc57cbfe873989988bb93af4d
+521,FDA,https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/datatables-data?_format=xlsx,2026-07-13 17:45:04,300239,278bffe0729a3ddb212ca135c0e91cce632ea8833c4da6e26b7682d6b5bdb8bf

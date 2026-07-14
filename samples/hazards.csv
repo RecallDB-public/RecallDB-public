@@ -1,0 +1,12 @@
+hazard_key,description,recall_count
+chemical_toxic,"Toxic chemical exposure: lead, cadmium, carbon monoxide, etc.",6629
+choking,"Choking, aspiration or strangulation hazards (incl. small parts)",2166
+crash_injury,"Vehicle crash, airbag, braking or steering related injury risks",20554
+drug_defect,"Drug potency, contamination, mislabeling or dosage defects",35101
+electric_shock,Electric shock or electrocution hazards,684
+fall_injury,"Fall, tip-over or structural collapse hazards",1519
+fire_burn,"Fire, thermal burn, overheating or explosion hazards",9502
+laceration,"Cut, laceration or amputation hazards",3903
+microbial_contamination,"Bacterial/viral contamination: Salmonella, Listeria, E. coli, etc.",20103
+other,Hazards not yet mapped to the controlled taxonomy,18216
+undeclared_allergen,"Undeclared allergens: milk, peanuts, soy, wheat, etc.",9143
