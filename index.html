@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="2VE0Ll5xPaIkGjSTkvTenDhcKRLJGPFgVqekvGOIw-4">
+  <title>RecallDB - Official U.S. Product Recall Database</title>
+  <meta name="description" content="Provenance-tracked U.S. product recall database covering CPSC, FDA, FSIS, NHTSA and USCG, with public samples and paid full-dataset access.">
+  <link rel="canonical" href="https://recalldb-public.pages.dev/">
+  <meta property="og:title" content="RecallDB - Official U.S. Product Recall Database">
+  <meta property="og:description" content="Provenance-tracked U.S. product recall database covering CPSC, FDA, FSIS, NHTSA and USCG, with public samples and paid full-dataset access.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://recalldb-public.pages.dev/">
+  <meta property="og:image" content="https://recalldb-public.pages.dev/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RecallDB - Official U.S. Product Recall Database">
+  <meta name="twitter:description" content="Provenance-tracked U.S. product recall database covering CPSC, FDA, FSIS, NHTSA and USCG, with public samples and paid full-dataset access.">
+  <meta name="theme-color" content="#0b1117">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "RecallDB U.S. Product Recall Database",
+  "description": "Official U.S. product recall sample with provenance traceability across CPSC, FDA, FSIS, NHTSA and USCG. Full CSV and SQLite dataset access is paid and privately delivered.",
+  "url": "https://recalldb-public.pages.dev/",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "keywords": [
+    "product recalls",
+    "consumer safety",
+    "FDA recalls",
+    "CPSC recalls",
+    "NHTSA recalls",
+    "FSIS recalls",
+    "USCG recalls",
+    "compliance data"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://github.com/RecallDB-public/RecallDB-public/tree/main/samples"
+    }
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "RecallDB"
+  }
+}</script>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is RecallDB?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RecallDB is a normalized dataset of official U.S. federal recall records from CPSC, FDA/openFDA plus FDA Safety Alerts, USDA FSIS, NHTSA and USCG."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does RecallDB include provenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every recall carries source_agency, external_id, source_url and source_id. data_sources.csv exposes source endpoint, retrieval time, raw payload size and SHA-256 fingerprint."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the public GitHub repo the full dataset?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The GitHub repository and Kaggle sample metadata contain only the public sample, docs and starter assets. The full CSV and SQLite dataset is paid and delivered privately after a snapshot purchase or enterprise request."
+      }
+    }
+  ]
+}</script>
+  <header class="site-nav">
+    <a class="brand" href="./">Recall<span>DB</span></a>
+    <nav>
+      <a href="#coverage">Coverage</a>
+      <a href="#provenance">Traceability</a>
+      <a href="#sample">Sample</a>
+      <a href="#pricing">Access</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#pricing">Get full data</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Official U.S. recall intelligence - v1 public sample</p>
+        <h1>Provenance-tracked product recalls for compliance, ecommerce and AI screening.</h1>
+        <p class="lede">RecallDB normalizes 127,783 official federal recall records across consumer products, vehicles, FDA-regulated products, food safety, and recreational boating. Every row keeps the agency ID, record URL, source endpoint, retrieval time and raw-payload fingerprint.</p>
+        <div class="cta-row">
+          <a class="button primary" href="samples/recalls.csv">Download sample CSV</a>
+          <a class="button" href="#pricing">Get the full dataset</a>
+          <a class="button ghost" href="https://github.com/RecallDB-public/RecallDB-public">View sample repo</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>127,783</dt><dd>official recalls</dd></div>
+          <div><dt>292,790</dt><dd>linked products</dd></div>
+          <div><dt>5</dt><dd>federal sources</dd></div>
+          <div><dt>100%</dt><dd>source-linked</dd></div>
+        </dl>
+      </div>
+      <div class="hero-art">
+        <img src="assets/recalldb-hero.png" alt="RecallDB source coverage and provenance visualization" width="1400" height="760">
+      </div>
+    </section>
+    <section class="band" id="coverage">
+      <div class="section-heading">
+        <p class="eyebrow">Coverage</p>
+        <h2>Built from official federal recall publications only.</h2>
+        <p>No commercial aggregators, no invented rows, no fuzzy provenance. EPA is intentionally deferred until a stable official recall-specific feed exists.</p>
+      </div>
+      <div class="agency-grid" data-agencies='{"CPSC": 8179, "FDA": 86476, "FSIS": 1222, "NHTSA": 30143, "USCG": 1763}'></div>
+    </section>
+    <section class="split" id="provenance">
+      <div>
+        <p class="eyebrow">Traceability</p>
+        <h2>Every recall joins back to its source pull.</h2>
+        <p>The paid SQLite release keeps the full archived raw payload. The paid CSV delivery exposes compact lineage through <code>source_id</code> and <code>data_sources.csv</code>, including endpoint URL, retrieval timestamp, raw payload byte length and SHA-256 hash.</p>
+      </div>
+      <div class="schema-card">
+        <div class="schema-row"><strong>recalls.csv</strong><span>source_id, source_url, source_endpoint_url, retrieved_at</span></div>
+        <div class="schema-row"><strong>data_sources.csv</strong><span>endpoint_url, raw_payload_bytes, raw_payload_sha256</span></div>
+        <div class="schema-row"><strong>Paid SQLite</strong><span>full data_sources.raw_payload for replay and audit</span></div>
+      </div>
+    </section>
+    <section class="band" id="sample">
+      <div class="section-heading">
+        <p class="eyebrow">Public sample</p>
+        <h2>Small enough for GitHub, shaped like the full release.</h2>
+        <p>The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot.</p>
+      </div>
+      <div class="sample-grid">
+        <a class="sample-card" href="samples/recalls.csv"><strong>recalls.csv</strong><span>200 sample recalls with source_id lineage</span></a>
+        <a class="sample-card" href="samples/recalled_products.csv"><strong>recalled_products.csv</strong><span>Products, vehicles, lots and categories</span></a>
+        <a class="sample-card" href="samples/data_sources.csv"><strong>data_sources.csv</strong><span>Endpoint URLs and payload fingerprints</span></a>
+        <a class="sample-card" href="samples/hazards.csv"><strong>hazards.csv</strong><span>Controlled hazard taxonomy counts</span></a>
+      </div>
+      <div class="table-wrap">
+        <table id="recall-preview">
+          <caption>Latest sample rows</caption>
+          <thead><tr><th>Agency</th><th>Date</th><th>Title</th><th>Hazard</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="split">
+      <div>
+        <p class="eyebrow">Hazards</p>
+        <h2>One deterministic taxonomy across agencies.</h2>
+        <p>CPSC free text, FDA enforcement reasons, NHTSA components, FSIS reasons and USCG boating defects map into one auditable vocabulary.</p>
+      </div>
+      <div class="hazard-bars" data-hazards='{"chemical_toxic": 6629, "choking": 2166, "crash_injury": 20554, "drug_defect": 35101, "electric_shock": 684, "fall_injury": 1519, "fire_burn": 9502, "laceration": 3903, "microbial_contamination": 20103, "other": 18216, "undeclared_allergen": 9143}'></div>
+    </section>
+    <section class="pricing" id="pricing">
+      <div class="section-heading">
+        <p class="eyebrow">Access</p>
+        <h2>Two paid ways to get the full RecallDB dataset.</h2>
+        <p>The public repository contains only the sample files and documentation. The full CSV + SQLite export is not hosted on GitHub, GitHub Pages, Kaggle, or any free public download.</p>
+      </div>
+      <div class="price-grid paid-grid">
+        <article class="price-card featured">
+          <div class="tier-label">Dataset snapshot</div>
+          <h3>Full Dataset Snapshot</h3>
+          <p>One private delivery of the current RecallDB export for analysis, enrichment, compliance research, and internal product screening.</p>
+          <div class="price">$49 <span>one-time snapshot</span></div>
+          <ul class="tier-features">
+            <li>127,783 normalized recall records</li>
+            <li>292,790 linked recalled products</li>
+            <li>CSV + SQLite delivery</li>
+            <li>Provenance ledger and source links</li>
+            <li>Private delivery after request</li>
+          </ul>
+          <a class="button primary full-width" href="https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408" target="_blank" rel="noopener">Buy $49 snapshot</a>
+          <p class="price-note">Secure Stripe checkout. The full snapshot is never committed to this repo and delivery is gated by payment verification.</p>
+        </article>
+        <article class="price-card">
+          <div class="tier-label">Enterprise custom request</div>
+          <h3>Enterprise Custom Request</h3>
+          <p>For teams that need custom joins, monthly refreshes, additional fields, compliance screens, retail matching, or source-specific enrichment.</p>
+          <div class="price">$99+ <span>custom request</span></div>
+          <ul class="tier-features">
+            <li>Everything in the snapshot</li>
+            <li>Custom source additions or refresh cadence</li>
+            <li>Retail catalog and SKU matching support</li>
+            <li>Dedupe, taxonomy, and export customization</li>
+            <li>Commercial terms scoped by request</li>
+          </ul>
+          <a class="button full-width" href="#contact">Request enterprise quote</a>
+          <p class="price-note">Use this tier for production workflows, recurring delivery, or non-standard schema needs.</p>
+        </article>
+      </div>
+      <p class="access-note">Direct desk: <a href="mailto:recalldb.shorthand343@aleeas.com">recalldb.shorthand343@aleeas.com</a></p>
+    </section>
+    <section class="contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Request access</p>
+        <h2>Tell us which full-dataset tier you need.</h2>
+        <p>Requests go to the RecallDB desk. We reply with payment and delivery details; the full export is delivered privately, not through a public repository link.</p>
+      </div>
+      <div class="contact-card">
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+          <input type="hidden" name="access_key" value="bf34ff48-fcc6-4823-b386-9ae3d0712797">
+          <input type="hidden" name="subject" value="New RecallDB Enterprise Request">
+          <input type="hidden" name="from_name" value="RecallDB Contact Form">
+          <input type="hidden" name="source" value="RecallDB public landing page">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <div class="form-grid">
+            <label>Full name / organization
+              <input type="text" id="userName" name="name" placeholder="Acme Compliance or Jane Doe" required>
+            </label>
+            <label>Delivery email
+              <input type="email" id="userEmail" name="email" placeholder="you@organization.com" required>
+            </label>
+          </div>
+          <input type="hidden" id="tierSelect" name="tier" value="Enterprise Custom Request ($99+)">
+          <label>Custom request
+            <textarea id="useCase" name="message" rows="6" placeholder="Tell us what you need: source additions, refresh cadence, fields, joins, retail catalog/SKU matching, export format, timeline..." required></textarea>
+          </label>
+          <button type="submit" class="button primary full-width" id="contact-submit-btn"><span>Send custom request</span></button>
+        </form>
+        <div id="contactSuccess" class="contact-success" role="status" aria-live="polite" tabindex="-1" style="display:none">
+          <strong>Your request email has been sent.</strong>
+          <p>We will reply to the address you provided with scope, pricing, and delivery details.</p>
+          <p>No reply within 1 business day? Email <a href="mailto:recalldb.shorthand343@aleeas.com">recalldb.shorthand343@aleeas.com</a>.</p>
+          <button type="button" class="button ghost" onclick="resetContactForm()">Submit another request</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>RecallDB uses official U.S. government recall publications. Public sample data is CC0. Full dataset snapshots and enterprise custom requests are paid and privately delivered.</p>
+    <p><a href="SOURCES.md">Sources</a> - <a href="DATA_DICTIONARY.md">Data dictionary</a> - <a href="mailto:recalldb.shorthand343@aleeas.com">Contact</a> - <a href="sitemap.xml">Sitemap</a></p>
+  </footer>
+  <script src="app.js?v=web3forms-20260715"></script>
+
+</body>
+</html>
