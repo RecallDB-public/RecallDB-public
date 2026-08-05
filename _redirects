@@ -1,0 +1,4 @@
+# Common probe-path aliases (browsers/crawlers auto-request these)
+/manifest.json /site.webmanifest 200
+/manifest.webmanifest /site.webmanifest 200
+/favicon.ico /assets/og-image.png 200

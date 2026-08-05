@@ -1,0 +1,16 @@
+{
+  "name": "RecallDB",
+  "short_name": "RecallDB",
+  "description": "Official U.S. product recall database",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b1117",
+  "theme_color": "#0b1117",
+  "icons": [
+    {
+      "src": "assets/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png"
+    }
+  ]
+}

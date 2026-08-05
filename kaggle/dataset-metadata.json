@@ -1,0 +1,230 @@
+{
+  "title": "RecallDB - U.S. Product Recall Sample Dataset",
+  "subtitle": "Official U.S. recalls with provenance across CPSC, FDA, FSIS, NHTSA and USCG",
+  "id": "ahtiticheamine/recalldb-product-recalls-sample",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "public safety",
+    "business",
+    "government",
+    "data analytics",
+    "food"
+  ],
+  "expectedUpdateFrequency": "monthly",
+  "userSpecifiedSources": "https://recalldb-public.pages.dev/, https://github.com/RecallDB-public/RecallDB-public (SOURCES.md: CPSC, FDA/openFDA + FDA Safety Alerts, USDA FSIS, NHTSA, USCG)",
+  "description": "# RecallDB \u2014 U.S. Product Recall Database (Sample)\n\n**127,783 official recalls \u00b7 292,790 recalled products \u00b7 CPSC \u00b7 FDA \u00b7 FSIS \u00b7 NHTSA \u00b7 USCG \u00b7 100% source-linked**\n\nRecallDB is a normalized, provenance-tracked dataset of official U.S. federal product recalls. It joins five official source families into one CSV/SQLite model: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG recreational boating recalls.\n\n**Full dataset & documentation:** https://recalldb-public.pages.dev/\n\n## Public sample vs paid full dataset\n\nThis Kaggle dataset is the **free public sample**. The full CSV + SQLite export is not published here.\n\n| Table | Full dataset | Public sample |\n| :--- | ---: | ---: |\n| Recalls | 127,783 | 200 |\n| Recalled products | 292,790 | 428 |\n| Source pulls | 521 | 11 |\n| Firms | 20,886 | 147 |\n| Hazard taxonomy | 11 | 11 |\n\n## Files in this sample\n\n- `recalls.csv` \u2014 balanced sample of recalls from all five agencies\n- `recalled_products.csv` \u2014 linked products, vehicles, lots and categories\n- `data_sources.csv` \u2014 endpoint URLs, retrieval timestamps and raw payload hashes\n- `firms.csv` \u2014 canonical firm names observed in the sample\n- `hazards.csv` \u2014 hazard taxonomy with recall counts\n\n## Provenance\n\nEvery recall carries `source_agency`, `external_id`, `source_url`, and `source_id`. `source_id` joins into `data_sources.csv`, which exposes `endpoint_url`, `retrieved_at`, `raw_payload_bytes`, and `raw_payload_sha256`. The paid SQLite release also stores the archived raw payload for replay and audit.\n\n## Source coverage\n\n| Agency | Full rows | Domain |\n| :--- | ---: | :--- |\n| CPSC | 8,179 | Consumer product recalls |\n| FDA | 86,476 | Food, drugs, devices, cosmetics, biologics, animal/veterinary alerts |\n| FSIS | 1,222 | Meat, poultry and egg product recalls |\n| NHTSA | 30,143 | Vehicle and equipment recalls |\n| USCG | 1,763 | Recreational boating recalls |\n\nEPA is intentionally excluded from v1 (no stable official recall-specific structured feed was identified).\n\n## Quick start\n\n```python\nimport pandas as pd\n\nrecalls = pd.read_csv(\"/kaggle/input/recalldb-product-recalls-sample/recalls.csv\")\nrecalls.groupby(\"source_agency\").size().sort_values(ascending=False)\n```\n\n## Full dataset access\n\nThe full CSV + SQLite export with the complete provenance ledger is available as a one-time **$49 snapshot** or an enterprise custom request via https://recalldb-public.pages.dev/#pricing\n\n## License\n\nPublic sample: **CC0-1.0** (source records are U.S. federal government publications). Attribution is appreciated for auditability \u2014 see https://recalldb-public.pages.dev/SOURCES.md\n",
+  "resources": [
+    {
+      "path": "samples/recalls.csv",
+      "description": "RecallDB public sample table: recalls.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "recall_id",
+            "description": "recall_id field from the RecallDB export."
+          },
+          {
+            "name": "source_agency",
+            "description": "source_agency field from the RecallDB export."
+          },
+          {
+            "name": "external_id",
+            "description": "external_id field from the RecallDB export."
+          },
+          {
+            "name": "source_id",
+            "description": "source_id field from the RecallDB export."
+          },
+          {
+            "name": "title",
+            "description": "title field from the RecallDB export."
+          },
+          {
+            "name": "description",
+            "description": "description field from the RecallDB export."
+          },
+          {
+            "name": "recalling_firm_canonical",
+            "description": "recalling_firm_canonical field from the RecallDB export."
+          },
+          {
+            "name": "recalling_firm_display",
+            "description": "recalling_firm_display field from the RecallDB export."
+          },
+          {
+            "name": "recall_date",
+            "description": "recall_date field from the RecallDB export."
+          },
+          {
+            "name": "severity",
+            "description": "severity field from the RecallDB export."
+          },
+          {
+            "name": "remedy",
+            "description": "remedy field from the RecallDB export."
+          },
+          {
+            "name": "units_affected",
+            "description": "units_affected field from the RecallDB export."
+          },
+          {
+            "name": "distribution_pattern",
+            "description": "distribution_pattern field from the RecallDB export."
+          },
+          {
+            "name": "hazard_keys",
+            "description": "hazard_keys field from the RecallDB export."
+          },
+          {
+            "name": "raw_hazard_texts",
+            "description": "raw_hazard_texts field from the RecallDB export."
+          },
+          {
+            "name": "source_url",
+            "description": "source_url field from the RecallDB export."
+          },
+          {
+            "name": "source_endpoint_url",
+            "description": "source_endpoint_url field from the RecallDB export."
+          },
+          {
+            "name": "retrieved_at",
+            "description": "retrieved_at field from the RecallDB export."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/recalled_products.csv",
+      "description": "RecallDB public sample table: recalled_products.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "product_id",
+            "description": "product_id field from the RecallDB export."
+          },
+          {
+            "name": "recall_id",
+            "description": "recall_id field from the RecallDB export."
+          },
+          {
+            "name": "source_agency",
+            "description": "source_agency field from the RecallDB export."
+          },
+          {
+            "name": "external_id",
+            "description": "external_id field from the RecallDB export."
+          },
+          {
+            "name": "name",
+            "description": "name field from the RecallDB export."
+          },
+          {
+            "name": "brand",
+            "description": "brand field from the RecallDB export."
+          },
+          {
+            "name": "model_number",
+            "description": "model_number field from the RecallDB export."
+          },
+          {
+            "name": "upc",
+            "description": "upc field from the RecallDB export."
+          },
+          {
+            "name": "lot_codes",
+            "description": "lot_codes field from the RecallDB export."
+          },
+          {
+            "name": "category",
+            "description": "category field from the RecallDB export."
+          },
+          {
+            "name": "model_year",
+            "description": "model_year field from the RecallDB export."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/data_sources.csv",
+      "description": "RecallDB public sample table: data_sources.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "source_id",
+            "description": "source_id field from the RecallDB export."
+          },
+          {
+            "name": "source_agency",
+            "description": "source_agency field from the RecallDB export."
+          },
+          {
+            "name": "endpoint_url",
+            "description": "endpoint_url field from the RecallDB export."
+          },
+          {
+            "name": "retrieved_at",
+            "description": "retrieved_at field from the RecallDB export."
+          },
+          {
+            "name": "raw_payload_bytes",
+            "description": "raw_payload_bytes field from the RecallDB export."
+          },
+          {
+            "name": "raw_payload_sha256",
+            "description": "raw_payload_sha256 field from the RecallDB export."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/firms.csv",
+      "description": "RecallDB public sample table: firms.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "firm_id",
+            "description": "firm_id field from the RecallDB export."
+          },
+          {
+            "name": "canonical_name",
+            "description": "canonical_name field from the RecallDB export."
+          },
+          {
+            "name": "display_name",
+            "description": "display_name field from the RecallDB export."
+          },
+          {
+            "name": "aliases",
+            "description": "aliases field from the RecallDB export."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/hazards.csv",
+      "description": "RecallDB public sample table: hazards.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "hazard_key",
+            "description": "hazard_key field from the RecallDB export."
+          },
+          {
+            "name": "description",
+            "description": "description field from the RecallDB export."
+          },
+          {
+            "name": "recall_count",
+            "description": "recall_count field from the RecallDB export."
+          }
+        ]
+      }
+    }
+  ]
+}

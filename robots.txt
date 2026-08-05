@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://recalldb-public.pages.dev/sitemap.xml
