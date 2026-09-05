@@ -5,12 +5,12 @@
 **127,783 official recalls - 292,790 recalled products - CPSC, FDA, FSIS, NHTSA, USCG - 100% source-linked**
 
 [![Sample CSV](https://img.shields.io/badge/Public%20sample-CSV-brightgreen.svg)](samples/recalls.csv)
-[![Full dataset](https://img.shields.io/badge/Full%20dataset-$49%20snapshot-14b8a6.svg)](https://recalldb-public.pages.dev/#pricing)
+[![Full dataset](https://img.shields.io/badge/Full%20dataset-$49%20snapshot-14b8a6.svg)](https://recalldb.dataengineered.io/#pricing)
 [![Contact](https://img.shields.io/badge/Contact-recalldb.shorthand343%40aleeas.com-blue.svg)](mailto:recalldb.shorthand343@aleeas.com)
-[![Cloudflare Pages](https://img.shields.io/badge/Landing%20page-Cloudflare%20Pages-14b8a6.svg)](https://recalldb-public.pages.dev/)
+[![Cloudflare Pages](https://img.shields.io/badge/Landing%20page-Cloudflare%20Pages-14b8a6.svg)](https://recalldb.dataengineered.io/)
 [![License](https://img.shields.io/badge/Sample%20license-CC0-blue.svg)](LICENSE)
 
-**[View the landing page](https://recalldb-public.pages.dev/)**
+**[View the landing page](https://recalldb.dataengineered.io/)**
 
 </div>
 

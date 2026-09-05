@@ -3,11 +3,11 @@
 > RecallDB is a normalized, provenance-tracked dataset of 127,783 official U.S. federal product recall records covering 292,790 linked recalled products across five federal sources: CPSC consumer products, FDA/openFDA plus FDA Safety Alerts, USDA FSIS food safety, NHTSA vehicles, and USCG recreational boating. Every row is 100% source-linked, carrying its agency ID, record URL, source endpoint, retrieval timestamp, and SHA-256 raw-payload fingerprint. A public CC0 sample and documentation are free; the full CSV + SQLite export is paid and privately delivered.
 
 ## Key Links & Documentation
-- [Landing Page](https://recalldb-public.pages.dev/)
+- [Landing Page](https://recalldb.dataengineered.io/)
 - [GitHub Repository](https://github.com/RecallDB-public/RecallDB-public)
-- [Data Dictionary & Field Definitions](https://recalldb-public.pages.dev/DATA_DICTIONARY.md)
-- [Sources & Attribution](https://recalldb-public.pages.dev/SOURCES.md)
-- [Free Sample CSV (200 recalls)](https://recalldb-public.pages.dev/samples/recalls.csv)
+- [Data Dictionary & Field Definitions](https://recalldb.dataengineered.io/DATA_DICTIONARY.md)
+- [Sources & Attribution](https://recalldb.dataengineered.io/SOURCES.md)
+- [Free Sample CSV (200 recalls)](https://recalldb.dataengineered.io/samples/recalls.csv)
 
 ## Core Capabilities & Specs
 - **Data Formats:** CSV and SQLite (full dataset); CSV (public sample)
@@ -15,4 +15,4 @@
 - **Attribution:** Public sample released under CC0 1.0 Universal. Source records originate from official U.S. federal government publications (public domain). Attribution to the publishing agencies and RecallDB is appreciated for auditability.
 - **Licensing Tiers:**
   - Full Dataset Snapshot — $49 one-time, CSV + SQLite with provenance ledger and source links: https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408
-  - Enterprise Custom Request — $99+ custom joins, refresh cadence, retail/SKU matching, enrichment, or schema work; request via https://recalldb-public.pages.dev/#pricing or email recalldb.shorthand343@aleeas.com
+  - Enterprise Custom Request — $99+ custom joins, refresh cadence, retail/SKU matching, enrichment, or schema work; request via https://recalldb.dataengineered.io/#pricing or email recalldb.shorthand343@aleeas.com
