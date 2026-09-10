@@ -12,6 +12,8 @@
 
 **[View the landing page](https://recalldb.dataengineered.io/)**
 
+**Same sample on [Hugging Face](https://huggingface.co/datasets/Ichlibitiche/recalldb-product-recalls-sample)** · **[Kaggle](https://www.kaggle.com/datasets/ahtiticheamine/recalldb-product-recalls-sample)**
+
 </div>
 
 **One offline, provenance-ledgered recall dataset across the five federal feeds.** CPSC, NHTSA, FDA, FSIS and USCG publish recalls for free, in five shapes; RecallDB joins them into one CSV/SQLite model (127,783 official recalls, 292,790 linked products) and keeps the agency ID, record URL, source endpoint, retrieval time and raw-payload fingerprint on every row — for e-commerce sellers, compliance teams and AI agents that need offline recall data, and as the companion to MechanicDB for vehicle fault-and-recall screening. The five source families: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG boating recalls.
