@@ -69,7 +69,7 @@ if (contactForm) {
       showContactSuccess();
     } catch (_) {
       if (errorBox) {
-        errorBox.textContent = "We could not send the request automatically. Please email recalldb.shorthand343@aleeas.com and we will handle it manually.";
+        errorBox.textContent = "We could not send the request automatically. Please email recalldb@dataengineered.io and we will handle it manually.";
         errorBox.style.display = "block";
       }
     } finally {

@@ -6,7 +6,7 @@
 
 [![Sample CSV](https://img.shields.io/badge/Public%20sample-CSV-brightgreen.svg)](samples/recalls.csv)
 [![Full dataset](https://img.shields.io/badge/Full%20dataset-$49%20snapshot-14b8a6.svg)](https://recalldb.dataengineered.io/#pricing)
-[![Contact](https://img.shields.io/badge/Contact-recalldb.shorthand343%40aleeas.com-blue.svg)](mailto:recalldb.shorthand343@aleeas.com)
+[![Contact](https://img.shields.io/badge/Contact-recalldb%40dataengineered.io-blue.svg)](mailto:recalldb@dataengineered.io)
 [![Cloudflare Pages](https://img.shields.io/badge/Landing%20page-Cloudflare%20Pages-14b8a6.svg)](https://recalldb.dataengineered.io/)
 [![License](https://img.shields.io/badge/Sample%20license-CC0-blue.svg)](LICENSE)
 
@@ -35,7 +35,7 @@ This public repository contains only the sample files, documentation, SEO pages,
 | Dataset Snapshot | Current full CSV + SQLite export with provenance ledger and source links. Stripe checkout routes to the verified delivery worker. | [$49 one-time](https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408) |
 | Enterprise Custom Request | Snapshot plus custom joins, refresh cadence, retail matching, enrichment, or schema work. | $99+ |
 
-Buy the $49 snapshot through **[Stripe checkout](https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408)**. For $99+ enterprise custom work, use the landing page request form or email **[recalldb.shorthand343@aleeas.com](mailto:recalldb.shorthand343@aleeas.com)**.
+Buy the $49 snapshot through **[Stripe checkout](https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408)**. For $99+ enterprise custom work, use the landing page request form or email **[recalldb@dataengineered.io](mailto:recalldb@dataengineered.io)**.
 
 ## Public sample files
 
