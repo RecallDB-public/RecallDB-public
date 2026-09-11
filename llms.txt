@@ -15,4 +15,5 @@
 - **Attribution:** Public sample released under CC0 1.0 Universal. Source records originate from official U.S. federal government publications (public domain). Attribution to the publishing agencies and RecallDB is appreciated for auditability.
 - **Licensing Tiers:**
   - Full Dataset Snapshot — $49 one-time, CSV + SQLite with provenance ledger and source links: https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408
+  - Fault & Recall Bundle — $179 one-time (vs $198 separately): RecallDB Vehicle (NHTSA vehicle & equipment recalls, CSV + Parquet + SQLite) + MechanicDB OEM Complete, two instant downloads after one checkout: https://buy.stripe.com/3cI3cw1cQevsazVaaA3840h
   - Custom work — custom joins, refresh cadence, retail/SKU matching, enrichment or schema work: from $99, quoted per engagement; request via https://recalldb.dataengineered.io/#contact
