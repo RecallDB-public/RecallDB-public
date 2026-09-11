@@ -168,7 +168,7 @@
     <section class="pricing" id="pricing">
       <div class="section-heading">
         <p class="eyebrow">Access</p>
-        <h2>Three paid ways to get RecallDB data.</h2>
+        <h2>Two paid ways to get RecallDB data.</h2>
         <p>The public repository contains only the sample files and documentation. The full CSV + SQLite export is not hosted on GitHub, GitHub Pages, Kaggle, or any free public download.</p>
       </div>
       <div class="price-grid paid-grid">
@@ -188,21 +188,6 @@
           <p class="price-note">Secure Stripe checkout. The full snapshot is never committed to this repo and delivery is gated by payment verification.</p>
         </article>
         <article class="price-card">
-          <div class="tier-label">Enterprise custom request</div>
-          <h3>Enterprise Custom Request</h3>
-          <p>For teams that need custom joins, monthly refreshes, additional fields, compliance screens, retail matching, or source-specific enrichment.</p>
-          <div class="price">$99+ <span>custom request</span></div>
-          <ul class="tier-features">
-            <li>Everything in the snapshot</li>
-            <li>Custom source additions or refresh cadence</li>
-            <li>Retail catalog and SKU matching support</li>
-            <li>Dedupe, taxonomy, and export customization</li>
-            <li>Commercial terms scoped by request</li>
-          </ul>
-          <a class="button full-width" href="#contact">Request enterprise quote</a>
-          <p class="price-note">Use this tier for production workflows, recurring delivery, or non-standard schema needs.</p>
-        </article>
-        <article class="price-card">
           <div class="tier-label">Bundle</div>
           <h3>Fault &amp; Recall Bundle</h3>
           <p>RecallDB Vehicle — the NHTSA vehicle &amp; equipment recall cut — together with MechanicDB OEM Complete, its fault-code companion.</p>
@@ -217,6 +202,7 @@
           <p class="price-note">Instant delivery: both products are under the delivery worker's file-size cap, unlike the 551 MB full snapshot.</p>
         </article>
       </div>
+      <p class="custom-line" style="margin-top:22px;text-align:center;font-size:0.9rem;">Custom work (custom joins, refresh cadence, retail matching, schema work): from $99 — <a href="#contact" style="text-decoration:underline;">contact the desk</a></p>
       <p class="access-note">Direct desk: recalldb@dataengineered.io</p>
     </section>
     <section class="contact-section" id="contact">
@@ -240,7 +226,7 @@
               <input type="email" id="userEmail" name="email" placeholder="you@organization.com" required>
             </label>
           </div>
-          <input type="hidden" id="tierSelect" name="tier" value="Enterprise Custom Request ($99+)">
+          <input type="hidden" id="tierSelect" name="tier" value="Custom work request (from $99)">
           <label>Custom request
             <textarea id="useCase" name="message" rows="6" placeholder="Tell us what you need: source additions, refresh cadence, fields, joins, retail catalog/SKU matching, export format, timeline..." required></textarea>
           </label>
@@ -262,7 +248,7 @@
   <footer>
     <p>RecallDB uses official U.S. government recall publications. Public sample data is CC0. Full dataset snapshots and enterprise custom requests are paid and privately delivered.</p>
     <p><a href="SOURCES.md">Sources</a> - <a href="DATA_DICTIONARY.md">Data dictionary</a> - <a href="#contact">Contact</a> - <a href="sitemap.xml">Sitemap</a></p>
-  <div class="catalog-line" style="text-align:center; margin-top:14px; font-size:0.85rem; opacity:0.85;"><a href="https://dataengineered.io/">Part of the DataEngineered catalog →</a></div>
+  <div class="catalog-line" style="text-align:center; margin-top:14px; font-size:0.85rem; opacity:0.85;"><a href="https://dataengineered.io/">Part of the DataEngineered catalog →</a> · <a href="https://dataengineered.io/about">About</a> · <a href="https://dataengineered.io/terms">Terms</a> · <a href="https://dataengineered.io/privacy">Privacy</a> · <a href="https://dataengineered.io/refund-policy">Refund policy</a></div>
 </footer>
   <script src="app.js?v=web3forms-20260715"></script>
 
