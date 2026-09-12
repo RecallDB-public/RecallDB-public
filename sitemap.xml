@@ -17,4 +17,14 @@
   <url><loc>https://recalldb.dataengineered.io/hazards/fall_injury</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://recalldb.dataengineered.io/hazards/electric_shock</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://recalldb.dataengineered.io/hazards/other</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/agencies/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/hazards/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
