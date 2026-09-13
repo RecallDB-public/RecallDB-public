@@ -13,7 +13,8 @@ TITLE_MAX = 60
 DESC_MAX = 155
 _TRAIL = " ,;:-–—(/"
 # a cut must not end on one of these — the reader loses the word that mattered ("Loss of")
-_STOPWORDS = {"a", "an", "and", "at", "by", "for", "from", "in", "into", "of", "on", "or", "the",
+# "a"/"an" are deliberately NOT here: a trailing "A" is often a designator ("Sensor A", "Vitamin A")
+_STOPWORDS = {"and", "at", "by", "for", "from", "in", "into", "of", "on", "or", "the",
               "to", "with", "without", "vs", "&"}
 
 
