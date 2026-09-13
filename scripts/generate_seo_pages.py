@@ -42,6 +42,21 @@ def hazard_name(key):
     return key.replace("_", " ").capitalize() if key != "other" else "Other / unmapped"
 
 
+def neighbours_of(idx, lst):
+    """Previous and next items by rank, wrapping at the ends.
+
+    The first item takes the next two; the last item takes the previous two;
+    every other item takes one previous and one next -- so every hazard gets
+    exactly 2 neighbour links even the top- and bottom-ranked ones.
+    """
+    n = len(lst)
+    if idx == 0:
+        return lst[1:3]
+    if idx == n - 1:
+        return lst[n - 3: n - 1]
+    return [lst[idx - 1], lst[idx + 1]]
+
+
 def page(url, title, desc, h1, eyebrow, lede, body, crumbs, header, cta, rel):
     ld = [
         {"@context": "https://schema.org", "@type": "CollectionPage", "name": h1, "description": desc, "url": url,
@@ -85,7 +100,6 @@ def main(write_pages=True, write_sm=True):
     hazards = read("hazards.csv"); recalls = read("recalls.csv"); sources = read("data_sources.csv")
     header, cta = chrome()
     total_classified = sum(int(h["recall_count"]) for h in hazards)
-    by_key = {h["hazard_key"]: h for h in hazards}
     ranked = sorted(hazards, key=lambda h: -int(h["recall_count"]))
     # sample cross-tabs (200-row sample only — labelled as such in copy)
     ag_hz = Counter(); hz_ag = defaultdict(Counter); ex = defaultdict(list); ag_sev = defaultdict(Counter); ag_rows = Counter()
@@ -121,13 +135,13 @@ def main(write_pages=True, write_sm=True):
                       f' <span class="related-why">— {html.escape(r["source_agency"])}, {html.escape(r["recall_date"][:10])}</span></li>'
                       for r in ex[key] if r.get("source_url"))
         body = prose + (f'<h2>Sample recalls in this bucket</h2><ul class="related">{exs}</ul>' if exs else "")
-        neighbours = [x for x in ranked if x is not h][max(0, rank - 2): rank + 1][:2]
-        rel_items = [(f"../agencies/{a.lower()}", f"{AGENCIES[a.lower()][0]} recall data", f"{c} sample rows carry this hazard") for a, c in agencies[:3]]
+        neighbours = neighbours_of(ranked.index(h), ranked)
+        rel_items = [(f"../agencies/{a.lower()}", f"{AGENCIES[a.lower()][0]} recall data", f"{c} sample rows carry this hazard") for a, c in agencies]
         rel_items += [(f"../hazards/{x['hazard_key']}", f"{hazard_name(x['hazard_key'])} recalls", f"{int(x['recall_count']):,} records") for x in neighbours]
         rel_items.append(("../hazards/", "All hazard categories", None))
         fp.write_text(page(url, title, desc, f"{name} recalls", "Hazard taxonomy", h["description"], body,
                            [("Home", BASE + "/"), ("Hazards", BASE + "/hazards/"), (f"{name} recalls", url)], header, cta,
-                           related_block(rel_items, "Related pages")), encoding="utf-8", newline="\n")
+                           related_block(rel_items, "Related pages", limit=None)), encoding="utf-8", newline="\n")
 
     for slug, (short, full, domain, scope) in AGENCIES.items():
         url = f"{BASE}/agencies/{slug}"; fp = ROOT / "agencies" / f"{slug}.html"
@@ -149,11 +163,11 @@ def main(write_pages=True, write_sm=True):
         rows = "".join(f'<div class="schema-row"><strong>{k}</strong><span>{html.escape(v)}</span></div>'
                        for k, v in (("Agency", full), ("Domain", domain), ("Traceability", "Rows link to source_url and data_sources.csv through source_id.")))
         body = f'<div class="schema-card">{rows}</div>' + prose
-        rel_items = [(f"../hazards/{k}", f"{hazard_name(k)} recalls", f"{c} sample rows") for k, c in hz[:4]]
+        rel_items = [(f"../hazards/{k}", f"{hazard_name(k)} recalls", f"{c} sample rows") for k, c in hz]
         rel_items += [(f"../agencies/{o}", f"{AGENCIES[o][0]} recall data", None) for o in AGENCIES if o != slug][:2]
         fp.write_text(page(url, title, desc, f"{short} recall data", "Agency source", scope, body,
                            [("Home", BASE + "/"), ("Agencies", BASE + "/agencies/"), (f"{short} recall data", url)], header, cta,
-                           related_block(rel_items, "Related pages")), encoding="utf-8", newline="\n")
+                           related_block(rel_items, "Related pages", limit=None)), encoding="utf-8", newline="\n")
 
     if write_sm:
         print("sitemap URLs:", write_sitemap(ROOT, entries))
