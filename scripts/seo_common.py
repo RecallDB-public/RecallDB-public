@@ -38,7 +38,7 @@ def fit_title(entity, descriptor, brand, max_len=TITLE_MAX, sep=" — "):
     options = [descriptor] if isinstance(descriptor, str) else list(descriptor)
     options = [re.sub(r"\s+", " ", str(d)).strip() for d in options] or [""]
     tail = f" | {brand}"
-    for d in options:
+    for d in options + [""]:  # last resort before cutting the entity: no descriptor at all
         full = f"{entity}{sep}{d}{tail}" if d else f"{entity}{tail}"
         if len(full) <= max_len:
             return full
