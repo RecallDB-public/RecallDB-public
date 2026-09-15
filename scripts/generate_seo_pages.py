@@ -91,6 +91,7 @@ def page(url, title, desc, h1, eyebrow, lede, body, crumbs, header, cta, rel):
 </head>
 <body>
 {header}<main class="band"><p class="crumb">{crumb_html}</p><p class="eyebrow">{html.escape(eyebrow)}</p><h1>{html.escape(h1)}</h1><p class="lede">{html.escape(lede)}</p>{body}{rel}{cta}</main>
+<footer><div class="catalog-line" style="text-align:center; margin-top:14px; font-size:0.85rem; opacity:0.85;"><a href="https://dataengineered.io/">Part of the DataEngineered catalog &rarr;</a> &middot; <a href="https://dataengineered.io/about">About</a> &middot; <a href="https://dataengineered.io/terms">Terms</a> &middot; <a href="https://dataengineered.io/privacy">Privacy</a> &middot; <a href="https://dataengineered.io/refund-policy">Refund policy</a></div></footer>
 </body>
 </html>
 """
