@@ -64,7 +64,9 @@ def page(url, title, desc, h1, eyebrow, lede, body, crumbs, header, cta, rel):
         {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(crumbs)]},
     ]
-    crumb_html = " &rsaquo; ".join(f'<a href="{html.escape(u)}">{html.escape(n)}</a>' if i < len(crumbs) - 1 else html.escape(n)
+    # the current crumb sits in a plain <span> so each crumb is its own translation segment
+    # (scripts/i18n_common.py); rendering is unchanged
+    crumb_html = " &rsaquo; ".join(f'<a href="{html.escape(u)}">{html.escape(n)}</a>' if i < len(crumbs) - 1 else f"<span>{html.escape(n)}</span>"
                                    for i, (n, u) in enumerate(crumbs))
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -127,13 +129,17 @@ def main(write_pages=True, write_sm=True):
         title = fit_title(f"{name} recalls", f"{n:,} records", BRAND)
         desc = fit_desc(f"{n:,} {name.lower()} recalls in RecallDB ({share:.1f}% of classified rows, rank {rank} of {len(hazards)}). "
                         f"{h['description']} Issued by {', '.join(AGENCIES[a.lower()][0] for a, _ in agencies) or 'federal agencies'}.")
-        prose = (f"<p>RecallDB classifies <strong>{n:,}</strong> official recalls under <em>{html.escape(name.lower())}</em>, "
-                 f"{share:.1f}% of the {total_classified:,} classified hazard rows and the #{rank} hazard bucket of {len(hazards)}. "
-                 f"The bucket is defined as: {html.escape(h['description'])}.</p>"
-                 f"<p>In the free 200-row sample, this hazard appears in rows issued by {html.escape(ag_txt)}. "
-                 f"Agency free text is kept verbatim in <code>raw_hazard_texts</code>; the normalized key is <code>{key}</code>.</p>")
-        exs = "".join(f'<li><a href="{html.escape(r["source_url"])}" rel="noopener">{html.escape(r["title"][:110])}</a>'
-                      f' <span class="related-why">— {html.escape(r["source_agency"])}, {html.escape(r["recall_date"][:10])}</span></li>'
+        # One plain <span> per sentence (each is its own translation segment) and
+        # translate="no" on data values (agency lists, recall titles): i18n_common.py keeps
+        # those verbatim in localized copies. English rendering is unchanged.
+        ag_html = f'<span translate="no">{html.escape(ag_txt)}</span>' if agencies else html.escape(ag_txt)
+        prose = (f"<p><span>RecallDB classifies <strong>{n:,}</strong> official recalls under <em>{html.escape(name.lower())}</em>, "
+                 f"{share:.1f}% of the {total_classified:,} classified hazard rows and the #{rank} hazard bucket of {len(hazards)}.</span> "
+                 f"<span>The bucket is defined as: {html.escape(h['description'])}.</span></p>"
+                 f"<p><span>In the free 200-row sample, this hazard appears in rows issued by {ag_html}.</span> "
+                 f"<span>Agency free text is kept verbatim in <code>raw_hazard_texts</code>; the normalized key is <code>{key}</code>.</span></p>")
+        exs = "".join(f'<li><a href="{html.escape(r["source_url"])}" rel="noopener" translate="no" lang="en">{html.escape(r["title"][:110])}</a>'
+                      f' <span class="related-why" translate="no">— {html.escape(r["source_agency"])}, {html.escape(r["recall_date"][:10])}</span></li>'
                       for r in ex[key] if r.get("source_url"))
         body = prose + (f'<h2>Sample recalls in this bucket</h2><ul class="related">{exs}</ul>' if exs else "")
         neighbours = neighbours_of(ranked.index(h), ranked)
@@ -154,15 +160,20 @@ def main(write_pages=True, write_sm=True):
         title = fit_title(f"{short} recall data", domain, BRAND)
         desc = fit_desc(f"{full} ({short}) recalls in RecallDB: {domain}. Top hazards in the sample: "
                         f"{', '.join(hazard_name(k).lower() for k, _ in hz[:3]) or 'see hazard pages'}. Rows link to their source URL.")
-        prose = (f"<p>{html.escape(scope)} RecallDB normalizes the {html.escape(full)} feed into the same schema as the other four agencies, "
-                 f"keeping every row's <code>source_url</code> and a <code>source_id</code> that resolves to <code>data_sources.csv</code>.</p>"
-                 f"<p>The free sample holds {ag_rows[short]} {short} rows. Their leading hazard buckets are "
+        # One plain <span> per sentence; agency names, codes and severity labels carry
+        # translate="no" (data for i18n_common.py). English rendering is unchanged.
+        prose = (f"<p><span>{html.escape(scope)}</span> <span>RecallDB normalizes the <span translate=\"no\">{html.escape(full)}</span> feed into the same schema as the other four agencies, "
+                 f"keeping every row's <code>source_url</code> and a <code>source_id</code> that resolves to <code>data_sources.csv</code>.</span></p>"
+                 f"<p><span>The free sample holds {ag_rows[short]} <span translate=\"no\">{short}</span> rows.</span> <span>Their leading hazard buckets are "
                  f"{', '.join(f'{hazard_name(k).lower()} ({c})' for k, c in hz[:3]) or 'not yet classified'}"
-                 + (f"; severity labels present: {', '.join(f'{s} ({c})' for s, c in sev)}" if sev else "") + ".</p>"
+                 + (f"; severity labels present: <span translate=\"no\">{', '.join(f'{s} ({c})' for s, c in sev)}</span>" if sev else "") + ".</span></p>"
                  + (f"<p>Source endpoint: <code>{html.escape(ep['endpoint_url'])}</code>, retrieved {html.escape(ep['retrieved_at'][:10])} "
                     f"({int(ep['raw_payload_bytes']):,} bytes raw).</p>" if ep else ""))
-        rows = "".join(f'<div class="schema-row"><strong>{k}</strong><span>{html.escape(v)}</span></div>'
-                       for k, v in (("Agency", full), ("Domain", domain), ("Traceability", "Rows link to source_url and data_sources.csv through source_id.")))
+        def ident(s):  # column/file identifiers stay verbatim in localized copies
+            return f'<span translate="no">{s}</span>'
+        rows = "".join(f'<div class="schema-row"><strong>{k}</strong><span{tn}>{v}</span></div>'
+                       for k, v, tn in (("Agency", html.escape(full), ' translate="no"'), ("Domain", html.escape(domain), ""),
+                                        ("Traceability", f"Rows link to {ident('source_url')} and {ident('data_sources.csv')} through {ident('source_id')}.", "")))
         body = f'<div class="schema-card">{rows}</div>' + prose
         rel_items = [(f"../hazards/{k}", f"{hazard_name(k)} recalls", f"{c} sample rows") for k, c in hz]
         rel_items += [(f"../agencies/{o}", f"{AGENCIES[o][0]} recall data", None) for o in AGENCIES if o != slug][:2]

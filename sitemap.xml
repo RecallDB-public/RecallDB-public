@@ -1,117 +1,1143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://recalldb.dataengineered.io/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/agencies/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/agencies/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/agencies/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/agencies/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/agencies/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/agencies/cpsc</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/agencies/cpsc</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/agencies/cpsc</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/agencies/cpsc</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/agencies/cpsc</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/cpsc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/cpsc"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/agencies/fda</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fda"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/agencies/fda</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fda"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/agencies/fda</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fda"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/agencies/fda</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fda"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/agencies/fda</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fda"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fda"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/agencies/fsis</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/agencies/fsis</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/agencies/fsis</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/agencies/fsis</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/agencies/fsis</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/fsis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/fsis"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/agencies/nhtsa</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/agencies/nhtsa</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/agencies/nhtsa</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/agencies/nhtsa</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/agencies/nhtsa</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/nhtsa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/nhtsa"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/agencies/uscg</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/agencies/uscg</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/agencies/uscg</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/agencies/uscg</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/agencies/uscg</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/agencies/uscg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/agencies/uscg"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/chemical_toxic</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/chemical_toxic</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/chemical_toxic</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/chemical_toxic</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/chemical_toxic</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/chemical_toxic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/chemical_toxic"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/choking</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/choking"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/choking</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/choking"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/choking</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/choking"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/choking</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/choking"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/choking</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/choking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/choking"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/crash_injury</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/crash_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/crash_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/crash_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/crash_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/crash_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/crash_injury"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/drug_defect</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/drug_defect</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/drug_defect</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/drug_defect</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/drug_defect</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/drug_defect"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/drug_defect"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/electric_shock</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/electric_shock</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/electric_shock</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/electric_shock</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/electric_shock</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/electric_shock"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/electric_shock"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/fall_injury</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/fall_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/fall_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/fall_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/fall_injury</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fall_injury"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fall_injury"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/fire_burn</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/fire_burn</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/fire_burn</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/fire_burn</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/fire_burn</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/fire_burn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/fire_burn"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/laceration</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/laceration</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/laceration</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/laceration</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/laceration</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/laceration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/laceration"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/microbial_contamination</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/microbial_contamination</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/microbial_contamination</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/microbial_contamination</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/microbial_contamination</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/microbial_contamination"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/microbial_contamination"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/other</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/other"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/other</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/other"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/other</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/other"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/other</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/other"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/other</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/other"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/other"/>
   </url>
   <url>
     <loc>https://recalldb.dataengineered.io/hazards/undeclared_allergen</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/es/hazards/undeclared_allergen</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/de/hazards/undeclared_allergen</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/fr/hazards/undeclared_allergen</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+  </url>
+  <url>
+    <loc>https://recalldb.dataengineered.io/pt-br/hazards/undeclared_allergen</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/hazards/undeclared_allergen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/hazards/undeclared_allergen"/>
   </url>
 </urlset>

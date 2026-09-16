@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2VE0Ll5xPaIkGjSTkvTenDhcKRLJGPFgVqekvGOIw-4" name="google-site-verification"/>
+<title>RecallDB - Banco de dados oficial de recalls de produtos dos EUA</title>
+<meta content="Banco de dados de recalls de produtos dos EUA com procedência rastreada, cobrindo CPSC, FDA, FSIS, NHTSA e USCG, com amostras públicas e acesso pago ao conjunto completo." name="description"/>
+<link href="https://recalldb.dataengineered.io/pt-br/" rel="canonical"/>
+<!-- i18n:alternates -->
+<link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/">
+<link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/">
+<link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/">
+<link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/">
+<link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/">
+<style>th,td{overflow-wrap:anywhere;hyphens:auto}h1,h2,h3,h4,button,.btn{overflow-wrap:break-word;hyphens:auto}</style>
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<script src="/i18n/i18n.js?v=1" defer></script>
+<!-- /i18n:alternates -->
+<meta content="RecallDB - Banco de dados oficial de recalls de produtos dos EUA" property="og:title"/>
+<meta content="Banco de dados de recalls de produtos dos EUA com procedência rastreada, cobrindo CPSC, FDA, FSIS, NHTSA e USCG, com amostras públicas e acesso pago ao conjunto completo." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://recalldb.dataengineered.io/pt-br/" property="og:url"/>
+<meta content="https://recalldb.dataengineered.io/assets/og-image.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="RecallDB - Banco de dados oficial de recalls de produtos dos EUA" name="twitter:title"/>
+<meta content="Banco de dados de recalls de produtos dos EUA com procedência rastreada, cobrindo CPSC, FDA, FSIS, NHTSA e USCG, com amostras públicas e acesso pago ao conjunto completo." name="twitter:description"/>
+<meta content="#0b1117" name="theme-color"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link href="/index.css" rel="stylesheet"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "RecallDB: banco de dados de recalls de produtos dos EUA — Snapshot",
+  "description": "Banco de dados oficial de recalls de produtos dos EUA com rastreabilidade de procedência por linha para CPSC, FDA, FSIS, NHTSA e USCG, entregue em CSV e SQLite completos.",
+  "image": "https://recalldb.dataengineered.io/assets/og-image.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "RecallDB"
+  },
+  "category": "Software > Data & Databases",
+  "offers": {
+    "@type": "Offer",
+    "price": "49.00",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://recalldb.dataengineered.io/pt-br/#pricing",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "USD"
+      },
+      "shippingDestination": [
+        {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        }
+      ],
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": [
+        "US"
+      ],
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+    }
+  }
+}
+</script>
+</head>
+<body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "RecallDB: banco de dados de recalls de produtos dos EUA",
+  "description": "Amostra oficial de recalls de produtos dos EUA com rastreabilidade de procedência para CPSC, FDA, FSIS, NHTSA e USCG. O acesso ao conjunto de dados completo em CSV e SQLite é pago e entregue de forma privada.",
+  "url": "https://recalldb.dataengineered.io/pt-br/",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "keywords": [
+    "recalls de produtos",
+    "segurança do consumidor",
+    "Recalls da FDA",
+    "Recalls da CPSC",
+    "Recalls da NHTSA",
+    "Recalls do FSIS",
+    "Recalls da USCG",
+    "dados de compliance"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://github.com/RecallDB-public/RecallDB-public/tree/main/samples"
+    }
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "RecallDB"
+  },
+  "inLanguage": "pt-BR"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O que é o RecallDB?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O RecallDB é um conjunto de dados normalizado de registros oficiais de recalls federais dos EUA provenientes de CPSC, FDA/openFDA mais FDA Safety Alerts, USDA FSIS, NHTSA e USCG."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O RecallDB inclui procedência?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Cada recall traz source_agency, external_id, source_url e source_id. O data_sources.csv expõe o endpoint de origem, o horário de obtenção, o tamanho do payload bruto e a impressão digital SHA-256."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O repositório público no GitHub é o conjunto de dados completo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. O repositório no GitHub e os metadados da amostra no Kaggle contêm apenas a amostra pública, a documentação e recursos iniciais. O conjunto de dados completo em CSV e SQLite é pago e entregue de forma privada após a compra de um snapshot ou uma solicitação corporativa."
+      }
+    }
+  ],
+  "inLanguage": "pt-BR"
+}
+</script>
+<header class="site-nav">
+<a class="brand" href="/pt-br/" translate="no">Recall<span>DB</span></a>
+<nav>
+<a href="#coverage">Cobertura</a>
+<a href="#provenance">Rastreabilidade</a>
+<a href="#sample">Amostra</a>
+<a href="#pricing">Acesso</a>
+<a href="#contact">Contato</a>
+<a class="nav-cta" href="#pricing">Obter os dados completos</a>
+</nav>
+</header>
+<main>
+<section class="hero">
+<div class="hero-copy">
+<p class="eyebrow">Inteligência oficial sobre recalls nos EUA - amostra pública v1</p>
+<h1 style="font-size: clamp(2rem, 3.6vw, 2.8rem); line-height: 1.08;">Cinco feeds federais de recalls, um único conjunto de dados offline com registro de procedência.</h1>
+<p class="lede">CPSC, NHTSA, FDA, FSIS e USCG publicam recalls gratuitamente, em cinco formatos diferentes. O RecallDB os reúne em um único modelo CSV/SQLite — 127.783 recalls oficiais, 292.790 produtos vinculados — com um registro de procedência completo em cada linha. O complemento do MechanicDB para a triagem de falhas e recalls de veículos.</p>
+<div class="cta-row">
+<a class="button primary" href="/samples/recalls.csv">Baixar amostra CSV</a>
+<a class="button" href="#pricing">Obter o conjunto de dados completo</a>
+<a class="button ghost" href="https://github.com/RecallDB-public/RecallDB-public">Ver repositório da amostra</a>
+</div>
+<p class="hero-price" style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.82rem; opacity: 0.9; margin: -0.4rem 0 1.4rem;"><strong>Snapshot de pagamento único de $49</strong> · amostra gratuita de 200 linhas — para vendedores de e-commerce, equipes de compliance e agentes de IA que precisam de dados de recalls offline</p>
+<dl class="hero-stats">
+<div><dt>127.783</dt><dd>recalls oficiais</dd></div>
+<div><dt>292.790</dt><dd>produtos vinculados</dd></div>
+<div><dt>5</dt><dd>fontes federais</dd></div>
+<div><dt>100%</dt><dd>vinculados à fonte</dd></div>
+</dl>
+</div>
+<div class="hero-art">
+<img alt="Visualização da cobertura de fontes e da procedência do RecallDB" height="760" src="/assets/recalldb-hero.png" width="1400"/>
+</div>
+</section>
+<section class="band" id="coverage">
+<div class="section-heading">
+<p class="eyebrow">Cobertura</p>
+<h2>Construído apenas a partir de publicações federais oficiais de recalls.</h2>
+<p>Sem agregadores comerciais, sem linhas inventadas, sem procedência vaga. A EPA foi deixada de fora intencionalmente até que exista um feed oficial estável e específico de recalls.</p>
+</div>
+<div class="agency-grid" data-agencies='{"CPSC": 8179, "FDA": 86476, "FSIS": 1222, "NHTSA": 30143, "USCG": 1763}'></div>
+</section>
+<section class="split" id="provenance">
+<div>
+<p class="eyebrow">Rastreabilidade</p>
+<h2>Cada recall se vincula à sua coleta de origem.</h2>
+<p>A versão SQLite paga mantém o payload bruto arquivado completo. A entrega CSV paga expõe uma linhagem compacta por meio de <code>source_id</code> e <code>data_sources.csv</code>, incluindo URL do endpoint, data e hora da obtenção, tamanho em bytes do payload bruto e hash SHA-256.</p>
+</div>
+<div class="schema-card">
+<div class="schema-row"><strong translate="no">recalls.csv</strong><span translate="no">source_id, source_url, source_endpoint_url, retrieved_at</span></div>
+<div class="schema-row"><strong translate="no">data_sources.csv</strong><span translate="no">endpoint_url, raw_payload_bytes, raw_payload_sha256</span></div>
+<div class="schema-row"><strong>SQLite pago</strong><span><span translate="no">data_sources.raw_payload</span> completo para reprodução e auditoria</span></div>
+</div>
+</section>
+<section class="band" id="sample">
+<div class="section-heading">
+<p class="eyebrow">Amostra pública</p>
+<h2>Pequena o suficiente para o GitHub, com o mesmo formato da versão completa.</h2>
+<p>A amostra contém linhas equilibradas das cinco agências de origem e os mesmos formatos de tabelas de exportação usados no snapshot pago do conjunto de dados completo.</p>
+</div>
+<div class="sample-grid">
+<a class="sample-card" href="/samples/recalls.csv"><strong translate="no">recalls.csv</strong><span>200 recalls de amostra com linhagem via <span translate="no">source_id</span></span></a>
+<a class="sample-card" href="/samples/recalled_products.csv"><strong translate="no">recalled_products.csv</strong><span>Produtos, veículos, lotes e categorias</span></a>
+<a class="sample-card" href="/samples/data_sources.csv"><strong translate="no">data_sources.csv</strong><span>URLs de endpoints e impressões digitais de payloads</span></a>
+<a class="sample-card" href="/samples/hazards.csv"><strong translate="no">hazards.csv</strong><span>Contagens da taxonomia controlada de riscos</span></a>
+</div>
+<div class="table-wrap">
+<table id="recall-preview">
+<caption>Linhas mais recentes da amostra</caption>
+<thead><tr><th>Agência</th><th>Data</th><th>Título</th><th>Risco</th></tr></thead>
+<tbody></tbody>
+</table>
+</div>
+</section>
+<section class="split">
+<div>
+<p class="eyebrow">Riscos</p>
+<h2>Uma taxonomia determinística para todas as agências.</h2>
+<p>O texto livre da CPSC, os motivos de fiscalização da FDA, os componentes da NHTSA, os motivos do FSIS e os defeitos náuticos da USCG são mapeados para um único vocabulário auditável.</p>
+</div>
+<div class="hazard-bars" data-hazards='{"chemical_toxic": 6629, "choking": 2166, "crash_injury": 20554, "drug_defect": 35101, "electric_shock": 684, "fall_injury": 1519, "fire_burn": 9502, "laceration": 3903, "microbial_contamination": 20103, "other": 18216, "undeclared_allergen": 9143}'></div>
+</section>
+<section class="pricing" id="pricing">
+<div class="section-heading">
+<p class="eyebrow">Acesso</p>
+<h2>Duas formas pagas de obter os dados do RecallDB.</h2>
+<p>O repositório público contém apenas os arquivos de amostra e a documentação. A exportação completa em CSV + SQLite não fica hospedada no GitHub, GitHub Pages, Kaggle nem em nenhum download público gratuito.</p>
+</div>
+<div class="price-grid paid-grid">
+<article class="price-card featured">
+<div class="tier-label">Snapshot do conjunto de dados</div>
+<h3>Snapshot do conjunto de dados completo</h3>
+<p>Uma entrega privada da exportação atual do RecallDB para análise, enriquecimento, pesquisa de compliance e triagem interna de produtos.</p>
+<div class="price">$49 <span>snapshot de pagamento único</span></div>
+<ul class="tier-features">
+<li>127.783 registros de recall normalizados</li>
+<li>292.790 produtos recolhidos vinculados</li>
+<li>Entrega em CSV + SQLite</li>
+<li>Registro de procedência e links para as fontes</li>
+<li>Entrega privada mediante solicitação</li>
+</ul>
+<a class="button primary full-width" href="https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408" rel="noopener" target="_blank">Comprar o snapshot de $49</a>
+<p class="price-note">Checkout seguro com Stripe. O snapshot completo nunca é enviado a este repositório e a entrega depende da verificação do pagamento.</p>
+</article>
+<article class="price-card">
+<div class="tier-label">Pacote</div>
+<h3>Pacote Fault &amp; Recall</h3>
+<p>RecallDB Vehicle — o recorte de recalls de veículos e equipamentos da NHTSA — junto com o MechanicDB OEM Complete, seu complemento de códigos de falha.</p>
+<div class="price">$179 <span>pagamento único · contra $198 separadamente</span></div>
+<ul class="tier-features">
+<li>RecallDB Vehicle: CSV + Parquet + SQLite</li>
+<li>MechanicDB OEM Complete: 15.886 códigos, 56.561 reparos classificados, 75.055 peças</li>
+<li>Dois downloads imediatos após um único checkout</li>
+<li>Licença comercial para ambos</li>
+</ul>
+<a class="button full-width" href="https://buy.stripe.com/3cI3cw1cQevsazVaaA3840h" rel="noopener" target="_blank">Comprar o pacote de $179</a>
+<p class="price-note">Entrega imediata: os dois produtos ficam abaixo do limite de tamanho de arquivo do serviço de entrega, ao contrário do snapshot completo de 551 MB.</p>
+</article>
+</div>
+<p class="custom-line" style="margin-top:22px;text-align:center;font-size:0.9rem;">Trabalho personalizado (joins sob medida, frequência de atualização, correspondência com o varejo, trabalho de esquema): a partir de $99 — <a href="#contact" style="text-decoration:underline;">fale com a equipe</a></p>
+<p class="access-note">Contato direto: <span translate="no">recalldb@dataengineered.io</span></p>
+</section>
+<section class="contact-section" id="contact">
+<div class="section-heading">
+<p class="eyebrow">Solicitar acesso</p>
+<h2>Diga qual nível do conjunto de dados completo você precisa.</h2>
+<p>As solicitações vão para a equipe do RecallDB. Respondemos com os detalhes de pagamento e entrega; a exportação completa é entregue de forma privada, não por um link de repositório público.</p>
+</div>
+<div class="contact-card">
+<form action="https://api.web3forms.com/submit" class="contact-form" id="contactForm" method="POST"><input name="lang" type="hidden" value="pt-BR"/>
+<input name="access_key" type="hidden" value="bf34ff48-fcc6-4823-b386-9ae3d0712797"/>
+<input name="subject" type="hidden" value="New RecallDB Enterprise Request"/>
+<input name="from_name" type="hidden" value="RecallDB Contact Form"/>
+<input name="source" type="hidden" value="RecallDB public landing page"/>
+<input class="hidden" name="botcheck" style="display: none;" type="checkbox"/>
+<div class="form-grid">
+<label>Nome completo / organização <input id="userName" name="name" placeholder="Acme Compliance ou Ana Souza" required="" type="text"/>
+</label>
+<label>E-mail para entrega <input id="userEmail" name="email" placeholder="voce@organizacao.com" required="" type="email"/>
+</label>
+</div>
+<input id="tierSelect" name="tier" type="hidden" value="Custom work request (from $99)"/>
+<label>Solicitação personalizada
+            <textarea id="useCase" name="message" placeholder="Tell us what you need: source additions, refresh cadence, fields, joins, retail catalog/SKU matching, export format, timeline..." required="" rows="6"></textarea>
+</label>
+<button class="button primary full-width" id="contact-submit-btn" type="submit"><span>Enviar solicitação personalizada</span></button>
+</form>
+<div aria-live="polite" class="contact-success" id="contactSuccess" role="status" style="display:none" tabindex="-1">
+<strong>O e-mail com sua solicitação foi enviado.</strong>
+<p>Responderemos no endereço informado com escopo, preço e detalhes de entrega.</p>
+<p>Sem resposta em 1 dia útil? Envie um e-mail para <span translate="no">recalldb@dataengineered.io</span>.</p>
+<button class="button ghost" onclick="resetContactForm()" type="button">Enviar outra solicitação</button>
+</div>
+</div>
+</section>
+</main>
+<section class="band" id="also-need">
+<p class="eyebrow">Você também pode precisar</p>
+<p><a href="https://mechanicdb.dataengineered.io/">MechanicDB</a> — 15.886 códigos de falha OBD-II mapeados para 56.561 procedimentos de reparo classificados e com custo estimado ($49 SAE / $149 OEM): o complemento de códigos de falha para os recalls de veículos da NHTSA no RecallDB.</p>
+</section>
+<!-- BEGIN:hub-browse -->
+<section id="browse" style="max-width:1000px;margin:0 auto;padding:30px 24px;border-top:1px solid rgba(128,128,128,.28)">
+<h2 style="font-size:1.05rem;margin:0 0 8px">Navegar por todas as páginas</h2>
+<p style="margin:0;opacity:.85"><a href="/pt-br/agencies/">5 agências emissoras</a> · <a href="/pt-br/hazards/">11 categorias de risco</a></p>
+</section>
+<!-- END:hub-browse -->
+<footer>
+<p>O RecallDB usa publicações oficiais de recalls do governo dos EUA. Os dados da amostra pública são CC0. Os snapshots do conjunto de dados completo e as solicitações personalizadas corporativas são pagos e entregues de forma privada.</p>
+<p><a href="/SOURCES.md">Fontes</a> - <a href="/DATA_DICTIONARY.md">Dicionário de dados</a> - <a href="#contact">Contato</a> - <a href="/sitemap.xml">Mapa do site</a></p>
+<div class="catalog-line" style="text-align:center; margin-top:14px; font-size:0.85rem; opacity:0.85;"><a href="https://dataengineered.io/">Parte do catálogo DataEngineered →</a> · <a href="https://dataengineered.io/about">Sobre</a> · <a href="https://dataengineered.io/terms">Termos</a> · <a href="https://dataengineered.io/privacy">Privacidade</a> · <a href="https://dataengineered.io/refund-policy">Política de reembolso</a></div>
+<!-- i18n:switcher --><nav class="i18n-switch" translate="no" aria-label="Idioma" style="text-align:center;margin:14px auto;font-size:0.85rem;opacity:0.85;"><a href="/" hreflang="en" lang="en" data-i18n-lang="en">English</a> · <a href="/es/" hreflang="es" lang="es" data-i18n-lang="es">Español</a> · <a href="/de/" hreflang="de" lang="de" data-i18n-lang="de">Deutsch</a> · <a href="/fr/" hreflang="fr" lang="fr" data-i18n-lang="fr">Français</a> · <span aria-current="true" style="font-weight:600">Português</span></nav><!-- /i18n:switcher --></footer>
+<script data-i18n="" id="i18n-strings" type="application/json">
+{
+  "agency_CPSC": "Produtos de consumo",
+  "agency_FDA": "Produtos regulados pela FDA",
+  "agency_FSIS": "Segurança alimentar",
+  "agency_NHTSA": "Veículos",
+  "agency_USCG": "Náutica",
+  "agency_link": "Página SEO",
+  "preview_error": "Abra samples/recalls.csv para ver a amostra pública.",
+  "submit_label": "Enviar solicitação personalizada",
+  "sending": "Enviando solicitação...",
+  "send_error": "Não conseguimos enviar a solicitação automaticamente. Envie um e-mail para recalldb@dataengineered.io e cuidaremos dela manualmente."
+}
+</script>
+<script src="/app.js?v=web3forms-20260715"></script>
+</body>
+</html>
