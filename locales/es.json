@@ -147,6 +147,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "150a3e334b14dc16": {
+  "src": "Tell us what you need: source additions, refresh cadence, fields, joins, retail catalog/SKU matching, export format, timeline...",
+  "t": "Cuéntanos qué necesitas: nuevas fuentes, frecuencia de actualización, campos, cruces de datos, emparejamiento con catálogo minorista/SKU, formato de exportación, plazos...",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
  "15d1e785393c6453": {
   "src": "Requests go to the RecallDB desk. We reply with payment and delivery details; the full export is delivered privately, not through a public repository link.",
   "t": "Las solicitudes llegan al equipo de RecallDB. Respondemos con los detalles de pago y entrega; la exportación completa se entrega de forma privada, no mediante un enlace a un repositorio público.",
