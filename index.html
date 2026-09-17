@@ -7,6 +7,21 @@
   <title>RecallDB - Official U.S. Product Recall Database</title>
   <meta name="description" content="Provenance-tracked U.S. product recall database covering CPSC, FDA, FSIS, NHTSA and USCG, with public samples and paid full-dataset access.">
   <link rel="canonical" href="https://recalldb.dataengineered.io/">
+  <!-- i18n:alternates -->
+  <link rel="alternate" hreflang="en" href="https://recalldb.dataengineered.io/">
+  <link rel="alternate" hreflang="es" href="https://recalldb.dataengineered.io/es/">
+  <link rel="alternate" hreflang="de" href="https://recalldb.dataengineered.io/de/">
+  <link rel="alternate" hreflang="fr" href="https://recalldb.dataengineered.io/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://recalldb.dataengineered.io/pt-br/">
+  <link rel="alternate" hreflang="x-default" href="https://recalldb.dataengineered.io/">
+  <style>.i18n-menu{position:relative;display:inline-block;align-self:center;font-size:.85rem;line-height:1;font-weight:500;text-transform:none;letter-spacing:normal}.i18n-menu.i18n-menu>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;padding:.4rem .65rem;border:1px solid currentColor;border-color:color-mix(in srgb,currentColor 40%,transparent);border-radius:999px;white-space:nowrap;user-select:none;color:inherit;background:transparent}.i18n-menu>summary::-webkit-details-marker{display:none}.i18n-menu>summary:focus-visible{outline:2px solid #93c5fd;outline-offset:2px}.i18n-menu.i18n-menu>ul{display:block;position:absolute;right:0;top:calc(100% + 6px);z-index:2147482000;min-width:10rem;margin:0;padding:.35rem;list-style:none;background:#111827;border:1px solid #374151;border-radius:10px;box-shadow:0 10px 24px rgba(0,0,0,.35);text-align:left}.i18n-menu.i18n-menu li{display:block;margin:0;padding:0;list-style:none}.i18n-menu.i18n-menu li>a,.i18n-menu.i18n-menu li>span{display:block;padding:.5rem .75rem;border-radius:6px;color:#f9fafb;background:transparent;text-decoration:none;white-space:nowrap;font-size:.9rem;font-weight:400;line-height:1.2;border:0;box-shadow:none}.i18n-menu.i18n-menu li>a:hover,.i18n-menu.i18n-menu li>a:focus-visible{background:#1f2937;color:#fff}.i18n-menu.i18n-menu li>span{font-weight:600;color:#93c5fd}.i18n-menu--row{margin-left:auto}:is(nav,a,button):has(+ .i18n-menu--row){margin-left:auto}:is(nav,a,button):has(+ .i18n-menu--row)+.i18n-menu--row{margin-left:.75rem}.i18n-menu--float{position:absolute;top:14px;right:16px;z-index:2147481000;color:#e5e7eb}</style>
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <script src="/i18n/i18n.js?v=5" defer></script>
+  <!-- /i18n:alternates -->
   <meta property="og:title" content="RecallDB - Official U.S. Product Recall Database">
   <meta property="og:description" content="Provenance-tracked U.S. product recall database covering CPSC, FDA, FSIS, NHTSA and USCG, with public samples and paid full-dataset access.">
   <meta property="og:type" content="website">
@@ -92,7 +107,7 @@
       <a href="#pricing">Access</a>
       <a href="#contact">Contact</a>
       <a class="nav-cta" href="#pricing">Get full data</a>
-    </nav>
+    <!-- i18n:header --><details class="i18n-menu i18n-menu--nav" translate="no"><summary aria-label="Language: English" title="Language: English"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>EN</span></summary><ul><li><span aria-current="true" lang="en">English</span></li><li><a href="/es/" hreflang="es" lang="es" data-i18n-lang="es">Español</a></li><li><a href="/de/" hreflang="de" lang="de" data-i18n-lang="de">Deutsch</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-i18n-lang="fr">Français</a></li><li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-i18n-lang="pt-br">Português</a></li></ul></details><!-- /i18n:header --></nav>
   </header>
   <main>
     <section class="hero">
@@ -132,9 +147,9 @@
         <p>The paid SQLite release keeps the full archived raw payload. The paid CSV delivery exposes compact lineage through <code>source_id</code> and <code>data_sources.csv</code>, including endpoint URL, retrieval timestamp, raw payload byte length and SHA-256 hash.</p>
       </div>
       <div class="schema-card">
-        <div class="schema-row"><strong>recalls.csv</strong><span>source_id, source_url, source_endpoint_url, retrieved_at</span></div>
-        <div class="schema-row"><strong>data_sources.csv</strong><span>endpoint_url, raw_payload_bytes, raw_payload_sha256</span></div>
-        <div class="schema-row"><strong>Paid SQLite</strong><span>full data_sources.raw_payload for replay and audit</span></div>
+        <div class="schema-row"><strong translate="no">recalls.csv</strong><span translate="no">source_id, source_url, source_endpoint_url, retrieved_at</span></div>
+        <div class="schema-row"><strong translate="no">data_sources.csv</strong><span translate="no">endpoint_url, raw_payload_bytes, raw_payload_sha256</span></div>
+        <div class="schema-row"><strong>Paid SQLite</strong><span>full <span translate="no">data_sources.raw_payload</span> for replay and audit</span></div>
       </div>
     </section>
     <section class="band" id="sample">
@@ -144,10 +159,10 @@
         <p>The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot.</p>
       </div>
       <div class="sample-grid">
-        <a class="sample-card" href="samples/recalls.csv"><strong>recalls.csv</strong><span>200 sample recalls with source_id lineage</span></a>
-        <a class="sample-card" href="samples/recalled_products.csv"><strong>recalled_products.csv</strong><span>Products, vehicles, lots and categories</span></a>
-        <a class="sample-card" href="samples/data_sources.csv"><strong>data_sources.csv</strong><span>Endpoint URLs and payload fingerprints</span></a>
-        <a class="sample-card" href="samples/hazards.csv"><strong>hazards.csv</strong><span>Controlled hazard taxonomy counts</span></a>
+        <a class="sample-card" href="samples/recalls.csv"><strong translate="no">recalls.csv</strong><span>200 sample recalls with <span translate="no">source_id</span> lineage</span></a>
+        <a class="sample-card" href="samples/recalled_products.csv"><strong translate="no">recalled_products.csv</strong><span>Products, vehicles, lots and categories</span></a>
+        <a class="sample-card" href="samples/data_sources.csv"><strong translate="no">data_sources.csv</strong><span>Endpoint URLs and payload fingerprints</span></a>
+        <a class="sample-card" href="samples/hazards.csv"><strong translate="no">hazards.csv</strong><span>Controlled hazard taxonomy counts</span></a>
       </div>
       <div class="table-wrap">
         <table id="recall-preview">
@@ -203,7 +218,7 @@
         </article>
       </div>
       <p class="custom-line" style="margin-top:22px;text-align:center;font-size:0.9rem;">Custom work (custom joins, refresh cadence, retail matching, schema work): from $99 — <a href="#contact" style="text-decoration:underline;">contact the desk</a></p>
-      <p class="access-note">Direct desk: recalldb@dataengineered.io</p>
+      <p class="access-note">Direct desk: <span translate="no">recalldb@dataengineered.io</span></p>
     </section>
     <section class="contact-section" id="contact">
       <div class="section-heading">
@@ -235,7 +250,7 @@
         <div id="contactSuccess" class="contact-success" role="status" aria-live="polite" tabindex="-1" style="display:none">
           <strong>Your request email has been sent.</strong>
           <p>We will reply to the address you provided with scope, pricing, and delivery details.</p>
-          <p>No reply within 1 business day? Email recalldb@dataengineered.io.</p>
+          <p>No reply within 1 business day? Email <span translate="no">recalldb@dataengineered.io</span>.</p>
           <button type="button" class="button ghost" onclick="resetContactForm()">Submit another request</button>
         </div>
       </div>
@@ -255,7 +270,19 @@
     <p>RecallDB uses official U.S. government recall publications. Public sample data is CC0. Full dataset snapshots and enterprise custom requests are paid and privately delivered.</p>
     <p><a href="SOURCES.md">Sources</a> - <a href="DATA_DICTIONARY.md">Data dictionary</a> - <a href="#contact">Contact</a> - <a href="sitemap.xml">Sitemap</a></p>
   <div class="catalog-line" style="text-align:center; margin-top:14px; font-size:0.85rem; opacity:0.85;"><a href="https://dataengineered.io/">Part of the DataEngineered catalog →</a> · <a href="https://dataengineered.io/about">About</a> · <a href="https://dataengineered.io/terms">Terms</a> · <a href="https://dataengineered.io/privacy">Privacy</a> · <a href="https://dataengineered.io/refund-policy">Refund policy</a></div>
-</footer>
+<!-- i18n:switcher --><nav class="i18n-switch" translate="no" aria-label="Language" style="text-align:center;margin:14px auto;font-size:0.85rem;opacity:0.85;"><span aria-current="true" style="font-weight:600">English</span> · <a href="/es/" hreflang="es" lang="es" data-i18n-lang="es">Español</a> · <a href="/de/" hreflang="de" lang="de" data-i18n-lang="de">Deutsch</a> · <a href="/fr/" hreflang="fr" lang="fr" data-i18n-lang="fr">Français</a> · <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-i18n-lang="pt-br">Português</a></nav><!-- /i18n:switcher --></footer>
+  <script type="application/json" id="i18n-strings" data-i18n>{
+  "agency_CPSC": "Consumer products",
+  "agency_FDA": "FDA-regulated products",
+  "agency_FSIS": "Food safety",
+  "agency_NHTSA": "Vehicles",
+  "agency_USCG": "Boating",
+  "agency_link": "SEO page",
+  "preview_error": "Open samples/recalls.csv to view the public sample.",
+  "submit_label": "Send custom request",
+  "sending": "Sending request...",
+  "send_error": "We could not send the request automatically. Please email recalldb@dataengineered.io and we will handle it manually."
+}</script>
   <script src="app.js?v=web3forms-20260715"></script>
 
 </body>

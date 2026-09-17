@@ -1,0 +1,1518 @@
+{
+ "0449b96157475965": {
+  "src": "FDA recall data",
+  "t": "FDA-Rückrufdaten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "04f7cae8f3a19a91": {
+  "src": "FSIS recalls and public health alerts for meat, poultry and processed egg products.",
+  "t": "FSIS-Rückrufe und Gesundheitswarnungen für Fleisch, Geflügel und verarbeitete Eiprodukte.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "06224616b19858ef": {
+  "src": "The bucket is defined as: Choking, aspiration or strangulation hazards (incl. small parts).",
+  "t": "Die Kategorie ist definiert als: Erstickungs-, Aspirations- oder Strangulationsgefahren (inkl. Kleinteile).",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "068ea0af105886df": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>crash injury</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Unfallverletzung</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "06dbcceefa117771": {
+  "src": "Vehicle crash, airbag, braking or steering related injury risks",
+  "t": "Verletzungsrisiken im Zusammenhang mit Fahrzeugunfällen, Airbags, Bremsen oder Lenkung",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "07e3bcece6805185": {
+  "src": "FDA-regulated products",
+  "t": "FDA-regulierte Produkte",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0825cd3aa0e9263d": {
+  "src": "Electric shock recalls",
+  "t": "Rückrufe wegen Stromschlaggefahr",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "086381cac4604d0a": {
+  "src": "Provenance ledger and source links",
+  "t": "Herkunftsnachweis und Quelllinks",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "08ccdb6f1a318261": {
+  "src": "{0} choking recalls in {1} ({2} of classified rows, rank {3} of {4}). Choking, aspiration or strangulation hazards (incl. small parts) Issued…",
+  "t": "{0} Rückrufe wegen Erstickungsgefahr in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Erstickungs-, Aspirations- oder Strangulationsgefahren (inkl. Kleinteile). Ausgestellt…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0a7c5ec28a5a6ab1": {
+  "src": "consumer safety",
+  "t": "Verbrauchersicherheit",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0a7d401569076ead": {
+  "src": "product recalls",
+  "t": "Produktrückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0c718ff039099a58": {
+  "src": "The bucket is defined as: Vehicle crash, airbag, braking or steering related injury risks.",
+  "t": "Die Kategorie ist definiert als: Verletzungsrisiken im Zusammenhang mit Fahrzeugunfällen, Airbags, Bremsen oder Lenkung.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0c758ab215c17a52": {
+  "src": "CPSC free text, FDA enforcement reasons, NHTSA components, FSIS reasons and USCG boating defects map into one auditable vocabulary.",
+  "t": "CPSC-Freitexte, FDA-Rückrufgründe, NHTSA-Komponenten, FSIS-Gründe und USCG-Bootsmängel werden auf ein einheitliches, prüfbares Vokabular abgebildet.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0cadb043aaf48d89": {
+  "src": "Agency directory",
+  "t": "Behördenverzeichnis",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0ce8efa4a7d1ae29": {
+  "src": "Sending request...",
+  "t": "Anfrage wird gesendet...",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0d7286a465a3ae46": {
+  "src": "Submit another request",
+  "t": "Weitere Anfrage senden",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0ec765f79a995bc3": {
+  "src": "Get the full dataset",
+  "t": "Vollständigen Datensatz erhalten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0f53922bd1b0af2c": {
+  "src": "Microbial contamination recalls",
+  "t": "Rückrufe wegen mikrobieller Kontamination",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0f92fd08bb962087": {
+  "src": "Is the public GitHub repo the full dataset?",
+  "t": "Ist das öffentliche GitHub-Repository der vollständige Datensatz?",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0fe722a1710ebf87": {
+  "src": "Does {0} include provenance?",
+  "t": "Enthält {0} Herkunftsangaben?",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "0ffc56e2e4d4af6d": {
+  "src": "<0>Home</0> › Hazard directory",
+  "t": "<0>Startseite</0> › Gefahrenverzeichnis",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "1006c4479b3e4e05": {
+  "src": "Electric shock or electrocution hazards",
+  "t": "Stromschlag- oder Stromtodgefahren",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "101cc02f981bd2a0": {
+  "src": "Yes. Every recall carries source_agency, external_id, source_url and {0}. {1} exposes source endpoint, retrieval time, raw payload size and {2} fingerprint.",
+  "t": "Ja. Jeder Rückruf enthält source_agency, external_id, source_url und {0}. {1} enthält Quell-Endpunkt, Abrufzeitpunkt, Größe der Rohdaten und {2}-Fingerabdruck.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "13b5ad3a79a2b2a3": {
+  "src": "RecallDB uses official U.S. government recall publications. Public sample data is {0}. Full dataset snapshots and enterprise custom requests are paid and privately delivered.",
+  "t": "RecallDB verwendet offizielle Rückrufveröffentlichungen der US-Regierung. Die öffentlichen Beispieldaten stehen unter {0}. Vollständige Datensatz-Snapshots und individuelle Enterprise-Anfragen sind kostenpflichtig und werden privat zugestellt.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "14980864be3b967e": {
+  "src": "{0} - Official U.S. Product Recall Database",
+  "t": "{0} - Offizielle US-Datenbank für Produktrückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "150a3e334b14dc16": {
+  "src": "Tell us what you need: source additions, refresh cadence, fields, joins, retail catalog/SKU matching, export format, timeline...",
+  "t": "Beschreiben Sie Ihren Bedarf: zusätzliche Quellen, Aktualisierungsrhythmus, Felder, Joins, Abgleich mit Händlerkatalog/SKU, Exportformat, Zeitrahmen...",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "15d1e785393c6453": {
+  "src": "Requests go to the RecallDB desk. We reply with payment and delivery details; the full export is delivered privately, not through a public repository link.",
+  "t": "Anfragen gehen an das RecallDB-Team. Wir antworten mit Zahlungs- und Lieferdetails; der vollständige Export wird privat zugestellt, nicht über einen öffentlichen Repository-Link.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "16e0dea9c6985d46": {
+  "src": "Consumer products",
+  "t": "Verbraucherprodukte",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "180fcd920ec41129": {
+  "src": "Other / unmapped recalls",
+  "t": "Rückrufe: Sonstige / nicht zugeordnet",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "186abe7eac9679ef": {
+  "src": "Built from official federal recall publications only.",
+  "t": "Ausschließlich aus offiziellen Rückrufveröffentlichungen der US-Bundesbehörden erstellt.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "18b8e1321542338a": {
+  "src": "Hazard directory — {0}",
+  "t": "Gefahrenverzeichnis — {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "19e8ec7488b28593": {
+  "src": "Download sample",
+  "t": "Beispieldaten herunterladen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "1cbe7d4124a1bb48": {
+  "src": "linked products",
+  "t": "verknüpfte Produkte",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "1db748621f7ea58e": {
+  "src": "Drug defect recalls — {0} records | {1}",
+  "t": "Rückrufe wegen Arzneimittelmängeln — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "1dc932ac624a462e": {
+  "src": "Choking recalls — {0} records | {1}",
+  "t": "Rückrufe wegen Erstickungsgefahr — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "1fe5029c676e1755": {
+  "src": "Dataset snapshot",
+  "t": "Datensatz-Snapshot",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "1ff2c5106f4999fc": {
+  "src": "CPSC recalls",
+  "t": "CPSC-Rückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2008fb4ba61d3d43": {
+  "src": "Hazard directory",
+  "t": "Gefahrenverzeichnis",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "20d2fbbdfb3b9a62": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>laceration</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Schnittverletzung</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "217046addb144cb4": {
+  "src": "You might also need",
+  "t": "Das könnte Sie auch interessieren",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2182179a81f461fa": {
+  "src": "One deterministic taxonomy across agencies.",
+  "t": "Eine deterministische Taxonomie über alle Behörden hinweg.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "21ceba494a3d7b02": {
+  "src": "NHTSA recalls",
+  "t": "NHTSA-Rückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "225d48abb9c4aee1": {
+  "src": "No reply within {0} business day? Email {1}.",
+  "t": "Keine Antwort innerhalb von {0} Werktag? Schreiben Sie an {1}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "22e8c5148365e24f": {
+  "src": "Their leading hazard buckets are fire burn ({0}), choking ({1}), fall injury ({2}).",
+  "t": "Die häufigsten Gefahrenkategorien sind Brand/Verbrennung ({0}), Erstickung ({1}) und Sturzverletzung ({2}).",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "232e7bae3193a9b2": {
+  "src": "We could not send the request automatically. Please email {0} and we will handle it manually.",
+  "t": "Die Anfrage konnte nicht automatisch gesendet werden. Bitte schreiben Sie an {0}, wir bearbeiten sie dann manuell.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "23ed731baa70210b": {
+  "src": "Bundle",
+  "t": "Paket",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "241404680af63c97": {
+  "src": "One private delivery of the current RecallDB export for analysis, enrichment, compliance research, and internal product screening.",
+  "t": "Eine private Lieferung des aktuellen RecallDB-Exports für Analyse, Anreicherung, Compliance-Recherche und internes Produkt-Screening.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "24ca4955c877f122": {
+  "src": "Choking, aspiration or strangulation hazards (incl. small parts)",
+  "t": "Erstickungs-, Aspirations- oder Strangulationsgefahren (inkl. Kleinteile)",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "25bff42a3b2d55b2": {
+  "src": "CPSC recall data",
+  "t": "CPSC-Rückrufdaten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2726322f42c86877": {
+  "src": "Fire burn recalls — {0} records | {1}",
+  "t": "Rückrufe wegen Brand- und Verbrennungsgefahr — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "275a3a8807cbf114": {
+  "src": "{0} source coverage and provenance visualization",
+  "t": "Visualisierung der Quellenabdeckung und Herkunft von {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2ae5b258ace6a4b8": {
+  "src": "The bucket is defined as: Cut, laceration or amputation hazards.",
+  "t": "Die Kategorie ist definiert als: Schnitt-, Riss- oder Amputationsgefahren.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2b0ef52ee23c96dd": {
+  "src": "Their leading hazard buckets are microbial contamination ({0}), undeclared allergen ({1}), other / unmapped ({2}); severity labels present: {3}.",
+  "t": "Die häufigsten Gefahrenkategorien sind mikrobielle Kontamination ({0}), nicht deklarierte Allergene ({1}) und Sonstige / nicht zugeordnet ({2}); vorhandene Schweregrade: {3}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2d545e8dbb0af4c1": {
+  "src": "NHTSA recall data",
+  "t": "NHTSA-Rückrufdaten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2d64d053ef0e1730": {
+  "src": "What is {0}?",
+  "t": "Was ist {0}?",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2d6a3738ecc00ac8": {
+  "src": "{0} normalized recall records",
+  "t": "{0} normalisierte Rückrufdatensätze",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2e1eb7e90ee478c5": {
+  "src": "Drug potency, contamination, mislabeling or dosage defects",
+  "t": "Mängel bei Wirkstärke, Kontamination, Kennzeichnung oder Dosierung von Arzneimitteln",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2eb56be3c2d93cda": {
+  "src": "Sources",
+  "t": "Quellen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2f81a22de0af5e9e": {
+  "src": "Access",
+  "t": "Zugang",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "2fdeaa00cb6ce3cb": {
+  "src": "FDA recalls",
+  "t": "FDA-Rückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "302ec4e919bf0221": {
+  "src": "RecallDB normalizes the {0} feed into the same schema as the other four agencies, keeping every row's {1} and a {2} that resolves to {3}.",
+  "t": "RecallDB normalisiert den Feed der Behörde {0} in dasselbe Schema wie die der vier anderen Behörden und behält für jede Zeile {1} sowie eine {2}, die auf {3} verweist."
+ },
+ "311551b2ad3e8537": {
+  "src": "Acme Compliance or Jane Doe",
+  "t": "Muster Compliance GmbH oder Max Mustermann",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "31fcabfbe2f324df": {
+  "src": "Download sample CSV",
+  "t": "Beispiel-CSV herunterladen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3259a184ef8498ab": {
+  "src": "In the free {0}-row sample, this hazard appears in rows issued by no agency in the free sample.",
+  "t": "In den kostenlosen Beispieldaten mit {0} Zeilen erscheint diese Gefahr in keiner Zeile einer Behörde.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "32be85df365e8338": {
+  "src": "Agency directory — {0}",
+  "t": "Behördenverzeichnis — {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "34345b1936ff1ab1": {
+  "src": "Agency source",
+  "t": "Behördenquelle",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "34ac37f56e147bf6": {
+  "src": "Back to home",
+  "t": "Zurück zur Startseite",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3614a57e834b4144": {
+  "src": "Choking recalls",
+  "t": "Rückrufe wegen Erstickungsgefahr",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3624251befd5c5a2": {
+  "src": "<0>Home</0> › Agency directory",
+  "t": "<0>Startseite</0> › Behördenverzeichnis",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3634469a8cb390ec": {
+  "src": "{0} ({1}) recalls in {2}: meat, poultry and egg products. Top hazards in the sample: microbial contamination…",
+  "t": "Rückrufe des {0} ({1}) in {2}: Fleisch, Geflügel und Eiprodukte. Häufigste Gefahren in den Beispieldaten: mikrobielle Kontamination…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "36b5dd0585e984d4": {
+  "src": "The bucket is defined as: Toxic chemical exposure: lead, cadmium, carbon monoxide, etc..",
+  "t": "Die Kategorie ist definiert als: Exposition gegenüber toxischen Chemikalien: Blei, Cadmium, Kohlenmonoxid usw.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "375988a1b5ee3fbd": {
+  "src": "Their leading hazard buckets are choking ({0}).",
+  "t": "Die häufigste Gefahrenkategorie ist Erstickung ({0}).",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "37ef2492baae7965": {
+  "src": "CPSC recall data — consumer products | {0}",
+  "t": "CPSC-Rückrufdaten — Verbraucherprodukte | {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3931b13b4e9a9f31": {
+  "src": "FSIS recall data",
+  "t": "FSIS-Rückrufdaten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3b3f8f0ca75fd9f2": {
+  "src": "Public sample",
+  "t": "Öffentliche Beispieldaten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3e75965d822c7389": {
+  "src": "Agency free text is kept verbatim in {0}; the normalized key is {1}.",
+  "t": "Der Freitext der Behörde bleibt unverändert in {0} erhalten; der normalisierte Schlüssel ist {1}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3f837438684ec4e3": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>fall injury</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Sturzverletzung</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "3fe7ec1723c594f9": {
+  "src": "Their leading hazard buckets are crash injury ({0}), fire burn ({1}), chemical toxic ({2}); severity labels present: {3}.",
+  "t": "Die häufigsten Gefahrenkategorien sind Unfallverletzung ({0}), Brand/Verbrennung ({1}) und toxische Chemikalien ({2}); vorhandene Schweregrade: {3}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "41043c070a75970c": {
+  "src": "We will reply to the address you provided with scope, pricing, and delivery details.",
+  "t": "Wir antworten an die angegebene Adresse mit Umfang, Preisen und Lieferdetails.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "41478c79da452c9a": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>electric shock</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Stromschlag</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "4220ef2dc809b19b": {
+  "src": "Full Dataset Snapshot",
+  "t": "Vollständiger Datensatz-Snapshot",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "43157fed24ec6552": {
+  "src": "{0} drug defect recalls in {1} ({2} of classified rows, rank {3} of {4}). Drug potency, contamination, mislabeling or dosage defects Issued…",
+  "t": "{0} Rückrufe wegen Arzneimittelmängeln in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Mängel bei Wirkstärke, Kontamination, Kennzeichnung oder Dosierung. Ausgestellt…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "44b68db7c6972522": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>microbial contamination</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>mikrobielle Kontamination</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "44e2dc2bcbfebd03": {
+  "src": "Drug defect recalls",
+  "t": "Rückrufe wegen Arzneimittelmängeln",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "4739faf7bcb0a813": {
+  "src": "Hazards",
+  "t": "Gefahren",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "47e94085695afeac": {
+  "src": "Undeclared allergen recalls — {0} records | {1}",
+  "t": "Rückrufe wegen nicht deklarierter Allergene — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "4a03d9a7e36b1695": {
+  "src": "{0} sample recalls with {1} lineage",
+  "t": "{0} Beispielrückrufe mit {1}-Herkunftskette",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "4a46e48d3eb3b1d6": {
+  "src": "The bucket is defined as: Electric shock or electrocution hazards.",
+  "t": "Die Kategorie ist definiert als: Stromschlag- oder Stromtodgefahren.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "4d605e08483f9ab5": {
+  "src": "Get full data",
+  "t": "Vollständige Daten erhalten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "4e7785517cd26875": {
+  "src": "USCG recalls",
+  "t": "USCG-Rückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "504faf432c8753f4": {
+  "src": "Consumer product recalls from the CPSC SaferProducts recall API.",
+  "t": "Rückrufe von Verbraucherprodukten aus der CPSC-SaferProducts-Rückruf-API.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "51e95460a819b753": {
+  "src": "Private delivery after request",
+  "t": "Private Zustellung nach Anfrage",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "520fca8ed503873d": {
+  "src": "full {0} for replay and audit",
+  "t": "vollständiges {0} für Replay und Audit",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "52a8d5d7d8ece3b2": {
+  "src": "See pricing",
+  "t": "Preise ansehen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "52e2b29a23cfd08b": {
+  "src": "Official U.S. product recall database with per-row provenance traceability across CPSC, FDA, FSIS, NHTSA and USCG, delivered as full CSV and SQLite.",
+  "t": "Offizielle US-Datenbank für Produktrückrufe mit zeilengenauer Herkunftsrückverfolgung über CPSC, FDA, FSIS, NHTSA und USCG, geliefert als vollständige CSV- und SQLite-Dateien.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "538fb15a68b3f239": {
+  "src": "Source endpoint: {0}, retrieved {1} ({2} bytes raw).",
+  "t": "Quell-Endpunkt: {0}, abgerufen am {1} ({2} Byte Rohdaten).",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "538fe6db60f8f41e": {
+  "src": "Five federal recall feeds, one offline, provenance-ledgered dataset.",
+  "t": "Fünf Rückruf-Feeds von US-Bundesbehörden, ein offline nutzbarer Datensatz mit Herkunftsnachweis.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "53e390942e4a5505": {
+  "src": "USCG recreational-boat and marine-equipment recall campaigns.",
+  "t": "USCG-Rückrufkampagnen für Sportboote und Schiffsausrüstung.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "54bc0f6b845af94d": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>other / unmapped</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Sonstige / nicht zugeordnet</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "5653cdbe9b813e2d": {
+  "src": "Open samples/{0} to view the public sample.",
+  "t": "Öffnen Sie samples/{0}, um die öffentlichen Beispieldaten anzusehen.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "56bdf74ced8d0a93": {
+  "src": "Endpoint URLs and payload fingerprints",
+  "t": "Endpunkt-URLs und Payload-Fingerabdrücke",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "573d81b365919cc6": {
+  "src": "Fall injury recalls — {0} records | {1}",
+  "t": "Rückrufe wegen Sturzverletzungen — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "58847ab0ac6fefb7": {
+  "src": "Send custom request",
+  "t": "Individuelle Anfrage senden",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "58fabfa70811950f": {
+  "src": "Sample",
+  "t": "Beispieldaten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "5b8d2481ae4f0b44": {
+  "src": "Part of the DataEngineered catalog →",
+  "t": "Teil des DataEngineered-Katalogs →",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "5c47e26c6ad20d72": {
+  "src": "Agency",
+  "t": "Behörde",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "5e0980acdd61b226": {
+  "src": "{0} ({1}) recalls in {2}: food, drugs, devices, cosmetics, biologics, veterinary. Top hazards in the sample: drug defect…",
+  "t": "Rückrufe der {0} ({1}) in {2}: Lebensmittel, Arzneimittel, Medizinprodukte, Kosmetik, Biologika, Tiermedizin. Häufigste Gefahren in den Beispieldaten: Arzneimittelmängel…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "5e4ffe88fada1202": {
+  "src": "Tell us which full-dataset tier you need.",
+  "t": "Teilen Sie uns mit, welche Stufe des vollständigen Datensatzes Sie benötigen.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "5ec3084768a7af80": {
+  "src": "Chemical toxic recalls",
+  "t": "Rückrufe wegen toxischer Chemikalien",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "60237e45f4e46e8d": {
+  "src": "{0} ({1}) recalls in {2}: recreational boats and marine equipment. Top hazards in the sample: choking. Rows link to their…",
+  "t": "Rückrufe der {0} ({1}) in {2}: Sportboote und Schiffsausrüstung. Häufigste Gefahren in den Beispieldaten: Erstickung. Zeilen verweisen auf ihre…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "60261ed2752b78de": {
+  "src": "Vehicles",
+  "t": "Fahrzeuge",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "6134409fc17eb43c": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>drug defect</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Arzneimittelmängel</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "61d2e70b54c24f70": {
+  "src": "Traceability",
+  "t": "Rückverfolgbarkeit",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "63f2f2131744404c": {
+  "src": "Other / unmapped recalls — {0} records | {1}",
+  "t": "Rückrufe: Sonstige / nicht zugeordnet — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "6524ed016e2bea2e": {
+  "src": "View sample repo",
+  "t": "Beispiel-Repository ansehen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "664a232c7a99cc71": {
+  "src": "No. The GitHub repository and Kaggle sample metadata contain only the public sample, docs and starter assets. The full CSV and SQLite dataset is paid and delivered privately after a snapshot purchase or enterprise request.",
+  "t": "Nein. Das GitHub-Repository und die Kaggle-Metadaten enthalten nur die öffentlichen Beispieldaten, Dokumentation und Starter-Dateien. Der vollständige CSV- und SQLite-Datensatz ist kostenpflichtig und wird nach dem Kauf eines Snapshots oder einer Enterprise-Anfrage privat zugestellt.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "677e2d1335fcff16": {
+  "src": "The bucket is defined as: Hazards not yet mapped to the controlled taxonomy.",
+  "t": "Die Kategorie ist definiert als: Gefahren, die noch nicht der kontrollierten Taxonomie zugeordnet sind.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "6b21fb791ac05170": {
+  "src": "About",
+  "t": "Über uns",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "6bbe14b72a0de1ab": {
+  "src": "In the free {0}-row sample, this hazard appears in rows issued by {1}.",
+  "t": "In den kostenlosen Beispieldaten mit {0} Zeilen erscheint diese Gefahr in Zeilen folgender Behörden: {1}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "6bd7f1e188746f73": {
+  "src": "The paid SQLite release keeps the full archived raw payload. The paid CSV delivery exposes compact lineage through {0} and {1}, including endpoint URL, retrieval timestamp, raw payload byte length and {2} hash.",
+  "t": "Das kostenpflichtige SQLite-Release enthält die vollständigen archivierten Rohdaten. Die kostenpflichtige CSV-Lieferung bietet eine kompakte Herkunftskette über {0} und {1}, einschließlich Endpunkt-URL, Abrufzeitstempel, Bytelänge der Rohdaten und {2}-Hash.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "6c259ed31a42c619": {
+  "src": "Full name / organization {0}",
+  "t": "Vollständiger Name / Organisation {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "6d5fec985845db68": {
+  "src": "Small enough for GitHub, shaped like the full release.",
+  "t": "Klein genug für GitHub, aufgebaut wie das vollständige Release.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "70c7e69a5f148148": {
+  "src": "Agencies",
+  "t": "Behörden",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "70f8bb9a8a5393ef": {
+  "src": "Home",
+  "t": "Startseite",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "71c6ea9cbc62e78a": {
+  "src": "{0} U.S. Product Recall Database",
+  "t": "{0} – US-Datenbank für Produktrückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "73bb29b9258d0064": {
+  "src": "{0} issuing agencies",
+  "t": "{0} ausstellende Behörden",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "768e0c1c69573fb5": {
+  "src": "Title",
+  "t": "Titel",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "786657ce1db02978": {
+  "src": "{0} U.S. Product Recall Database — Snapshot",
+  "t": "{0} – US-Datenbank für Produktrückrufe — Snapshot",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "78ed38dcd40551b4": {
+  "src": "Paid SQLite",
+  "t": "Kostenpflichtiges SQLite",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "79ffbc4482185384": {
+  "src": "<0>{1} one-time snapshot</0> · free {2}-row sample — for e-commerce sellers, compliance teams and AI agents that need offline recall data",
+  "t": "<0>{1} einmaliger Snapshot</0> · kostenlose Beispieldaten mit {2} Zeilen — für E-Commerce-Händler, Compliance-Teams und KI-Agenten, die Rückrufdaten offline benötigen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "7a38c613d8650c7c": {
+  "src": "Latest sample rows",
+  "t": "Neueste Beispielzeilen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "7b7aa5b3d31902ad": {
+  "src": "Controlled hazard taxonomy counts",
+  "t": "Anzahl je Kategorie der kontrollierten Gefahrentaxonomie",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "7cd27ab37edd1c91": {
+  "src": "federal sources",
+  "t": "Bundesquellen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "7d40fe4a197ada40": {
+  "src": "{0} ({1}) recalls in {2}: vehicles, tires, child seats and equipment. Top hazards in the sample: crash…",
+  "t": "Rückrufe der {0} ({1}) in {2}: Fahrzeuge, Reifen, Kindersitze und Ausrüstung. Häufigste Gefahren in den Beispieldaten: Unfall…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "7f9eb3494ba43724": {
+  "src": "Hazard taxonomy",
+  "t": "Gefahrentaxonomie",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "802857ff4e01adf9": {
+  "src": "RecallDB Vehicle: CSV + Parquet + SQLite",
+  "t": "RecallDB Vehicle: CSV + Parquet + SQLite",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "80e13549b47a4dfc": {
+  "src": "Coverage",
+  "t": "Abdeckung",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "80e7aa82d0aadbe3": {
+  "src": "The free sample holds {0} {1} rows.",
+  "t": "Die kostenlosen Beispieldaten enthalten {0} Zeilen von {1}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "82361b69c4ac866a": {
+  "src": "NHTSA recall data | {0}",
+  "t": "NHTSA-Rückrufdaten | {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "84ec3e71d2c9d85a": {
+  "src": "Sitemap",
+  "t": "Sitemap",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "854103cdd4a62519": {
+  "src": "No commercial aggregators, no invented rows, no fuzzy provenance. EPA is intentionally deferred until a stable official recall-specific feed exists.",
+  "t": "Keine kommerziellen Aggregatoren, keine erfundenen Zeilen, keine unklare Herkunft. Die EPA ist bewusst zurückgestellt, bis ein stabiler offizieller, rückrufspezifischer Feed existiert.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "85499c2c5394dab7": {
+  "src": "Two paid ways to get RecallDB data.",
+  "t": "Zwei kostenpflichtige Wege zu den RecallDB-Daten.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8572d38039335d55": {
+  "src": "Full dataset",
+  "t": "Vollständiger Datensatz",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "859ca6c24228b6fe": {
+  "src": "Request access",
+  "t": "Zugang anfragen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "85dc1eb637a9c013": {
+  "src": "CSV + SQLite delivery",
+  "t": "Lieferung als CSV + SQLite",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "867886ea8cb57743": {
+  "src": "Instant delivery: both products are under the delivery worker's file-size cap, unlike the {0} MB full snapshot.",
+  "t": "Sofortige Zustellung: Beide Produkte liegen unter der Dateigrößengrenze des Delivery-Workers, anders als der vollständige Snapshot mit {0} MB.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "882c291ec3e7e22c": {
+  "src": "Data dictionary",
+  "t": "Datenwörterbuch",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "883e31bb55a4d4f2": {
+  "src": "NHTSA safety recalls for vehicles, tires, child restraints and motor-vehicle equipment.",
+  "t": "NHTSA-Sicherheitsrückrufe für Fahrzeuge, Reifen, Kinderrückhaltesysteme und Kfz-Ausrüstung.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "89288f2d2515f8c8": {
+  "src": "USCG recall data | {0}",
+  "t": "USCG-Rückrufdaten | {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "89e41ecf89bb4ef4": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>fire burn</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Brand/Verbrennung</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8a6bfd4fa391bccb": {
+  "src": "Fall injury recalls",
+  "t": "Rückrufe wegen Sturzverletzungen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8bb28cb9094ded56": {
+  "src": "The bucket is defined as: Bacterial/viral contamination: Salmonella, Listeria, E. coli, etc..",
+  "t": "Die Kategorie ist definiert als: Bakterielle/virale Kontamination: Salmonellen, Listerien, E. coli usw.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8c1de886a6c04187": {
+  "src": "consumer products",
+  "t": "Verbraucherprodukte",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8d6a381fc28201c8": {
+  "src": "compliance data",
+  "t": "Compliance-Daten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8dc5d666582b9793": {
+  "src": "FDA recall data | {0}",
+  "t": "FDA-Rückrufdaten | {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8e072025366d8304": {
+  "src": "Refund policy",
+  "t": "Erstattungsrichtlinie",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8e1a0ee21b9be0b7": {
+  "src": "Undeclared allergens: milk, peanuts, soy, wheat, etc.",
+  "t": "Nicht deklarierte Allergene: Milch, Erdnüsse, Soja, Weizen usw.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8ef4a6ad0a7b21ec": {
+  "src": "Fault &amp; Recall Bundle",
+  "t": "Fault &amp; Recall Bundle",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "8fd7c825d5e370cb": {
+  "src": "— {0} sample rows",
+  "t": "— {0} Beispielzeilen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "900a05cb6136e341": {
+  "src": "Fall, tip-over or structural collapse hazards",
+  "t": "Sturz-, Kipp- oder Einsturzgefahren",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "9101c40388b70691": {
+  "src": "RecallDB Vehicle — the NHTSA vehicle &amp; equipment recall cut — together with MechanicDB OEM Complete, its fault-code companion.",
+  "t": "RecallDB Vehicle — der NHTSA-Auszug zu Rückrufen von Fahrzeugen &amp; Ausrüstung — zusammen mit MechanicDB OEM Complete, dem Begleitdatensatz für Fehlercodes.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "91d75be29691124e": {
+  "src": "{0} fall injury recalls in {1} ({2} of classified rows, rank {3} of {4}). Fall, tip-over or structural collapse hazards Issued by CPSC.",
+  "t": "{0} Rückrufe wegen Sturzverletzungen in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Sturz-, Kipp- oder Einsturzgefahren. Ausgestellt von CPSC.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "924142769bce50ce": {
+  "src": "Your request email has been sent.",
+  "t": "Ihre Anfrage-E-Mail wurde gesendet.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "92a76e4fb406f286": {
+  "src": "Page not found - {0}",
+  "t": "Seite nicht gefunden - {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "946eebd2406fdb73": {
+  "src": "Provenance-tracked U.S. product recall database covering CPSC, FDA, FSIS, NHTSA and USCG, with public samples and paid full-dataset access.",
+  "t": "US-Datenbank für Produktrückrufe mit Herkunftsnachweis zu CPSC, FDA, FSIS, NHTSA und USCG, mit öffentlichen Beispieldaten und kostenpflichtigem Zugang zum vollständigen Datensatz.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "958faf7ec13d43b7": {
+  "src": "Delivery email {0}",
+  "t": "E-Mail für die Zustellung {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "9756177b35e01192": {
+  "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked, cost-estimated repair procedures ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
+  "t": "<0>MechanicDB</0> — {1} OBD-II-Fehlercodes, zugeordnet zu {2} priorisierten Reparaturverfahren mit Kostenschätzung ({3} SAE / {4} OEM): der Fehlercode-Begleiter zu den NHTSA-Fahrzeugrückrufen von RecallDB.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "97c945bca2519af5": {
+  "src": "one-time · vs {0} separately",
+  "t": "einmalig · statt {0} einzeln",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "99f548a9a9df86a2": {
+  "src": "Related pages",
+  "t": "Verwandte Seiten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "9b10914d8b0a097a": {
+  "src": "Domain",
+  "t": "Bereich",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "9b1f47314964dcdb": {
+  "src": "you@organization.com",
+  "t": "sie@organisation.de",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "9ccb9c3ae2d7b5be": {
+  "src": "FDA enforcement reports across food, drugs, medical devices, cosmetics, biologics and animal/veterinary products.",
+  "t": "FDA-Enforcement-Reports zu Lebensmitteln, Arzneimitteln, Medizinprodukten, Kosmetika, Biologika sowie Tier- und Veterinärprodukten.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "9e310ba506b13724": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>choking</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>Erstickung</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "9fb64803b9ffb9cd": {
+  "src": "{0} one-time snapshot · free {1}-row sample",
+  "t": "{0} einmaliger Snapshot · kostenlose Beispieldaten mit {1} Zeilen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "a29349633a5f5dc9": {
+  "src": "The bucket is defined as: Undeclared allergens: milk, peanuts, soy, wheat, etc..",
+  "t": "Die Kategorie ist definiert als: Nicht deklarierte Allergene: Milch, Erdnüsse, Soja, Weizen usw.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "a3f1667700227f4f": {
+  "src": "Toxic chemical exposure: lead, cadmium, carbon monoxide, etc.",
+  "t": "Exposition gegenüber toxischen Chemikalien: Blei, Cadmium, Kohlenmonoxid usw.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "a55a275aa676930d": {
+  "src": "Terms",
+  "t": "AGB",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "a5e0fcb8257559f1": {
+  "src": "CPSC, NHTSA, FDA, FSIS and USCG publish recalls for free, in five shapes. RecallDB joins them into one CSV/SQLite model — {0} official recalls, {1} linked products — with a full provenance ledger on every row. The companion to MechanicDB for vehicle fault-and-recall screening.",
+  "t": "CPSC, NHTSA, FDA, FSIS und USCG veröffentlichen Rückrufe kostenlos, in fünf unterschiedlichen Formaten. RecallDB führt sie in einem CSV/SQLite-Modell zusammen — {0} offizielle Rückrufe, {1} verknüpfte Produkte — mit vollständigem Herkunftsnachweis in jeder Zeile. Der Begleiter zu MechanicDB für das Screening von Fahrzeugfehlern und Rückrufen.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "a91683a93d4c1aa1": {
+  "src": "{0} chemical toxic recalls in {1} ({2} of classified rows, rank {3} of {4}). Toxic chemical exposure: lead, cadmium, carbon monoxide, etc. Issued…",
+  "t": "{0} Rückrufe wegen toxischer Chemikalien in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Exposition gegenüber toxischen Chemikalien: Blei, Cadmium, Kohlenmonoxid usw. Ausgestellt…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "ab81021d2173002d": {
+  "src": "FSIS recall data — meat, poultry and egg products | {0}",
+  "t": "FSIS-Rückrufdaten — Fleisch, Geflügel und Eiprodukte | {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "ac78758a2952035f": {
+  "src": "source-linked",
+  "t": "mit Quelle verknüpft",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "ac952c831f2f6c0f": {
+  "src": "Fire, thermal burn, overheating or explosion hazards",
+  "t": "Brand-, Verbrennungs-, Überhitzungs- oder Explosionsgefahren",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "aed7a26ef012b1f7": {
+  "src": "The bucket is defined as: Drug potency, contamination, mislabeling or dosage defects.",
+  "t": "Die Kategorie ist definiert als: Mängel bei Wirkstärke, Kontamination, Kennzeichnung oder Dosierung von Arzneimitteln.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "af59ce1a253a7717": {
+  "src": "SEO page",
+  "t": "SEO-Seite",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b0a3ec639a32919f": {
+  "src": "Hazards not yet mapped to the controlled taxonomy",
+  "t": "Gefahren, die noch nicht der kontrollierten Taxonomie zugeordnet sind",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b13946e5fe2c1645": {
+  "src": "Boating",
+  "t": "Boote",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b22a172660921b6d": {
+  "src": "Custom request",
+  "t": "Individuelle Anfrage",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b28666ecaf627976": {
+  "src": "{0} fire burn recalls in {1} ({2} of classified rows, rank {3} of {4}). Fire, thermal burn, overheating or explosion hazards Issued by CPSC, NHTSA.",
+  "t": "{0} Rückrufe wegen Brand- und Verbrennungsgefahr in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Brand-, Verbrennungs-, Überhitzungs- oder Explosionsgefahren. Ausgestellt von CPSC, NHTSA.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b28893c312ab305c": {
+  "src": "Browse every page",
+  "t": "Alle Seiten durchsuchen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b2e92320d13a7961": {
+  "src": "That page doesn't exist. The full RecallDB dataset isn't hosted here anyway - it's delivered privately after a snapshot purchase.",
+  "t": "Diese Seite existiert nicht. Der vollständige RecallDB-Datensatz wird hier ohnehin nicht gehostet – er wird nach dem Kauf eines Snapshots privat zugestellt.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b37456c4530be810": {
+  "src": "Contact",
+  "t": "Kontakt",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b4a4867d707794f8": {
+  "src": "Chemical toxic recalls — {0} records | {1}",
+  "t": "Rückrufe wegen toxischer Chemikalien — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b50492cbb883695e": {
+  "src": "The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot.",
+  "t": "Die Beispieldaten enthalten ausgewogen verteilte Zeilen aus allen fünf Quellbehörden und dieselben Exporttabellen-Strukturen wie der kostenpflichtige vollständige Datensatz-Snapshot.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b600923755a6629b": {
+  "src": "vehicles, tires, child seats and equipment",
+  "t": "Fahrzeuge, Reifen, Kindersitze und Ausrüstung",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b71f3661ded3871d": {
+  "src": "{0} linked recalled products",
+  "t": "{0} verknüpfte zurückgerufene Produkte",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "b9decbe1677ffeb1": {
+  "src": "{0} laceration recalls in {1} ({2} of classified rows, rank {3} of {4}). Cut, laceration or amputation hazards Issued by FDA, CPSC.",
+  "t": "{0} Rückrufe wegen Schnittverletzungen in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Schnitt-, Riss- oder Amputationsgefahren. Ausgestellt von FDA, CPSC.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "bae56965d94e7b65": {
+  "src": "{0} is a normalized dataset of official U.S. federal recall records from CPSC, FDA/openFDA plus FDA Safety Alerts, USDA FSIS, NHTSA and USCG.",
+  "t": "{0} ist ein normalisierter Datensatz offizieller Rückrufdatensätze der US-Bundesbehörden CPSC, FDA/openFDA plus FDA Safety Alerts, USDA FSIS, NHTSA und USCG.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "bc0595937e94640f": {
+  "src": "Their leading hazard buckets are drug defect ({0}), other / unmapped ({1}), microbial contamination ({2}); severity labels present: {3}.",
+  "t": "Die häufigsten Gefahrenkategorien sind Arzneimittelmängel ({0}), Sonstige / nicht zugeordnet ({1}) und mikrobielle Kontamination ({2}); vorhandene Schweregrade: {3}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "bc26ab130a90dc6a": {
+  "src": "Microbial contamination recalls — {0} records | {1}",
+  "t": "Rückrufe wegen mikrobieller Kontamination — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "bc3023b36063a768": {
+  "src": "Page not found",
+  "t": "Seite nicht gefunden",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "be44160269a399b2": {
+  "src": "Buy {0} snapshot",
+  "t": "{0}-Snapshot kaufen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "bfc2f5d360e80cb7": {
+  "src": "Laceration recalls",
+  "t": "Rückrufe wegen Schnittverletzungen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c163b9b251190653": {
+  "src": "Secure Stripe checkout. The full snapshot is never committed to this repo and delivery is gated by payment verification.",
+  "t": "Sicherer Stripe-Checkout. Der vollständige Snapshot wird nie in dieses Repository eingecheckt, und die Zustellung erfolgt erst nach Zahlungsprüfung.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c18a7d2d19dcae4f": {
+  "src": "Official U.S. recall intelligence - {0} public sample",
+  "t": "Offizielle US-Rückrufdaten - öffentliche Beispieldaten {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c2a6caf050965558": {
+  "src": "Food safety",
+  "t": "Lebensmittelsicherheit",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c4079d60758dd01d": {
+  "src": "All hazard categories",
+  "t": "Alle Gefahrenkategorien",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c42021d20aaba8df": {
+  "src": "Two instant downloads after one checkout",
+  "t": "Zwei sofortige Downloads nach einem Checkout",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c44f31e04de277d0": {
+  "src": "Electric shock recalls — {0} records | {1}",
+  "t": "Rückrufe wegen Stromschlaggefahr — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c4594454dfce1862": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>chemical toxic</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>toxische Chemikalien</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "c85dfbda27cc34e3": {
+  "src": "Rows link to {0} and {1} through {2}.",
+  "t": "Zeilen verweisen über {2} auf {0} und {1}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "cb53439a76083e86": {
+  "src": "Commercial license on both",
+  "t": "Kommerzielle Lizenz für beide",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "ccba9397c93c4971": {
+  "src": "Every recall joins back to its source pull.",
+  "t": "Jeder Rückruf lässt sich auf seinen Quellabruf zurückführen.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "cd46a2b755711635": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>undeclared allergen</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
+  "t": "RecallDB ordnet <0>{1}</0> offizielle Rückrufe der Kategorie <2>nicht deklarierte Allergene</2> zu – {3} der {4} klassifizierten Gefahrenzeilen und die Gefahrenkategorie {5} von {6}.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "cf01481f626d5127": {
+  "src": "Privacy",
+  "t": "Datenschutz",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "cfb32853b77be080": {
+  "src": "Bacterial/viral contamination: Salmonella, Listeria, E. coli, etc.",
+  "t": "Bakterielle/virale Kontamination: Salmonellen, Listerien, E. coli usw.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "d023e06bffaa21a4": {
+  "src": "Cut, laceration or amputation hazards",
+  "t": "Schnitt-, Riss- oder Amputationsgefahren",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "d027f226f60d21f7": {
+  "src": "The bucket is defined as: Fire, thermal burn, overheating or explosion hazards.",
+  "t": "Die Kategorie ist definiert als: Brand-, Verbrennungs-, Überhitzungs- oder Explosionsgefahren.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "d13d5061b9abdece": {
+  "src": "Buy the {0} bundle",
+  "t": "{0}-Paket kaufen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "da88e5341e5dfe71": {
+  "src": "{0} microbial contamination recalls in {1} ({2} of classified rows, rank {3} of {4}). Bacterial/viral contamination: Salmonella, Listeria, E.",
+  "t": "{0} Rückrufe wegen mikrobieller Kontamination in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Bakterielle/virale Kontamination: Salmonellen, Listerien…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "daa05df0ba78aba4": {
+  "src": "Crash injury recalls",
+  "t": "Rückrufe wegen Unfallverletzungen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "db73cf085fa8e62d": {
+  "src": "{0} ({1}) recalls in {2}: consumer products. Top hazards in the sample: fire burn, choking, fall injury. Rows link…",
+  "t": "Rückrufe der {0} ({1}) in {2}: Verbraucherprodukte. Häufigste Gefahren in den Beispieldaten: Brand/Verbrennung, Erstickung, Sturz. Zeilen verweisen…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "de8f60d9d9ae6e92": {
+  "src": "{0} crash injury recalls in {1} ({2} of classified rows, rank {3} of {4}). Vehicle crash, airbag, braking or steering related injury risks Issued…",
+  "t": "{0} Rückrufe wegen Unfallverletzungen in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Verletzungsrisiken durch Fahrzeugunfälle, Airbags, Bremsen oder Lenkung. Ausgestellt…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "df1b33666c79afc7": {
+  "src": "meat, poultry and egg products",
+  "t": "Fleisch, Geflügel und Eiprodukte",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "dfbc4a3f8dafe8fc": {
+  "src": "Custom work (custom joins, refresh cadence, retail matching, schema work): from {0} — <1>contact the desk</1>",
+  "t": "Individuelle Arbeiten (eigene Joins, Aktualisierungsrhythmus, Händlerabgleich, Schemaanpassungen): ab {0} — <1>Team kontaktieren</1>",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "dfe838417b915fdd": {
+  "src": "Products, vehicles, lots and categories",
+  "t": "Produkte, Fahrzeuge, Chargen und Kategorien",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e0430bca361ff304": {
+  "src": "Laceration recalls — {0} records | {1}",
+  "t": "Rückrufe wegen Schnittverletzungen — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e1e31f080d268a38": {
+  "src": "Hazard",
+  "t": "Gefahr",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e3a62e7970a58e35": {
+  "src": "FSIS recalls",
+  "t": "FSIS-Rückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e3d0da00624f6344": {
+  "src": "official recalls",
+  "t": "offizielle Rückrufe",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e4e4fc5081313637": {
+  "src": "Every hazard category in RecallDB, each with the recalls classified under it and their source records.",
+  "t": "Alle Gefahrenkategorien in RecallDB, jeweils mit den zugeordneten Rückrufen und ihren Quelldatensätzen.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e68d6c8f867274ff": {
+  "src": "Direct desk: {0}",
+  "t": "Direkter Kontakt: {0}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e77c03fe60e6173a": {
+  "src": "Every recall-issuing agency in RecallDB, each with its normalized recall records and source-level provenance.",
+  "t": "Alle Rückrufbehörden in RecallDB, jeweils mit ihren normalisierten Rückrufdatensätzen und Herkunftsnachweis auf Quellenebene.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "e8eee1836e501e72": {
+  "src": "USCG recall data",
+  "t": "USCG-Rückrufdaten",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "ea38c78086ea97da": {
+  "src": "{0} electric shock recalls in {1} ({2} of classified rows, rank {3} of {4}). Electric shock or electrocution hazards Issued by federal agencies.",
+  "t": "{0} Rückrufe wegen Stromschlaggefahr in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Stromschlag- oder Stromtodgefahren. Ausgestellt von US-Bundesbehörden.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "eb05edc2f71494cf": {
+  "src": "{0} undeclared allergen recalls in {1} ({2} of classified rows, rank {3} of {4}). Undeclared allergens: milk, peanuts, soy, wheat, etc. Issued…",
+  "t": "{0} Rückrufe wegen nicht deklarierter Allergene in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Nicht deklarierte Allergene: Milch, Erdnüsse, Soja, Weizen usw. Ausgestellt…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "eb66ae2e95ef2ace": {
+  "src": "The public repository contains only the sample files and documentation. The full CSV + SQLite export is not hosted on GitHub, GitHub Pages, Kaggle, or any free public download.",
+  "t": "Das öffentliche Repository enthält nur die Beispieldateien und die Dokumentation. Der vollständige CSV- + SQLite-Export wird nicht auf GitHub, GitHub Pages, Kaggle oder als kostenloser öffentlicher Download bereitgestellt.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "eb9a4bc1c0c153e4": {
+  "src": "Date",
+  "t": "Datum",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "edcf396383951e5f": {
+  "src": "Undeclared allergen recalls",
+  "t": "Rückrufe wegen nicht deklarierter Allergene",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f063dc145f59bf82": {
+  "src": "MechanicDB OEM Complete: {0} codes, {1} ranked repairs, {2} parts",
+  "t": "MechanicDB OEM Complete: {0} Codes, {1} priorisierte Reparaturen, {2} Teile",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f0e60ba6e70bb0ff": {
+  "src": "Crash injury recalls — {0} records | {1}",
+  "t": "Rückrufe wegen Unfallverletzungen — {0} Datensätze | {1}",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f0ea4d868b58283e": {
+  "src": "— {0} records",
+  "t": "— {0} Datensätze",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f225ea6b66949986": {
+  "src": "{0} other / unmapped recalls in {1} ({2} of classified rows, rank {3} of {4}). Hazards not yet mapped to the controlled taxonomy Issued by FDA…",
+  "t": "{0} Rückrufe (Sonstige / nicht zugeordnet) in {1} ({2} der klassifizierten Zeilen, Rang {3} von {4}). Gefahren, die noch nicht der kontrollierten Taxonomie zugeordnet sind. Ausgestellt von FDA…",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f40d25aac50e6222": {
+  "src": "Sample recalls in this bucket",
+  "t": "Beispielrückrufe in dieser Kategorie",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f4476c4ff540a8f5": {
+  "src": "food, drugs, devices, cosmetics, biologics, veterinary",
+  "t": "Lebensmittel, Arzneimittel, Medizinprodukte, Kosmetik, Biologika, Tiermedizin",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f4bbb7a70843aaad": {
+  "src": "Fire burn recalls",
+  "t": "Rückrufe wegen Brand- und Verbrennungsgefahr",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f4cf96517e7da74e": {
+  "src": "All {0} official recalls with the provenance ledger on every row, delivered privately after Stripe checkout.",
+  "t": "Alle {0} offiziellen Rückrufe mit Herkunftsnachweis in jeder Zeile, privat zugestellt nach dem Stripe-Checkout.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f5e16c7f1a33d4c7": {
+  "src": "— {0} sample rows carry this hazard",
+  "t": "— {0} Beispielzeilen mit dieser Gefahr",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f648cbdfd95e1a4d": {
+  "src": "{0} hazard categories",
+  "t": "{0} Gefahrenkategorien",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "f75020a25f809478": {
+  "src": "Official U.S. product recall sample with provenance traceability across CPSC, FDA, FSIS, NHTSA and USCG. Full CSV and SQLite dataset access is paid and privately delivered.",
+  "t": "Offizielle US-Beispieldaten zu Produktrückrufen mit Herkunftsrückverfolgung über CPSC, FDA, FSIS, NHTSA und USCG. Der Zugang zum vollständigen CSV- und SQLite-Datensatz ist kostenpflichtig und wird privat zugestellt.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "fa1829a4440ef7cc": {
+  "src": "Download the sample CSV",
+  "t": "Beispiel-CSV herunterladen",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "fc7308eaf56cca52": {
+  "src": "recreational boats and marine equipment",
+  "t": "Sportboote und Schiffsausrüstung",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "fd4cceddd41e5dd2": {
+  "src": "The bucket is defined as: Fall, tip-over or structural collapse hazards.",
+  "t": "Die Kategorie ist definiert als: Sturz-, Kipp- oder Einsturzgefahren.",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ },
+ "ffa9f90ed801d5a5": {
+  "src": "one-time snapshot",
+  "t": "einmaliger Snapshot",
+  "by": "claude-opus-5",
+  "at": "2026-09-17"
+ }
+}
