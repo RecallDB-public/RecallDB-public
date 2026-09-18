@@ -116,6 +116,8 @@ def main(write_pages=True, write_sm=True):
     entries = [(BASE + "/", ROOT / "index.html", "weekly", "1.0"),
                (BASE + "/agencies/", ROOT / "agencies" / "index.html", "monthly", "0.8"),
                (BASE + "/hazards/", ROOT / "hazards" / "index.html", "monthly", "0.8")]
+    if (ROOT / "stats" / "index.html").exists():  # scripts/generate_stats.py -- citable, embeddable asset
+        entries.append((BASE + "/stats/", ROOT / "stats" / "index.html", "monthly", "0.9"))
 
     for h in hazards:
         key, name, n = h["hazard_key"], hazard_name(h["hazard_key"]), int(h["recall_count"])

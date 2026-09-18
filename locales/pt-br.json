@@ -225,6 +225,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "2086b21f8f492741": {
+  "src": "Statistics",
+  "t": "Estatísticas",
+  "by": "claude-fable-5-1",
+  "at": "2026-09-18"
+ },
  "20d2fbbdfb3b9a62": {
   "src": "RecallDB classifies <0>{1}</0> official recalls under <2>laceration</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
   "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>laceração</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
@@ -438,6 +444,12 @@
   "t": "Dados de recalls do FSIS",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "3a57efe9072bd139": {
+  "src": "Recall statistics",
+  "t": "Estatísticas de recalls",
+  "by": "claude-fable-5-1",
+  "at": "2026-09-18"
  },
  "3b3f8f0ca75fd9f2": {
   "src": "Public sample",

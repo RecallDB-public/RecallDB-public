@@ -4,6 +4,7 @@
 
 ## Key Links & Documentation
 - [Landing Page](https://recalldb.dataengineered.io/)
+- [U.S. Recall Statistics](https://recalldb.dataengineered.io/stats/): recalls per year, agency shares, hazard classes, FDA Class I share, largest recalls by units, vehicle model years, busiest months and weekdays, firms with the most records, computed from the full ledger; CC BY 4.0, with [data.json](https://recalldb.dataengineered.io/stats/data.json) and embeddable SVG charts.
 - [GitHub Repository](https://github.com/RecallDB-public/RecallDB-public)
 - [Data Dictionary & Field Definitions](https://recalldb.dataengineered.io/DATA_DICTIONARY.md)
 - [Sources & Attribution](https://recalldb.dataengineered.io/SOURCES.md)
