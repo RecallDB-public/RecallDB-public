@@ -84,6 +84,12 @@ print(len(recalls), recalls[0]["source_agency"], recalls[0]["title"])
 
 See [`examples/load_sample.py`](examples/load_sample.py) and [`SAMPLE_PREVIEW.md`](SAMPLE_PREVIEW.md).
 
+## Statistics page (`/stats/`)
+
+[recalldb.dataengineered.io/stats/](https://recalldb.dataengineered.io/stats/) publishes aggregate statistics computed from the **full** ledger — recalls per year, agency shares, hazard classes, the FDA Class I share, the largest recalls by units, vehicle model years, busiest months and weekdays, firms with the most records — as a citable page with embeddable SVG charts and a machine-readable `stats/data.json`. The figures and charts are **CC BY 4.0**: reuse them with a link to the page. Only aggregates are published; the row-level ledger stays in the commercial dataset.
+
+`scripts/generate_stats.py` regenerates `stats/` from the private pipeline's `recalldb.sqlite` after each refresh (see the private repo's RELEASING.md); follow it with `generate_seo_pages.py --sitemap-only` and the i18n `build` + `check` below.
+
 ## Regenerating the site pages
 
 English pages at the site root are the source of truth: `python scripts/generate_seo_pages.py`, then `python ../scripts/generate_dir_hubs.py recalldb`, then `python scripts/generate_seo_pages.py --sitemap-only` (see the script docstring).
