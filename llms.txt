@@ -1,6 +1,6 @@
 # RecallDB — Official U.S. Product Recall Database
 
-> RecallDB is a normalized, provenance-tracked dataset of 127,783 official U.S. federal product recall records covering 292,790 linked recalled products across five federal sources: CPSC consumer products, FDA/openFDA plus FDA Safety Alerts, USDA FSIS food safety, NHTSA vehicles, and USCG recreational boating. Every row is 100% source-linked, carrying its agency ID, record URL, source endpoint, retrieval timestamp, and SHA-256 raw-payload fingerprint. A public CC0 sample and documentation are free; the full CSV + SQLite export is paid and privately delivered.
+> RecallDB is a normalized, provenance-tracked dataset of 128,933 official U.S. federal product recall records covering 294,680 linked recalled products across five federal sources: CPSC consumer products, FDA/openFDA plus FDA Safety Alerts, USDA FSIS food safety, NHTSA vehicles, and USCG recreational boating. Every row is 100% source-linked, carrying its agency ID, record URL, source endpoint, retrieval timestamp, and SHA-256 raw-payload fingerprint. A public CC0 sample and documentation are free; the full CSV + SQLite export is paid and privately delivered.
 
 ## Key Links & Documentation
 - [Landing Page](https://recalldb.dataengineered.io/)

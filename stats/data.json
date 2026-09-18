@@ -2,18 +2,18 @@
  "dataset": "RecallDB",
  "page": "https://recalldb.dataengineered.io/stats/",
  "generated": "2026-09-18",
- "snapshot": "2026-07-13",
+ "snapshot": "2026-09-18",
  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - attribute with a link to the page; source records are U.S. federal public domain",
  "totals": {
-  "recalls": 127783,
-  "products": 292790,
-  "firms": 18954,
+  "recalls": 128933,
+  "products": 294680,
+  "firms": 19137,
   "first_date": "1966-01-19",
-  "last_date": "2026-07-09"
+  "last_date": "2026-09-17"
  },
  "recalls_per_year": {
   "full_coverage_from": 2012,
-  "mean_per_year": 7337,
+  "mean_per_year": 7338,
   "years": [
    {
     "year": 2012,
@@ -29,7 +29,7 @@
    },
    {
     "year": 2015,
-    "recalls": 8851
+    "recalls": 8850
    },
    {
     "year": 2016,
@@ -37,7 +37,7 @@
    },
    {
     "year": 2017,
-    "recalls": 8426
+    "recalls": 8427
    },
    {
     "year": 2018,
@@ -49,7 +49,7 @@
    },
    {
     "year": 2020,
-    "recalls": 5866
+    "recalls": 5873
    },
    {
     "year": 2021,
@@ -61,30 +61,30 @@
    },
    {
     "year": 2023,
-    "recalls": 7416
+    "recalls": 7417
    },
    {
     "year": 2024,
-    "recalls": 6696
+    "recalls": 6699
    },
    {
     "year": 2025,
-    "recalls": 6700
+    "recalls": 6709
    }
   ],
   "partial_year": {
    "year": 2026,
-   "recalls": 2967,
-   "through": "2026-07-09"
+   "recalls": 4194,
+   "through": "2026-09-17"
   },
   "by_agency_last_years": [
    {
     "year": 2016,
     "CPSC": 330,
-    "FDA": 7295,
+    "FDA": 7294,
     "FSIS": 138,
     "NHTSA": 1031,
-    "USCG": 20
+    "USCG": 21
    },
    {
     "year": 2017,
@@ -92,7 +92,7 @@
     "FDA": 7077,
     "FSIS": 145,
     "NHTSA": 897,
-    "USCG": 27
+    "USCG": 28
    },
    {
     "year": 2018,
@@ -116,7 +116,7 @@
     "FDA": 4650,
     "FSIS": 50,
     "NHTSA": 881,
-    "USCG": 28
+    "USCG": 35
    },
    {
     "year": 2021,
@@ -137,7 +137,7 @@
    {
     "year": 2023,
     "CPSC": 324,
-    "FDA": 5956,
+    "FDA": 5957,
     "FSIS": 89,
     "NHTSA": 1000,
     "USCG": 47
@@ -145,26 +145,26 @@
    {
     "year": 2024,
     "CPSC": 305,
-    "FDA": 5238,
+    "FDA": 5240,
     "FSIS": 55,
     "NHTSA": 1073,
-    "USCG": 25
+    "USCG": 26
    },
    {
     "year": 2025,
     "CPSC": 420,
-    "FDA": 5200,
+    "FDA": 5203,
     "FSIS": 67,
-    "NHTSA": 997,
-    "USCG": 16
+    "NHTSA": 996,
+    "USCG": 23
    },
    {
     "year": 2026,
-    "CPSC": 320,
-    "FDA": 2142,
-    "FSIS": 23,
-    "NHTSA": 477,
-    "USCG": 5
+    "CPSC": 448,
+    "FDA": 3044,
+    "FSIS": 37,
+    "NHTSA": 652,
+    "USCG": 13
    }
   ]
  },
@@ -172,107 +172,107 @@
   {
    "agency": "FDA",
    "full_name": "Food and Drug Administration",
-   "recalls": 86476,
-   "share_pct": 67.7,
+   "recalls": 87383,
+   "share_pct": 67.8,
    "earliest": "2005-07-01",
-   "latest": "2026-07-02"
+   "latest": "2026-09-08"
   },
   {
    "agency": "NHTSA",
    "full_name": "National Highway Traffic Safety Administration",
-   "recalls": 30143,
-   "share_pct": 23.6,
+   "recalls": 30317,
+   "share_pct": 23.5,
    "earliest": "1966-01-19",
-   "latest": "2026-07-07"
+   "latest": "2026-09-14"
   },
   {
    "agency": "CPSC",
    "full_name": "Consumer Product Safety Commission",
-   "recalls": 8179,
+   "recalls": 8304,
    "share_pct": 6.4,
    "earliest": "2000-01-04",
-   "latest": "2026-07-09"
+   "latest": "2026-09-17"
   },
   {
    "agency": "USCG",
    "full_name": "United States Coast Guard",
-   "recalls": 1763,
-   "share_pct": 1.4,
+   "recalls": 1693,
+   "share_pct": 1.3,
    "earliest": "1970-01-01",
-   "latest": "2026-04-13"
+   "latest": "2026-08-21"
   },
   {
    "agency": "FSIS",
    "full_name": "USDA Food Safety and Inspection Service",
-   "recalls": 1222,
+   "recalls": 1236,
    "share_pct": 1.0,
    "earliest": "2014-01-10",
-   "latest": "2026-07-03"
+   "latest": "2026-09-09"
   }
  ],
  "hazards": {
-  "classified_assignments": 109304,
-  "unmapped_assignments": 18216,
-  "unmapped_pct": 14.3,
+  "classified_assignments": 109627,
+  "unmapped_assignments": 17547,
+  "unmapped_pct": 13.8,
   "classes": [
    {
     "hazard": "Drug defect",
     "definition": "Drug potency, contamination, mislabeling or dosage defects",
-    "assignments": 35101,
-    "share_pct": 32.1
+    "assignments": 35121,
+    "share_pct": 32.0
    },
    {
     "hazard": "Crash injury",
     "definition": "Vehicle crash, airbag, braking or steering related injury risks",
-    "assignments": 20554,
-    "share_pct": 18.8
+    "assignments": 20433,
+    "share_pct": 18.6
    },
    {
     "hazard": "Microbial contamination",
     "definition": "Bacterial/viral contamination: Salmonella, Listeria, E. coli, etc.",
-    "assignments": 20103,
+    "assignments": 20223,
     "share_pct": 18.4
    },
    {
     "hazard": "Fire burn",
     "definition": "Fire, thermal burn, overheating or explosion hazards",
-    "assignments": 9502,
+    "assignments": 9589,
     "share_pct": 8.7
    },
    {
     "hazard": "Undeclared allergen",
     "definition": "Undeclared allergens: milk, peanuts, soy, wheat, etc.",
-    "assignments": 9143,
+    "assignments": 9224,
     "share_pct": 8.4
    },
    {
     "hazard": "Chemical toxic",
     "definition": "Toxic chemical exposure: lead, cadmium, carbon monoxide, etc.",
-    "assignments": 6629,
+    "assignments": 6721,
     "share_pct": 6.1
    },
    {
     "hazard": "Laceration",
     "definition": "Cut, laceration or amputation hazards",
-    "assignments": 3903,
+    "assignments": 3930,
     "share_pct": 3.6
    },
    {
     "hazard": "Choking",
     "definition": "Choking, aspiration or strangulation hazards (incl. small parts)",
-    "assignments": 2166,
+    "assignments": 2160,
     "share_pct": 2.0
    },
    {
     "hazard": "Fall injury",
     "definition": "Fall, tip-over or structural collapse hazards",
-    "assignments": 1519,
+    "assignments": 1518,
     "share_pct": 1.4
    },
    {
     "hazard": "Electric shock",
     "definition": "Electric shock or electrocution hazards",
-    "assignments": 684,
+    "assignments": 708,
     "share_pct": 0.6
    }
   ],
@@ -280,51 +280,45 @@
    {
     "agency": "CPSC",
     "hazard": "Fire burn",
-    "assignments": 2803,
+    "assignments": 2846,
     "share_pct": 36.9
    },
    {
     "agency": "FDA",
     "hazard": "Drug defect",
-    "assignments": 32621,
-    "share_pct": 46.6
+    "assignments": 32675,
+    "share_pct": 46.2
    },
    {
     "agency": "FSIS",
     "hazard": "Microbial contamination",
-    "assignments": 766,
-    "share_pct": 67.5
+    "assignments": 779,
+    "share_pct": 67.9
    },
    {
     "agency": "NHTSA",
     "hazard": "Crash injury",
-    "assignments": 19084,
+    "assignments": 19179,
     "share_pct": 63.8
-   },
-   {
-    "agency": "USCG",
-    "hazard": "Choking",
-    "assignments": 381,
-    "share_pct": 54.7
    }
   ]
  },
  "fda_classification": {
-  "classified": 86413,
+  "classified": 87314,
   "classes": [
    {
     "classification": "Class I",
-    "recalls": 18113,
+    "recalls": 18296,
     "share_pct": 21.0
    },
    {
     "classification": "Class II",
-    "recalls": 63835,
+    "recalls": 64521,
     "share_pct": 73.9
    },
    {
     "classification": "Class III",
-    "recalls": 4465,
+    "recalls": 4497,
     "share_pct": 5.2
    }
   ],
@@ -338,7 +332,7 @@
    {
     "year": 2016,
     "class_i": 1736,
-    "classified": 7295,
+    "classified": 7294,
     "share_pct": 23.8
    },
    {
@@ -380,19 +374,19 @@
    {
     "year": 2023,
     "class_i": 1939,
-    "classified": 5952,
+    "classified": 5953,
     "share_pct": 32.6
    },
    {
     "year": 2024,
     "class_i": 899,
-    "classified": 5219,
+    "classified": 5221,
     "share_pct": 17.2
    },
    {
     "year": 2025,
     "class_i": 1139,
-    "classified": 5183,
+    "classified": 5186,
     "share_pct": 22.0
    }
   ]
@@ -401,21 +395,21 @@
   "by_agency": [
    {
     "agency": "NHTSA",
-    "campaigns": 30094,
-    "total": 1380642409,
-    "median": 683,
-    "over_100k": 2135,
+    "campaigns": 30267,
+    "total": 1388707778,
+    "median": 681,
+    "over_100k": 2152,
     "over_100k_pct": 7.1,
-    "over_1m": 251
+    "over_1m": 252
    },
    {
     "agency": "CPSC",
-    "campaigns": 8101,
-    "total": 651439267,
-    "median": 7000,
-    "over_100k": 1204,
-    "over_100k_pct": 14.9,
-    "over_1m": 29
+    "campaigns": 8286,
+    "total": 667991265,
+    "median": 7045,
+    "over_100k": 1242,
+    "over_100k_pct": 15.0,
+    "over_1m": 31
    }
   ],
   "largest": [
@@ -482,7 +476,7 @@
   ]
  },
  "vehicle_model_years": {
-  "entries_with_model_year": 161149,
+  "entries_with_model_year": 162074,
   "entries_per_nhtsa_campaign": 6.47,
   "rows": [
    {
@@ -507,11 +501,11 @@
    },
    {
     "model_year": 2005,
-    "entries": 4788
+    "entries": 4787
    },
    {
     "model_year": 2006,
-    "entries": 5667
+    "entries": 5669
    },
    {
     "model_year": 2007,
@@ -519,7 +513,7 @@
    },
    {
     "model_year": 2008,
-    "entries": 5948
+    "entries": 5947
    },
    {
     "model_year": 2009,
@@ -531,67 +525,67 @@
    },
    {
     "model_year": 2011,
-    "entries": 5712
+    "entries": 5713
    },
    {
     "model_year": 2012,
-    "entries": 5353
+    "entries": 5354
    },
    {
     "model_year": 2013,
-    "entries": 5640
+    "entries": 5642
    },
    {
     "model_year": 2014,
-    "entries": 5800
+    "entries": 5802
    },
    {
     "model_year": 2015,
-    "entries": 5841
+    "entries": 5842
    },
    {
     "model_year": 2016,
-    "entries": 5786
+    "entries": 5793
    },
    {
     "model_year": 2017,
-    "entries": 5694
+    "entries": 5707
    },
    {
     "model_year": 2018,
-    "entries": 6066
+    "entries": 6083
    },
    {
     "model_year": 2019,
-    "entries": 6492
+    "entries": 6518
    },
    {
     "model_year": 2020,
-    "entries": 6472
+    "entries": 6511
    },
    {
     "model_year": 2021,
-    "entries": 6608
+    "entries": 6663
    },
    {
     "model_year": 2022,
-    "entries": 5661
+    "entries": 5728
    },
    {
     "model_year": 2023,
-    "entries": 4563
+    "entries": 4645
    },
    {
     "model_year": 2024,
-    "entries": 3713
+    "entries": 3826
    },
    {
     "model_year": 2025,
-    "entries": 2818
+    "entries": 2988
    },
    {
     "model_year": 2026,
-    "entries": 1373
+    "entries": 1591
    }
   ]
  },
@@ -600,15 +594,15 @@
    2012,
    2025
   ],
-  "recalls": 102717,
+  "recalls": 102737,
   "by_month": [
    {
     "month": "Jan",
-    "recalls": 6300
+    "recalls": 6301
    },
    {
     "month": "Feb",
-    "recalls": 7292
+    "recalls": 7293
    },
    {
     "month": "Mar",
@@ -616,23 +610,23 @@
    },
    {
     "month": "Apr",
-    "recalls": 8881
+    "recalls": 8882
    },
    {
     "month": "May",
-    "recalls": 10533
+    "recalls": 10537
    },
    {
     "month": "Jun",
-    "recalls": 9134
+    "recalls": 9140
    },
    {
     "month": "Jul",
-    "recalls": 10003
+    "recalls": 10005
    },
    {
     "month": "Aug",
-    "recalls": 7574
+    "recalls": 7576
    },
    {
     "month": "Sep",
@@ -640,15 +634,15 @@
    },
    {
     "month": "Oct",
-    "recalls": 9168
+    "recalls": 9171
    },
    {
     "month": "Nov",
-    "recalls": 8777
+    "recalls": 8776
    },
    {
     "month": "Dec",
-    "recalls": 8043
+    "recalls": 8044
    }
   ],
   "by_weekday": [
@@ -658,23 +652,23 @@
    },
    {
     "weekday": "Monday",
-    "recalls": 16932
+    "recalls": 16935
    },
    {
     "weekday": "Tuesday",
-    "recalls": 19143
+    "recalls": 19145
    },
    {
     "weekday": "Wednesday",
-    "recalls": 20183
+    "recalls": 20189
    },
    {
     "weekday": "Thursday",
-    "recalls": 20796
+    "recalls": 20808
    },
    {
     "weekday": "Friday",
-    "recalls": 23111
+    "recalls": 23108
    },
    {
     "weekday": "Saturday",
@@ -685,17 +679,17 @@
  "top_firms": [
   {
    "firm": "Ford Motor Company",
-   "recalls": 1890,
+   "recalls": 1906,
    "agencies": "NHTSA"
   },
   {
    "firm": "General Motors, LLC",
-   "recalls": 1783,
+   "recalls": 1787,
    "agencies": "NHTSA"
   },
   {
    "firm": "Chrysler (FCA US, LLC)",
-   "recalls": 1571,
+   "recalls": 1586,
    "agencies": "NHTSA"
   },
   {
@@ -710,17 +704,22 @@
   },
   {
    "firm": "Siemens Medical Solutions USA, Inc",
-   "recalls": 792,
+   "recalls": 796,
    "agencies": "FDA"
   },
   {
    "firm": "Siemens Healthcare Diagnostics, Inc.",
-   "recalls": 688,
+   "recalls": 694,
    "agencies": "FDA"
   },
   {
    "firm": "Customed, Inc",
    "recalls": 682,
+   "agencies": "FDA"
+  },
+  {
+   "firm": "Boston Scientific Corporation",
+   "recalls": 658,
    "agencies": "FDA"
   },
   {
@@ -730,12 +729,12 @@
   },
   {
    "firm": "ICU Medical Inc",
-   "recalls": 654,
+   "recalls": 657,
    "agencies": "FDA"
   },
   {
    "firm": "Forest River, Inc.",
-   "recalls": 635,
+   "recalls": 642,
    "agencies": "NHTSA, USCG"
   },
   {
@@ -744,24 +743,19 @@
    "agencies": "FDA"
   },
   {
-   "firm": "Boston Scientific Corporation",
-   "recalls": 626,
-   "agencies": "FDA"
-  },
-  {
    "firm": "Volkswagen Group of America, Inc.",
-   "recalls": 597,
+   "recalls": 600,
    "agencies": "NHTSA"
   },
   {
    "firm": "BMW of North America, LLC",
-   "recalls": 593,
+   "recalls": 596,
    "agencies": "NHTSA"
   }
  ],
  "nhtsa_advisories": {
-  "do_not_drive": 207,
-  "park_outside": 100,
+  "do_not_drive": 210,
+  "park_outside": 104,
   "since": "2012-07-18"
  }
 }

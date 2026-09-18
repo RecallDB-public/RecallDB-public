@@ -2,7 +2,7 @@
 
 # RecallDB - U.S. Product Recall Database
 
-**127,783 official recalls - 292,790 recalled products - CPSC, FDA, FSIS, NHTSA, USCG - 100% source-linked**
+**128,933 official recalls - 294,680 recalled products - CPSC, FDA, FSIS, NHTSA, USCG - 100% source-linked**
 
 [![Sample CSV](https://img.shields.io/badge/Public%20sample-CSV-brightgreen.svg)](samples/recalls.csv)
 [![Full dataset](https://img.shields.io/badge/Full%20dataset-$49%20snapshot-14b8a6.svg)](https://recalldb.dataengineered.io/#pricing)
@@ -16,7 +16,7 @@
 
 </div>
 
-**One offline, provenance-ledgered recall dataset across the five federal feeds.** CPSC, NHTSA, FDA, FSIS and USCG publish recalls for free, in five shapes; RecallDB joins them into one CSV/SQLite model (127,783 official recalls, 292,790 linked products) and keeps the agency ID, record URL, source endpoint, retrieval time and raw-payload fingerprint on every row — for e-commerce sellers, compliance teams and AI agents that need offline recall data, and as the companion to MechanicDB for vehicle fault-and-recall screening. The five source families: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG boating recalls.
+**One offline, provenance-ledgered recall dataset across the five federal feeds.** CPSC, NHTSA, FDA, FSIS and USCG publish recalls for free, in five shapes; RecallDB joins them into one CSV/SQLite model (128,933 official recalls, 294,680 linked products) and keeps the agency ID, record URL, source endpoint, retrieval time and raw-payload fingerprint on every row — for e-commerce sellers, compliance teams and AI agents that need offline recall data, and as the companion to MechanicDB for vehicle fault-and-recall screening. The five source families: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG boating recalls.
 
 ## Public sample vs paid full dataset
 
@@ -24,8 +24,8 @@ This public repository contains only the sample files, documentation, SEO pages,
 
 | Table | Paid full dataset | Public sample |
 | :--- | ---: | ---: |
-| Recalls | 127,783 | 200 |
-| Recalled products | 292,790 | 428 |
+| Recalls | 128,933 | 200 |
+| Recalled products | 294,680 | 428 |
 | Source pulls | 521 | 11 |
 | Firms | 20,886 | 147 |
 | Hazard taxonomy | 11 | 11 |
