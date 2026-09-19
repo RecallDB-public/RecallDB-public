@@ -12,7 +12,7 @@
 
 **[View the landing page](https://recalldb.dataengineered.io/)**
 
-**Same sample on [Hugging Face](https://huggingface.co/datasets/Ichlibitiche/recalldb-product-recalls-sample)** · **[Kaggle](https://www.kaggle.com/datasets/ahtiticheamine/recalldb-product-recalls-sample)**
+**Same sample on [Hugging Face](https://huggingface.co/datasets/Ichlibitiche/recalldb-product-recalls-sample)** · **[Kaggle](https://www.kaggle.com/datasets/dataengineered/recalldb-product-recalls-sample)**
 
 </div>
 

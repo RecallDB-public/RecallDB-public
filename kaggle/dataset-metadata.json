@@ -1,7 +1,7 @@
 {
   "title": "RecallDB - U.S. Product Recall Sample Dataset",
   "subtitle": "Official U.S. recalls with provenance across CPSC, FDA, FSIS, NHTSA and USCG",
-  "id": "ahtiticheamine/recalldb-product-recalls-sample",
+  "id": "dataengineered/recalldb-product-recalls-sample",
   "licenses": [
     {
       "name": "CC0-1.0"
