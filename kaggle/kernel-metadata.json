@@ -1,9 +1,9 @@
 {
-  "id": "ahtiticheamine/recalldb-starter-notebook",
+  "id": "dataengineered/recalldb-starter-notebook",
   "title": "RecallDB starter notebook",
   "code_file": "starter_notebook.ipynb",
   "language": "python",
   "kernel_type": "notebook",
   "is_private": false,
-  "dataset_sources": ["ahtiticheamine/recalldb-product-recalls-sample"]
+  "dataset_sources": ["dataengineered/recalldb-product-recalls-sample"]
 }
