@@ -1,5 +1,10 @@
 # Changelog
 
+## Site update — 2026-09-28
+
+- **Counts match the edition buyers receive**: the homepage, README, llms.txt, the 11 hazard and 5 agency pages (all five languages) and the Kaggle sample files now state the counts of the 2026.09 full snapshot on the delivery release, rebuilt by the monthly refresh on 2026-09-20: 128,936 recalls and 294,683 recalled products; per agency CPSC 8,304, FDA 87,387 (87,314 openFDA enforcement reports + 73 FDA Safety Alerts), FSIS 1,236, NHTSA 30,316 and USCG 1,693; 21,054 firms; 519 source pulls; a 384 MB full snapshot. The agency cards, hazard bars, hazard pages and the "All N official recalls" band still showed the July launch figures (127,783 recalls), the headline those of a 2026-09-18 local build (128,933). /stats/ keeps describing that 2026-09-18 build (3 recalls and 3 products fewer) until its next regeneration. `samples/hazards.csv` is now the snapshot's own `csv/hazards.csv` (2026-09-28).
+- **claims.json and a claims check**: `/claims.json` records the edition's counts in one place (recalls, products, per agency, per hazard, firms, source pulls, ZIP size, snapshot date). `python scripts/check_claims.py` exits 1 when any hand-written count on the site, README, llms.txt, Kaggle files or `samples/hazards.csv` disagrees with it, and also flags generated pages that were not rebuilt; `--fix` rewrites the hand-written ones and `--fix --claims PATH` adopts a newer edition's claims file (2026-09-28).
+
 ## Site update — 2026-09-27
 
 - **Translated Dataset markup**: on the Spanish, German, French and Portuguese pages the Dataset structured data now names its English original in `sameAs` (next to any existing `sameAs` links), so dataset search can tie the language copies to one canonical entry. English pages and all visible text are unchanged (2026-09-27).
