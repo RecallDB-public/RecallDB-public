@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 252" width="720" height="252" role="img" aria-labelledby="t d" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
-<title id="t">Which agency issues the recalls</title><desc id="d">Share of 128,933 recalls, 1966 to 2026</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 252" width="720" height="252" role="img" aria-labelledby="t-by-agency d-by-agency" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
+<title id="t-by-agency">Which agency issues the recalls</title><desc id="d-by-agency">Share of 128,933 recalls, 1966 to 2026</desc>
 <rect width="720" height="252" fill="#0b1117"/>
 <text x="20" y="26" font-size="15" font-weight="600" fill="#e8f3f2">Which agency issues the recalls</text>
 <text x="20" y="44" font-size="12" fill="#9eb3ba">Share of 128,933 recalls, 1966 to 2026</text>

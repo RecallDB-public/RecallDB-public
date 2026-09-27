@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 402" width="720" height="402" role="img" aria-labelledby="t d" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
-<title id="t">The largest recalls by units affected</title><desc id="d">Units reported by the issuing agency, top 10 on record</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 402" width="720" height="402" role="img" aria-labelledby="t-largest-recalls d-largest-recalls" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
+<title id="t-largest-recalls">The largest recalls by units affected</title><desc id="d-largest-recalls">Units reported by the issuing agency, top 10 on record</desc>
 <rect width="720" height="402" fill="#0b1117"/>
 <text x="20" y="26" font-size="15" font-weight="600" fill="#e8f3f2">The largest recalls by units affected</text>
 <text x="20" y="44" font-size="12" fill="#9eb3ba">Units reported by the issuing agency, top 10 on record</text>

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-labelledby="t d" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
-<title id="t">Vehicle model years with the most recall entries</title><desc id="d">NHTSA recall entries (make, model and model year) per model year</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-labelledby="t-vehicle-model-years d-vehicle-model-years" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
+<title id="t-vehicle-model-years">Vehicle model years with the most recall entries</title><desc id="d-vehicle-model-years">NHTSA recall entries (make, model and model year) per model year</desc>
 <rect width="720" height="320" fill="#0b1117"/>
 <text x="20" y="26" font-size="15" font-weight="600" fill="#e8f3f2">Vehicle model years with the most recall entries</text>
 <text x="20" y="44" font-size="12" fill="#9eb3ba">NHTSA recall entries (make, model and model year) per model year</text>
