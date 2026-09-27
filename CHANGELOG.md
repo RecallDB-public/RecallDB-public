@@ -3,6 +3,7 @@
 ## Site update — 2026-09-27
 
 - **Translated Dataset markup**: on the Spanish, German, French and Portuguese pages the Dataset structured data now names its English original in `sameAs` (next to any existing `sameAs` links), so dataset search can tie the language copies to one canonical entry. English pages and all visible text are unchanged (2026-09-27).
+- **Section links**: links to a section (`#pricing`, `#contact`, `#sample`, a /stats/ chart) no longer land with the heading hidden under the sticky header (79 px on desktop, about 180 px on phones, where the header stacks). The homepage (all five languages) and /stats/ carry the shared section-links snippet (`scripts/section_links.py`): the jump offset follows the header's live height, and an arrival from another page is realigned once the sample preview rows, which load after the page, have moved it (`app.js` calls `realignSectionLink()` after the preview renders; cache key `?v=section-links-20260927`). The "Embed this chart" snippets on /stats/ now link `#fig-<slug>` (the chart's own id); 8 of the 9 pointed at ids that did not exist. `scripts/stats_common.py` is synced with the portfolio copy, so a regeneration keeps both. Visible text, figures and dates are unchanged (2026-09-27).
 
 ## Site update — 2026-09-20
 
