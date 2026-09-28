@@ -388,7 +388,7 @@ def build_page(s, charts):
     desc = (f"U.S. product recalls in numbers: {n(s['recalls'])} official recalls from CPSC, FDA, FSIS, NHTSA and USCG. Recalls per year, agency shares, "
             f"hazard classes, FDA Class I share, largest recalls by units, vehicle model years, busiest months. Free to cite and embed.")
     ld = article_ld(site, "U.S. product recalls in numbers: statistics from the RecallDB ledger", desc, FIRST_PUBLISHED,
-                    f"{site.base_url}/assets/og-image.png", ["product recalls", "CPSC", "FDA", "NHTSA", "FSIS", "product safety"])
+                    f"{site.base_url}/assets/og-image-v2.png", ["product recalls", "CPSC", "FDA", "NHTSA", "FSIS", "product safety"])
     header = chrome()
 
     return f"""<!DOCTYPE html>
@@ -405,7 +405,7 @@ def build_page(s, charts):
   <meta property="og:description" content="{esc(desc)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{site.page_url}">
-  <meta property="og:image" content="{site.base_url}/assets/og-image.png">
+  <meta property="og:image" content="{site.base_url}/assets/og-image-v2.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#0b1117">
   <link rel="manifest" href="../site.webmanifest">
@@ -430,7 +430,7 @@ def build_page(s, charts):
       <li><strong>Source.</strong> The full RecallDB snapshot of {snap}: {n(s['recalls'])} recall records pulled from the CPSC SaferProducts API, NHTSA's recall flat file, openFDA enforcement reports plus FDA Safety Alerts, the USDA FSIS recall API and the USCG recall list. All five are U.S. federal publications in the public domain. Every row keeps the agency's own ID, record URL, retrieval timestamp and raw-payload fingerprint; see <a href="/SOURCES.md">Sources</a>.</li>
       <li><strong>Nothing is estimated.</strong> Units, classifications, dates and firm names are the agency's own values; where an agency publishes no value the field is blank and excluded from the figure's denominator, which every section states.</li>
       <li><strong>Agencies are not directly comparable.</strong> One NHTSA campaign covers a fleet; FDA files one entry per lot; CPSC one notice per product. Counts describe records, not distinct safety events.</li>
-      <li><strong>Refresh.</strong> RecallDB is refreshed on a manual cadence; this page and its charts are regenerated with each snapshot, so figures move. Cite the snapshot date. {("NHTSA has flagged " + n(adv['do_not_drive']) + " campaigns as do-not-drive and " + n(adv['park_outside']) + " as park-outside since " + adv['since'][:4] + ".") if adv.get('since') else ""}</li>
+      <li><strong>Refresh.</strong> RecallDB is refreshed monthly; this page and its charts are regenerated from a published snapshot, so figures move. Cite the snapshot date. {("NHTSA has flagged " + n(adv['do_not_drive']) + " campaigns as do-not-drive and " + n(adv['park_outside']) + " as park-outside since " + adv['since'][:4] + ".") if adv.get('since') else ""}</li>
       <li><strong>Reuse.</strong> The figures and charts on this page are published under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>: use them in articles, slides and posts with a link to <span translate="no">{site.page_url}</span>. The machine-readable version is <a href="/stats/data.json">data.json</a>. The underlying row-level ledger is a separate <a href="/#pricing">commercial product</a>; a free 200-row sample is in the <a href="https://github.com/RecallDB-public/RecallDB-public">public repository</a>.</li>
       <li><strong>Suggested citation.</strong> <span translate="no">RecallDB ({snap[:4]}). <em>U.S. product recalls in numbers</em>, snapshot {snap}. DataEngineered. {site.page_url}</span></li>
       <li><strong>Questions or corrections:</strong> <a href="/#contact">contact form</a> or recalldb@dataengineered.io.</li>
