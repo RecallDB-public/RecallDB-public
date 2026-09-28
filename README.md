@@ -2,7 +2,7 @@
 
 # RecallDB - U.S. Product Recall Database
 
-**128,933 official recalls - 294,680 recalled products - CPSC, FDA, FSIS, NHTSA, USCG - 100% source-linked**
+**128,936 official recalls - 294,683 recalled products - CPSC, FDA, FSIS, NHTSA, USCG - 100% source-linked**
 
 [![Sample CSV](https://img.shields.io/badge/Public%20sample-CSV-brightgreen.svg)](samples/recalls.csv)
 [![Full dataset](https://img.shields.io/badge/Full%20dataset-$49%20snapshot-14b8a6.svg)](https://recalldb.dataengineered.io/#pricing)
@@ -16,7 +16,7 @@
 
 </div>
 
-**One offline, provenance-ledgered recall dataset across the five federal feeds.** CPSC, NHTSA, FDA, FSIS and USCG publish recalls for free, in five shapes; RecallDB joins them into one CSV/SQLite model (128,933 official recalls, 294,680 linked products) and keeps the agency ID, record URL, source endpoint, retrieval time and raw-payload fingerprint on every row — for e-commerce sellers, compliance teams and AI agents that need offline recall data, and as the companion to MechanicDB for vehicle fault-and-recall screening. The five source families: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG boating recalls.
+**One offline, provenance-ledgered recall dataset across the five federal feeds.** CPSC, NHTSA, FDA, FSIS and USCG publish recalls for free, in five shapes; RecallDB joins them into one CSV/SQLite model (128,936 official recalls, 294,683 linked products) and keeps the agency ID, record URL, source endpoint, retrieval time and raw-payload fingerprint on every row — for e-commerce sellers, compliance teams and AI agents that need offline recall data, and as the companion to MechanicDB for vehicle fault-and-recall screening. The five source families: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG boating recalls.
 
 ## Public sample vs paid full dataset
 
@@ -24,10 +24,10 @@ This public repository contains only the sample files, documentation, SEO pages,
 
 | Table | Paid full dataset | Public sample |
 | :--- | ---: | ---: |
-| Recalls | 128,933 | 200 |
-| Recalled products | 294,680 | 428 |
-| Source pulls | 521 | 11 |
-| Firms | 20,886 | 147 |
+| Recalls | 128,936 | 200 |
+| Recalled products | 294,683 | 428 |
+| Source pulls | 519 | 11 |
+| Firms | 21,054 | 147 |
 | Hazard taxonomy | 11 | 11 |
 
 ## Full dataset access
@@ -63,11 +63,11 @@ Every recall has:
 
 | Agency | Full rows | Domain |
 | :--- | ---: | :--- |
-| CPSC | 8,179 | Consumer product recalls |
-| FDA | 86,476 | Food, drugs, devices, cosmetics, biologics, animal/veterinary alerts |
-| FSIS | 1,222 | Meat, poultry and egg product recalls |
-| NHTSA | 30,143 | Vehicle and equipment recalls |
-| USCG | 1,763 | Recreational boating recalls |
+| CPSC | 8,304 | Consumer product recalls |
+| FDA | 87,387 | Food, drugs, devices, cosmetics, biologics, animal/veterinary alerts |
+| FSIS | 1,236 | Meat, poultry and egg product recalls |
+| NHTSA | 30,316 | Vehicle and equipment recalls |
+| USCG | 1,693 | Recreational boating recalls |
 
 EPA is intentionally not included in v1 because no stable official recall-specific structured feed was identified.
 

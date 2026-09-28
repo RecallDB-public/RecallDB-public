@@ -1,0 +1,31 @@
+{
+  "dataset": "RecallDB",
+  "edition": "2026.09",
+  "snapshot": "2026-09-20",
+  "recalls": 128936,
+  "recalled_products": 294683,
+  "by_agency": {
+    "CPSC": 8304,
+    "FDA": 87387,
+    "FSIS": 1236,
+    "NHTSA": 30316,
+    "USCG": 1693
+  },
+  "fda_safety_alerts": 73,
+  "hazards": {
+    "chemical_toxic": 6721,
+    "choking": 2160,
+    "crash_injury": 20432,
+    "drug_defect": 35123,
+    "electric_shock": 708,
+    "fall_injury": 1518,
+    "fire_burn": 9589,
+    "laceration": 3930,
+    "microbial_contamination": 20224,
+    "other": 17548,
+    "undeclared_allergen": 9224
+  },
+  "firms": 21054,
+  "data_sources": 519,
+  "zip_bytes": 383802473
+}
