@@ -11,3 +11,12 @@ __pycache__/
 # Ignored directories
 SEO Optimisation/
 locales/_work/
+
+# Private RecallDB release files that the claims re-sync downloads into this tree
+# (claims manifest, paid snapshot ZIP, the SQLite extracted from it). Never commit them.
+/recalldb-claims-*.json
+/recalldb-snapshot-*.zip
+/sqlite/
+*.sqlite
+# The ZIP's full paid CSV tables, if the whole archive is extracted here
+/csv/
