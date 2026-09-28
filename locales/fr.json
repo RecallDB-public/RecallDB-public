@@ -53,6 +53,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "094e4dbca2298b04": {
+  "src": "CPSC free text, FDA enforcement reasons, NHTSA components and FSIS reasons map into one auditable vocabulary. USCG boating recalls are included, but the Coast Guard stopped showing defect text on its recall pages in August–September {0}, so USCG rows carry no hazard class.",
+  "t": "Les textes libres de la CPSC, les motifs d'application de la FDA, les composants NHTSA et les motifs du FSIS sont rattachés à un vocabulaire unique et vérifiable. Les rappels de bateaux de l'USCG sont inclus, mais la Garde côtière a cessé d'afficher la description du défaut sur ses pages de rappel entre août et septembre {0}, si bien que les lignes USCG n'ont aucune catégorie de danger.",
+  "by": "claude-opus-5-5",
+  "at": "2026-09-29"
+ },
  "0a7c5ec28a5a6ab1": {
   "src": "consumer safety",
   "t": "sécurité des consommateurs",
@@ -68,12 +74,6 @@
  "0c718ff039099a58": {
   "src": "The bucket is defined as: Vehicle crash, airbag, braking or steering related injury risks.",
   "t": "La catégorie est définie ainsi : risques de blessure liés aux accidents de véhicule, aux airbags, au freinage ou à la direction.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
- "0c758ab215c17a52": {
-  "src": "CPSC free text, FDA enforcement reasons, NHTSA components, FSIS reasons and USCG boating defects map into one auditable vocabulary.",
-  "t": "Les textes libres de la CPSC, les motifs d'application de la FDA, les composants NHTSA, les motifs du FSIS et les défauts de bateaux de l'USCG sont rattachés à un vocabulaire unique et vérifiable.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },

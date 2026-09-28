@@ -51,6 +51,12 @@
   "src": "{0} choking recalls in {1} ({2} of classified rows, rank {3} of {4}). Choking, aspiration or strangulation hazards (incl. small parts) Issued…",
   "t": "{0} retiradas por asfixia en {1} ({2} de las filas clasificadas, puesto {3} de {4}). Riesgos de asfixia, aspiración o estrangulamiento (incl. piezas pequeñas). Emitidas…"
  },
+ "094e4dbca2298b04": {
+  "src": "CPSC free text, FDA enforcement reasons, NHTSA components and FSIS reasons map into one auditable vocabulary. USCG boating recalls are included, but the Coast Guard stopped showing defect text on its recall pages in August–September {0}, so USCG rows carry no hazard class.",
+  "t": "El texto libre de la CPSC, los motivos de cumplimiento de la FDA, los componentes de la NHTSA y los motivos del FSIS se asignan a un único vocabulario auditable. Las retiradas de embarcaciones de la USCG están incluidas, pero la Guardia Costera dejó de mostrar la descripción del defecto en sus páginas de retiradas entre agosto y septiembre de {0}, por lo que las filas de la USCG no tienen categoría de riesgo.",
+  "by": "claude-opus-5-5",
+  "at": "2026-09-29"
+ },
  "0a7c5ec28a5a6ab1": {
   "src": "consumer safety",
   "t": "seguridad del consumidor",
@@ -66,12 +72,6 @@
  "0c718ff039099a58": {
   "src": "The bucket is defined as: Vehicle crash, airbag, braking or steering related injury risks.",
   "t": "La categoría se define así: riesgos de lesión relacionados con choques, airbags, frenos o dirección del vehículo.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
- "0c758ab215c17a52": {
-  "src": "CPSC free text, FDA enforcement reasons, NHTSA components, FSIS reasons and USCG boating defects map into one auditable vocabulary.",
-  "t": "El texto libre de la CPSC, los motivos de cumplimiento de la FDA, los componentes de la NHTSA, los motivos del FSIS y los defectos náuticos de la USCG se asignan a un único vocabulario auditable.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },

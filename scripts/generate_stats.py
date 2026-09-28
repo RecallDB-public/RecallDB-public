@@ -51,9 +51,38 @@ AGENCY = {"CPSC": "Consumer Product Safety Commission", "FDA": "Food and Drug Ad
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
+# An agency with recalls but no classified hazard keeps its row in "Leading hazard per agency",
+# with the reason: (table cell, sentence). The database only shows that the agency's hazard text
+# is empty; the agency-specific entry says why, and is used only while none of its recalls
+# carries any text. uscgboating.org blanked "Problem 1"/"Problem 2" on its list and detail pages
+# (present in the Internet Archive capture of 2026-08-04, blank in the 2026-09-18 crawl).
+NO_HAZARD_TEXT = {
+    "USCG": ("None: no defect text published since Aug–Sep 2026",
+             "the Coast Guard's recall list and detail pages have shown no defect text since August–September 2026, "
+             "for new and older recalls alike, so none of its {recalls} recalls carries a hazard assignment"),
+}
+NO_TEXT = ("None: no hazard text in this snapshot", "none of its {recalls} recalls carries hazard text in this snapshot")
+UNMAPPED = ("None: hazard text not yet mapped", "all {hazard_rows} of its hazard assignments are Other / unmapped")
+
 
 def hazard_name(key):
     return key.replace("_", " ").capitalize() if key != "other" else "Other / unmapped"
+
+
+def no_class(u):
+    """(table cell, sentence) for an agency in s["unclassified_agencies"]."""
+    if u["hazard_rows"]:
+        cell, why = UNMAPPED
+    elif not u["with_text"] and u["agency"] in NO_HAZARD_TEXT:
+        cell, why = NO_HAZARD_TEXT[u["agency"]]
+    else:
+        cell, why = NO_TEXT
+    return cell, why.format(recalls=n(u["recalls"]), hazard_rows=n(u["hazard_rows"]))
+
+
+def and_list(items):
+    items = list(items)
+    return items[0] if len(items) == 1 else ", ".join(items[:-1]) + " and " + items[-1]
 
 
 # ---------------------------------------------------------------------------
@@ -100,12 +129,21 @@ def compute(db_path):
     for a, k, c in q("select r.source_agency, rh.hazard_key, count(*) from recall_hazards rh join recalls r using(recall_id) "
                      "where rh.hazard_key <> 'other' group by 1,2"):
         hz_ag[a][k] = c
+    hz_rows_ag = dict(q("select r.source_agency, count(*) from recall_hazards rh join recalls r using(recall_id) group by 1"))
+    text_ag = dict(q("select source_agency, count(nullif(trim(description), '')) from recalls group by 1"))
+    recalls_ag = {a: c for a, c, *_ in s["by_agency"]}
     s["top_hazard_by_agency"] = []
+    s["unclassified_agencies"] = []
     for a in AGENCY:
         d = hz_ag.get(a, {})
         if d:
             k, c = max(d.items(), key=lambda t: t[1])
             s["top_hazard_by_agency"].append((a, hazard_name(k), c, pct(c, sum(d.values()))))
+        elif recalls_ag.get(a):
+            # never drop an agency silently: it stays in the table with no class and the reason
+            s["top_hazard_by_agency"].append((a, None, 0, None))
+            s["unclassified_agencies"].append(dict(agency=a, recalls=recalls_ag[a], hazard_rows=hz_rows_ag.get(a, 0),
+                                                   with_text=text_ag.get(a, 0)))
 
     # FDA classification
     fda = dict(q("select severity, count(*) from recalls where source_agency='FDA' and severity like 'Class %' group by 1"))
@@ -126,14 +164,15 @@ def compute(db_path):
                       for nm, c, a in q("select f.display_name, count(*) c, group_concat(distinct r.source_agency) "
                                         "from recalls r join firms f on f.firm_id=r.recalling_firm_id group by f.firm_id order by c desc limit 15")]
 
-    # units affected (only CPSC and NHTSA publish them)
+    # units affected: every agency whose records carry the figure in this snapshot, most recalls first
     s["units"] = []
-    for a in ("NHTSA", "CPSC"):
+    for a in AGENCY:
         vals = [v for (v,) in q("select units_affected from recalls where source_agency=? and units_affected is not null and units_affected > 0", a)]
         if vals:
             s["units"].append(dict(agency=a, campaigns=len(vals), total=sum(vals), median=int(statistics.median(vals)),
                                    over_100k=sum(1 for v in vals if v >= 100000), over_100k_pct=pct(sum(1 for v in vals if v >= 100000), len(vals)),
                                    over_1m=sum(1 for v in vals if v >= 1000000)))
+    s["units"].sort(key=lambda u: -u["campaigns"])
     s["largest"] = [(a, d, t[:90] + ("…" if len(t) > 90 else ""), u) for a, d, t, u in q(
         "select source_agency, recall_date, title, units_affected from recalls where units_affected is not null order by units_affected desc limit 10")]
 
@@ -232,6 +271,11 @@ def build_page(s, charts):
 
     # 3. hazards
     hz = s["hazards"]
+    unclassified = {u["agency"]: no_class(u) for u in s["unclassified_agencies"]}
+    lead_rows = [(a, h, n(c), f"{p}%") if h is not None else (a, unclassified[a][0], "0", "—")
+                 for a, h, c, p in s["top_hazard_by_agency"]]
+    no_class_note = "".join(f" {data(a)} is listed without a class: {why}; RecallDB leaves those recalls unclassified rather than guessing."
+                            for a, (_, why) in unclassified.items())
     charts["hazards"] = svg_hbar(site, "What the recalls are for", f"Share of {n(s['hazard_classified'])} classified hazard assignments",
                                  [(nm, c, f"{p}%") for nm, _, c, p in hz], src_note, label_w=210)
     sections.append(section(
@@ -242,10 +286,10 @@ def build_page(s, charts):
         figure(site, "hazards", charts["hazards"], "What the recalls are for", f"{n(s['hazard_classified'])} classified assignments"),
         table(["Hazard class", "Definition", "Assignments", "Share"], [(nm, d, n(c), f"{p}%") for nm, d, c, p in hz], {2, 3})
         + f'<h3>Leading hazard per agency</h3>'
-        + table(["Agency", "Leading hazard class", "Assignments", "Share of the agency's classified hazards"],
-                [(a, h, n(c), f"{p}%") for a, h, c, p in s["top_hazard_by_agency"]], {2, 3}),
+        + table(["Agency", "Leading hazard class", "Assignments", "Share of the agency's classified hazards"], lead_rows, {2, 3}),
         f"Agency free-text hazard descriptions are mapped by a deterministic keyword table to {len(hz)} controlled classes; the original text is kept beside the class. "
-        f"A recall can carry several classes. Denominator: {n(s['hazard_classified'])} of {n(s['hazard_rows'])} hazard assignments that map to a class."))
+        f"A recall can carry several classes. Denominator: {n(s['hazard_classified'])} of {n(s['hazard_rows'])} hazard assignments that map to a class."
+        + no_class_note))
 
     # 4. FDA classification
     fc = s["fda_classes"]
@@ -282,7 +326,8 @@ def build_page(s, charts):
         + "<h3>Units by agency</h3>"
         + table(["Agency", "Recalls with units", "Total units", "Median units", "Over 100k", "Over 1M"],
                 [(u["agency"], n(u["campaigns"]), n(u["total"]), n(u["median"]), f"{n(u['over_100k'])} ({u['over_100k_pct']}%)", n(u["over_1m"])) for u in s["units"]], {1, 2, 3, 4, 5}),
-        "Only CPSC and NHTSA publish a units-affected figure; FDA, FSIS and USCG records carry none, and RecallDB leaves those blank rather than estimating. "
+        f"Only {and_list(sorted(un))} records in this snapshot carry a units-affected figure; {and_list([a for a, *_ in sorted(s['by_agency']) if a not in un])} records carry none, "
+        "and RecallDB leaves those blank rather than estimating. "
         "Units are the agency's own figure at the time of the notice (vehicles for NHTSA, product units for CPSC) and may be revised later in the source."))
 
     # 6. vehicle model years
@@ -343,7 +388,7 @@ def build_page(s, charts):
     desc = (f"U.S. product recalls in numbers: {n(s['recalls'])} official recalls from CPSC, FDA, FSIS, NHTSA and USCG. Recalls per year, agency shares, "
             f"hazard classes, FDA Class I share, largest recalls by units, vehicle model years, busiest months. Free to cite and embed.")
     ld = article_ld(site, "U.S. product recalls in numbers: statistics from the RecallDB ledger", desc, FIRST_PUBLISHED,
-                    f"{site.base_url}/assets/og-image.png", ["product recalls", "CPSC", "FDA", "NHTSA", "FSIS", "product safety"])
+                    f"{site.base_url}/assets/og-image-v2.png", ["product recalls", "CPSC", "FDA", "NHTSA", "FSIS", "product safety"])
     header = chrome()
 
     return f"""<!DOCTYPE html>
@@ -360,7 +405,7 @@ def build_page(s, charts):
   <meta property="og:description" content="{esc(desc)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{site.page_url}">
-  <meta property="og:image" content="{site.base_url}/assets/og-image.png">
+  <meta property="og:image" content="{site.base_url}/assets/og-image-v2.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#0b1117">
   <link rel="manifest" href="../site.webmanifest">
@@ -385,7 +430,7 @@ def build_page(s, charts):
       <li><strong>Source.</strong> The full RecallDB snapshot of {snap}: {n(s['recalls'])} recall records pulled from the CPSC SaferProducts API, NHTSA's recall flat file, openFDA enforcement reports plus FDA Safety Alerts, the USDA FSIS recall API and the USCG recall list. All five are U.S. federal publications in the public domain. Every row keeps the agency's own ID, record URL, retrieval timestamp and raw-payload fingerprint; see <a href="/SOURCES.md">Sources</a>.</li>
       <li><strong>Nothing is estimated.</strong> Units, classifications, dates and firm names are the agency's own values; where an agency publishes no value the field is blank and excluded from the figure's denominator, which every section states.</li>
       <li><strong>Agencies are not directly comparable.</strong> One NHTSA campaign covers a fleet; FDA files one entry per lot; CPSC one notice per product. Counts describe records, not distinct safety events.</li>
-      <li><strong>Refresh.</strong> RecallDB is refreshed on a manual cadence; this page and its charts are regenerated with each snapshot, so figures move. Cite the snapshot date. {("NHTSA has flagged " + n(adv['do_not_drive']) + " campaigns as do-not-drive and " + n(adv['park_outside']) + " as park-outside since " + adv['since'][:4] + ".") if adv.get('since') else ""}</li>
+      <li><strong>Refresh.</strong> RecallDB is refreshed monthly; this page and its charts are regenerated from a published snapshot, so figures move. Cite the snapshot date. {("NHTSA has flagged " + n(adv['do_not_drive']) + " campaigns as do-not-drive and " + n(adv['park_outside']) + " as park-outside since " + adv['since'][:4] + ".") if adv.get('since') else ""}</li>
       <li><strong>Reuse.</strong> The figures and charts on this page are published under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>: use them in articles, slides and posts with a link to <span translate="no">{site.page_url}</span>. The machine-readable version is <a href="/stats/data.json">data.json</a>. The underlying row-level ledger is a separate <a href="/#pricing">commercial product</a>; a free 200-row sample is in the <a href="https://github.com/RecallDB-public/RecallDB-public">public repository</a>.</li>
       <li><strong>Suggested citation.</strong> <span translate="no">RecallDB ({snap[:4]}). <em>U.S. product recalls in numbers</em>, snapshot {snap}. DataEngineered. {site.page_url}</span></li>
       <li><strong>Questions or corrections:</strong> <a href="/#contact">contact form</a> or recalldb@dataengineered.io.</li>
@@ -406,6 +451,7 @@ def build_page(s, charts):
 
 
 def build_data_json(s):
+    unc = {u["agency"]: u for u in s["unclassified_agencies"]}
     return {
         "dataset": SITE.brand, "page": SITE.page_url, "generated": dt.date.today().isoformat(), "snapshot": s["snapshot_date"],
         "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - attribute with a link to the page; source records are U.S. federal public domain",
@@ -417,7 +463,10 @@ def build_data_json(s):
         "by_agency": [dict(agency=a, full_name=AGENCY[a], recalls=c, share_pct=p, earliest=lo, latest=hi) for a, c, p, lo, hi in s["by_agency"]],
         "hazards": {"classified_assignments": s["hazard_classified"], "unmapped_assignments": s["hazard_other"], "unmapped_pct": s["hazard_other_pct"],
                     "classes": [dict(hazard=nm, definition=d, assignments=c, share_pct=p) for nm, d, c, p in s["hazards"]],
-                    "leading_by_agency": [dict(agency=a, hazard=h, assignments=c, share_pct=p) for a, h, c, p in s["top_hazard_by_agency"]]},
+                    "leading_by_agency": [dict(agency=a, hazard=h, assignments=c, share_pct=p) if h is not None
+                                          else dict(agency=a, hazard=None, assignments=0, share_pct=None,
+                                                    note=no_class(unc[a])[1][:1].upper() + no_class(unc[a])[1][1:] + ".")
+                                          for a, h, c, p in s["top_hazard_by_agency"]]},
         "fda_classification": {"classified": s["fda_classified"], "classes": [dict(classification=k, recalls=c, share_pct=p) for k, c, p in s["fda_classes"]],
                                "class_i_share_by_year": [dict(year=y, class_i=a, classified=t, share_pct=p) for y, a, t, p in s["fda_class1_by_year"]]},
         "units_affected": {"by_agency": s["units"], "largest": [dict(agency=a, date=d, title=t, units=u) for a, d, t, u in s["largest"]]},

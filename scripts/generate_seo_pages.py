@@ -81,7 +81,7 @@ def page(url, title, desc, h1, eyebrow, lede, body, crumbs, header, cta, rel):
   <meta property="og:description" content="{html.escape(desc)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{url}">
-  <meta property="og:image" content="{BASE}/assets/og-image.png">
+  <meta property="og:image" content="{BASE}/assets/og-image-v2.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{html.escape(title)}">
   <meta name="twitter:description" content="{html.escape(desc)}">
