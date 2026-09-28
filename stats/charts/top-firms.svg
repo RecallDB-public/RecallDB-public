@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 552" width="720" height="552" role="img" aria-labelledby="t d" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
-<title id="t">Firms with the most recall records</title><desc id="d">Recalls attributed to the recalling firm, all agencies, 1966 to 2026</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 552" width="720" height="552" role="img" aria-labelledby="t-top-firms d-top-firms" font-family="'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
+<title id="t-top-firms">Firms with the most recall records</title><desc id="d-top-firms">Recalls attributed to the recalling firm, all agencies, 1966 to 2026</desc>
 <rect width="720" height="552" fill="#0b1117"/>
 <text x="20" y="26" font-size="15" font-weight="600" fill="#e8f3f2">Firms with the most recall records</text>
 <text x="20" y="44" font-size="12" fill="#9eb3ba">Recalls attributed to the recalling firm, all agencies, 1966 to 2026</text>
