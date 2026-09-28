@@ -1,19 +1,19 @@
 {
  "dataset": "RecallDB",
  "page": "https://recalldb.dataengineered.io/stats/",
- "generated": "2026-09-18",
- "snapshot": "2026-09-18",
+ "generated": "2026-09-29",
+ "snapshot": "2026-09-20",
  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - attribute with a link to the page; source records are U.S. federal public domain",
  "totals": {
-  "recalls": 128933,
-  "products": 294680,
-  "firms": 19137,
+  "recalls": 128936,
+  "products": 294683,
+  "firms": 19134,
   "first_date": "1966-01-19",
   "last_date": "2026-09-17"
  },
  "recalls_per_year": {
   "full_coverage_from": 2012,
-  "mean_per_year": 7338,
+  "mean_per_year": 7339,
   "years": [
    {
     "year": 2012,
@@ -69,7 +69,7 @@
    },
    {
     "year": 2025,
-    "recalls": 6709
+    "recalls": 6712
    }
   ],
   "partial_year": {
@@ -153,9 +153,9 @@
    {
     "year": 2025,
     "CPSC": 420,
-    "FDA": 5203,
+    "FDA": 5207,
     "FSIS": 67,
-    "NHTSA": 996,
+    "NHTSA": 995,
     "USCG": 23
    },
    {
@@ -172,7 +172,7 @@
   {
    "agency": "FDA",
    "full_name": "Food and Drug Administration",
-   "recalls": 87383,
+   "recalls": 87387,
    "share_pct": 67.8,
    "earliest": "2005-07-01",
    "latest": "2026-09-08"
@@ -180,7 +180,7 @@
   {
    "agency": "NHTSA",
    "full_name": "National Highway Traffic Safety Administration",
-   "recalls": 30317,
+   "recalls": 30316,
    "share_pct": 23.5,
    "earliest": "1966-01-19",
    "latest": "2026-09-14"
@@ -211,26 +211,26 @@
   }
  ],
  "hazards": {
-  "classified_assignments": 109627,
-  "unmapped_assignments": 17547,
+  "classified_assignments": 109629,
+  "unmapped_assignments": 17548,
   "unmapped_pct": 13.8,
   "classes": [
    {
     "hazard": "Drug defect",
     "definition": "Drug potency, contamination, mislabeling or dosage defects",
-    "assignments": 35121,
+    "assignments": 35123,
     "share_pct": 32.0
    },
    {
     "hazard": "Crash injury",
     "definition": "Vehicle crash, airbag, braking or steering related injury risks",
-    "assignments": 20433,
+    "assignments": 20432,
     "share_pct": 18.6
    },
    {
     "hazard": "Microbial contamination",
     "definition": "Bacterial/viral contamination: Salmonella, Listeria, E. coli, etc.",
-    "assignments": 20223,
+    "assignments": 20224,
     "share_pct": 18.4
    },
    {
@@ -298,8 +298,15 @@
    {
     "agency": "NHTSA",
     "hazard": "Crash injury",
-    "assignments": 19179,
+    "assignments": 19178,
     "share_pct": 63.8
+   },
+   {
+    "agency": "USCG",
+    "hazard": null,
+    "assignments": 0,
+    "share_pct": null,
+    "note": "The Coast Guard's recall list and detail pages have shown no defect text since August–September 2026, for new and older recalls alike, so none of its 1,693 recalls carries a hazard assignment."
    }
   ]
  },
@@ -395,8 +402,8 @@
   "by_agency": [
    {
     "agency": "NHTSA",
-    "campaigns": 30267,
-    "total": 1388707778,
+    "campaigns": 30266,
+    "total": 1388707555,
     "median": 681,
     "over_100k": 2152,
     "over_100k_pct": 7.1,
@@ -594,7 +601,7 @@
    2012,
    2025
   ],
-  "recalls": 102737,
+  "recalls": 102740,
   "by_month": [
    {
     "month": "Jan",
@@ -602,11 +609,11 @@
    },
    {
     "month": "Feb",
-    "recalls": 7293
+    "recalls": 7292
    },
    {
     "month": "Mar",
-    "recalls": 8992
+    "recalls": 8996
    },
    {
     "month": "Apr",
@@ -660,7 +667,7 @@
    },
    {
     "weekday": "Wednesday",
-    "recalls": 20189
+    "recalls": 20191
    },
    {
     "weekday": "Thursday",
@@ -672,7 +679,7 @@
    },
    {
     "weekday": "Saturday",
-    "recalls": 1667
+    "recalls": 1668
    }
   ]
  },
@@ -684,12 +691,12 @@
   },
   {
    "firm": "General Motors, LLC",
-   "recalls": 1787,
+   "recalls": 1790,
    "agencies": "NHTSA"
   },
   {
    "firm": "Chrysler (FCA US, LLC)",
-   "recalls": 1586,
+   "recalls": 1587,
    "agencies": "NHTSA"
   },
   {
@@ -744,12 +751,12 @@
   },
   {
    "firm": "Volkswagen Group of America, Inc.",
-   "recalls": 600,
+   "recalls": 601,
    "agencies": "NHTSA"
   },
   {
    "firm": "BMW of North America, LLC",
-   "recalls": 596,
+   "recalls": 595,
    "agencies": "NHTSA"
   }
  ],
