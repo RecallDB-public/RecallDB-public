@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-09-29
+
+- **USCG hazards, stated as they are**: the homepage's Hazards section (all five languages) said that USCG boating defects map into the hazard taxonomy. In the 2026.09 edition none do. uscgboating.org has blanked the "Problem" defect text on both its recall list and its detail pages: the text was still there in the Internet Archive capture of 2026-08-04 and was blank in the 2026-09-18 crawl. So all 1,693 USCG recalls have an empty `description` and no `recall_hazards` row. The section now names the four agencies whose text is mapped, and says that USCG recalls are included but carry no hazard class. The replaced sentence was pruned from `locales/*.json` (2026-09-29).
+
 ## Site update — 2026-09-28
 
 - **Repository files off the website**: the translation catalogs (`/locales/`), the build scripts (`/scripts/`), `i18n.config.json`, `README.md` and the dotfiles belong to this repository, not to the website, but the site served them as plain files. They now answer the site's normal 404 page (also when requested as `/locales%2Fes.json` or `//locales/es.json`) and stay available here on GitHub. Pages, data files, samples, `llms.txt` and the sitemap are unchanged (2026-09-28).
