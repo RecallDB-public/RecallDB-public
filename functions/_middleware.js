@@ -11,6 +11,11 @@ const NEW_HOST = "recalldb.dataengineered.io";
 const REPO_ONLY_PREFIXES = ["/locales/", "/scripts/"];
 const REPO_ONLY_FILES = new Set(["/i18n.config.json", "/readme.md", "/vercel.json", "/requirements.txt"]);
 
+// Images deleted from the repository (2026-09-29, replaced by the count-free -v2 files).
+// Pages still answered them with the old bytes from a cache that a zone purge does not
+// reach (they were served as immutable for a year), so they are refused here instead.
+const RETIRED_FILES = new Set(["/assets/og-image.png", "/assets/recalldb-hero.png"]);
+
 // Matched on the decoded, slash-collapsed, lower-cased path, because the asset
 // server also answers /locales%2Fes.json and //locales/es.json.
 function isRepoOnly(pathname) {
@@ -21,7 +26,7 @@ function isRepoOnly(pathname) {
     return true; // malformed escapes never name a real page
   }
   path = path.replace(/\/{2,}/g, "/").toLowerCase();
-  if (REPO_ONLY_FILES.has(path)) return true;
+  if (REPO_ONLY_FILES.has(path) || RETIRED_FILES.has(path)) return true;
   if (REPO_ONLY_PREFIXES.some((prefix) => path.startsWith(prefix))) return true;
   // dotfiles and dot-segments (.gitignore, .github/, ..), but keep /.well-known/ usable
   return path.split("/").some((seg) => seg.startsWith(".") && seg !== ".well-known");
