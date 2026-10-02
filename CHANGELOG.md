@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-02
+
+- **Kaggle starter notebook prints the folder name, not the full path**: Kaggle now mounts an attached dataset under a path that includes the owner's account name, and the notebook's first cell printed that whole path. It now prints only the dataset folder's name (`Data directory: recalldb-product-recalls-sample`). That one line of `kaggle/starter_notebook.ipynb` changed, and the notebook was re-run on Kaggle (version 3). `scripts/check_claims.py` still passes (2026-10-02).
+
 ## Site update — 2026-10-01
 
 - **Sitemap dates follow page content**: `scripts/seo_common.py` (shared by the DataEngineered sites) dates each sitemap entry by the last commit that changed the page itself. It compares pages without line-ending differences and without the markup the translation build owns (language alternates and the header and footer language menus), and skips commits that only moved that markup, so regenerating an unchanged page keeps its date instead of taking the day of the run. No page or sitemap change in this update (2026-10-01).
