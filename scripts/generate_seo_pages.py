@@ -112,7 +112,10 @@ def main(write_pages=True, write_sm=True):
         for k in [k.strip() for k in r["hazard_keys"].split("|") if k.strip()]:
             ag_hz[(ag, k)] += 1; hz_ag[k][ag] += 1
             if len(ex[k]) < 3 and r.get("title", "").strip(): ex[k].append(r)
-    endpoints = {s["source_agency"].strip(): s for s in sources}
+    # Only source pulls the sample recalls come from: data_sources.csv also lists the NHTSA
+    # ODI bulk files (investigations, bulletins, complaints) since 2026-10, which no recall uses.
+    used_sources = {r["source_id"].strip() for r in recalls}
+    endpoints = {s["source_agency"].strip(): s for s in sources if s["source_id"].strip() in used_sources}
     entries = [(BASE + "/", ROOT / "index.html", "weekly", "1.0"),
                (BASE + "/agencies/", ROOT / "agencies" / "index.html", "monthly", "0.8"),
                (BASE + "/hazards/", ROOT / "hazards" / "index.html", "monthly", "0.8")]
