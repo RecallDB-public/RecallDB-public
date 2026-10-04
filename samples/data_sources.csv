@@ -10,3 +10,6 @@ source_id,source_agency,endpoint_url,retrieved_at,raw_payload_bytes,raw_payload_
 519,USCG,https://www.uscgboating.org/content/recalls.php?pageNum_allRecalls=69,2026-07-13 17:44:50,32066,2dca870d1ee7d6f5b27fdbda9581007ef5bd6dd3ee70c1bf8156302a53af1b58
 520,USCG,https://www.uscgboating.org/content/recalls.php?pageNum_allRecalls=70,2026-07-13 17:44:51,28385,57dfa470bf0f3be248bc188f8eb42aaf8ed22b4cc57cbfe873989988bb93af4d
 521,FDA,https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/datatables-data?_format=xlsx,2026-07-13 17:45:04,300239,278bffe0729a3ddb212ca135c0e91cce632ea8833c4da6e26b7682d6b5bdb8bf
+522,NHTSA,https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip,2026-10-04 15:18:31,4300161,33ba0bd40466f2f11f67dd7e8729ee3038ef4f79d682675d719589612f001cd9
+523,NHTSA,https://static.nhtsa.gov/odi/ffdd/tsbs/TSBS_RECEIVED_2025-2026.zip,2026-10-04 15:18:47,12201915,28e76861d27e66ef508f79fabf8effb6b2f8d1c720802a18a7e7e219c7288a30
+524,NHTSA,https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip,2026-10-04 15:19:32,373388848,8e4c054d45c346705f92a5f4d6d24a6f27fbbc5f5498eee6fffa258c2462e5ce

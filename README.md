@@ -26,7 +26,7 @@ This public repository contains only the sample files, documentation, SEO pages,
 | :--- | ---: | ---: |
 | Recalls | 128,936 | 200 |
 | Recalled products | 294,683 | 428 |
-| Source pulls | 519 | 11 |
+| Source pulls | 519 | 14 |
 | Firms | 21,054 | 147 |
 | Hazard taxonomy | 11 | 11 |
 
@@ -47,6 +47,16 @@ Buy the $49 snapshot through **[Stripe checkout](https://buy.stripe.com/aFacN69J
 - [`samples/data_sources.csv`](samples/data_sources.csv) - endpoint URLs, retrieval timestamps and raw payload hashes.
 - [`samples/firms.csv`](samples/firms.csv) - canonical firm names observed in the sample.
 - [`samples/hazards.csv`](samples/hazards.csv) - hazard taxonomy with recall counts.
+
+NHTSA defect investigations, manufacturer communications and complaint counts (new in edition 2026.10; sample rows from NHTSA's files of 2026-10-04, chosen around the NHTSA vehicles in `recalled_products.csv`; join them on make / model / model year, or on `campaign_number` = `external_id`; see [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md)):
+
+- [`samples/nhtsa_investigations.csv`](samples/nhtsa_investigations.csv) - NHTSA defect investigations naming the sample's vehicles, plus a few with recall links. (20 rows)
+- [`samples/nhtsa_investigation_vehicles.csv`](samples/nhtsa_investigation_vehicles.csv) - vehicles and equipment those investigations name. (151 rows)
+- [`samples/nhtsa_investigation_recalls.csv`](samples/nhtsa_investigation_recalls.csv) - recall campaigns those investigations led to (exact, padded_000 and unmatched examples). (13 rows)
+- [`samples/nhtsa_mfr_communications.csv`](samples/nhtsa_mfr_communications.csv) - recent manufacturer communications (TSBs, OTA updates, service campaigns) for the sample's vehicles. (40 rows)
+- [`samples/nhtsa_mfr_communication_vehicles.csv`](samples/nhtsa_mfr_communication_vehicles.csv) - make / model / model year each of those communications applies to. (290 rows)
+- [`samples/nhtsa_mfr_communication_components.csv`](samples/nhtsa_mfr_communication_components.csv) - NHTSA components those communications name. (64 rows)
+- [`samples/nhtsa_complaint_counts.csv`](samples/nhtsa_complaint_counts.csv) - consumer complaint counts per component for some of the sample's vehicles (counts only, no complaint text). (324 rows)
 
 ## Provenance
 

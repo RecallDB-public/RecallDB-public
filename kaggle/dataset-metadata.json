@@ -15,7 +15,7 @@
     "food"
   ],
   "userSpecifiedSources": "https://recalldb.dataengineered.io/, https://github.com/RecallDB-public/RecallDB-public (SOURCES.md: CPSC, FDA/openFDA + FDA Safety Alerts, USDA FSIS, NHTSA, USCG)",
-  "description": "# RecallDB — U.S. Product Recall Database (Sample)\n\n> **Full dataset:** [recalldb.dataengineered.io](https://recalldb.dataengineered.io/) · **$49 one-time** snapshot → [Buy on Stripe](https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408) · the same sample on [Hugging Face](https://huggingface.co/datasets/Ichlibitiche/recalldb-product-recalls-sample)\n**128,936 official recalls · 294,683 recalled products · CPSC · FDA · FSIS · NHTSA · USCG · 100% source-linked**\n\nRecallDB is a normalized, provenance-tracked dataset of official U.S. federal product recalls. It joins five official source families into one CSV/SQLite model: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG recreational boating recalls.\n\n**Full dataset & documentation:** https://recalldb.dataengineered.io/\n\n## Public sample vs paid full dataset\n\nThis Kaggle dataset is the **free public sample**. The full CSV + SQLite export is not published here.\n\n| Table | Full dataset | Public sample |\n| :--- | ---: | ---: |\n| Recalls | 128,936 | 200 |\n| Recalled products | 294,683 | 428 |\n| Source pulls | 519 | 11 |\n| Firms | 21,054 | 147 |\n| Hazard taxonomy | 11 | 11 |\n\n## Files in this sample\n\n- `recalls.csv` — balanced sample of recalls from all five agencies\n- `recalled_products.csv` — linked products, vehicles, lots and categories\n- `data_sources.csv` — endpoint URLs, retrieval timestamps and raw payload hashes\n- `firms.csv` — canonical firm names observed in the sample\n- `hazards.csv` — hazard taxonomy with recall counts\n\n## Provenance\n\nEvery recall carries `source_agency`, `external_id`, `source_url`, and `source_id`. `source_id` joins into `data_sources.csv`, which exposes `endpoint_url`, `retrieved_at`, `raw_payload_bytes`, and `raw_payload_sha256`. The paid SQLite release also stores the archived raw payload for replay and audit.\n\n## Source coverage\n\n| Agency | Full rows | Domain |\n| :--- | ---: | :--- |\n| CPSC | 8,304 | Consumer product recalls |\n| FDA | 87,387 | Food, drugs, devices, cosmetics, biologics, animal/veterinary alerts |\n| FSIS | 1,236 | Meat, poultry and egg product recalls |\n| NHTSA | 30,316 | Vehicle and equipment recalls |\n| USCG | 1,693 | Recreational boating recalls |\n\nEPA is intentionally excluded from v1 (no stable official recall-specific structured feed was identified).\n\n## Quick start\n\n```python\nimport pandas as pd\n\nrecalls = pd.read_csv(\"/kaggle/input/recalldb-product-recalls-sample/recalls.csv\")\nrecalls.groupby(\"source_agency\").size().sort_values(ascending=False)\n```\n\n## Full dataset access\n\nThe full CSV + SQLite export with the complete provenance ledger is available as a one-time **$49 snapshot** or an enterprise custom request via https://recalldb.dataengineered.io/#pricing\n\n## License\n\nPublic sample: **CC0-1.0** (source records are U.S. federal government publications). Attribution is appreciated for auditability — see https://recalldb.dataengineered.io/SOURCES.md\n",
+  "description": "# RecallDB — U.S. Product Recall Database (Sample)\n\n> **Full dataset:** [recalldb.dataengineered.io](https://recalldb.dataengineered.io/) · **$49 one-time** snapshot → [Buy on Stripe](https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408) · the same sample on [Hugging Face](https://huggingface.co/datasets/Ichlibitiche/recalldb-product-recalls-sample)\n**128,936 official recalls · 294,683 recalled products · CPSC · FDA · FSIS · NHTSA · USCG · 100% source-linked**\n\nRecallDB is a normalized, provenance-tracked dataset of official U.S. federal product recalls. It joins five official source families into one CSV/SQLite model: CPSC consumer products, NHTSA vehicles, FDA/openFDA plus FDA Safety Alerts enrichment, USDA FSIS food safety recalls, and USCG recreational boating recalls.\n\n**Full dataset & documentation:** https://recalldb.dataengineered.io/\n\n## Public sample vs paid full dataset\n\nThis Kaggle dataset is the **free public sample**. The full CSV + SQLite export is not published here.\n\n| Table | Full dataset | Public sample |\n| :--- | ---: | ---: |\n| Recalls | 128,936 | 200 |\n| Recalled products | 294,683 | 428 |\n| Source pulls | 519 | 14 |\n| Firms | 21,054 | 147 |\n| Hazard taxonomy | 11 | 11 |\n\n## Files in this sample\n\n- `recalls.csv` — balanced sample of recalls from all five agencies\n- `recalled_products.csv` — linked products, vehicles, lots and categories\n- `data_sources.csv` — endpoint URLs, retrieval timestamps and raw payload hashes\n- `firms.csv` — canonical firm names observed in the sample\n- `hazards.csv` — hazard taxonomy with recall counts\n- `nhtsa_investigations.csv` — NHTSA defect investigations naming the sample's vehicles, plus a few with recall links\n- `nhtsa_investigation_vehicles.csv` — vehicles and equipment those investigations name\n- `nhtsa_investigation_recalls.csv` — recall campaigns those investigations led to (exact, padded_000 and unmatched examples)\n- `nhtsa_mfr_communications.csv` — recent manufacturer communications (TSBs, OTA updates, service campaigns) for the sample's vehicles\n- `nhtsa_mfr_communication_vehicles.csv` — make / model / model year each of those communications applies to\n- `nhtsa_mfr_communication_components.csv` — NHTSA components those communications name\n- `nhtsa_complaint_counts.csv` — consumer complaint counts per component for some of the sample's vehicles (counts only, no complaint text)\n\n## Provenance\n\nEvery recall carries `source_agency`, `external_id`, `source_url`, and `source_id`. `source_id` joins into `data_sources.csv`, which exposes `endpoint_url`, `retrieved_at`, `raw_payload_bytes`, and `raw_payload_sha256`. The paid SQLite release also stores the archived raw payload for replay and audit.\n\n## Source coverage\n\n| Agency | Full rows | Domain |\n| :--- | ---: | :--- |\n| CPSC | 8,304 | Consumer product recalls |\n| FDA | 87,387 | Food, drugs, devices, cosmetics, biologics, animal/veterinary alerts |\n| FSIS | 1,236 | Meat, poultry and egg product recalls |\n| NHTSA | 30,316 | Vehicle and equipment recalls |\n| USCG | 1,693 | Recreational boating recalls |\n\nEPA is intentionally excluded from v1 (no stable official recall-specific structured feed was identified).\n\n## Quick start\n\n```python\nimport pandas as pd\n\nrecalls = pd.read_csv(\"/kaggle/input/recalldb-product-recalls-sample/recalls.csv\")\nrecalls.groupby(\"source_agency\").size().sort_values(ascending=False)\n```\n\n## Full dataset access\n\nThe full CSV + SQLite export with the complete provenance ledger is available as a one-time **$49 snapshot** or an enterprise custom request via https://recalldb.dataengineered.io/#pricing\n\n## License\n\nPublic sample: **CC0-1.0** (source records are U.S. federal government publications). Attribution is appreciated for auditability — see https://recalldb.dataengineered.io/SOURCES.md\n",
   "resources": [
     {
       "path": "samples/recalls.csv",
@@ -221,6 +221,266 @@
           {
             "name": "recall_count",
             "description": "Number of recalls carrying this hazard key in the full release (not in this sample)."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/nhtsa_investigations.csv",
+      "description": "RecallDB public sample table: nhtsa_investigations.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "action_number",
+            "description": "NHTSA ODI action number, e.g. PE24031 (PE preliminary evaluation, EA engineering analysis, DP defect petition, RQ recall query, AQ audit query, ...)."
+          },
+          {
+            "name": "opened_date",
+            "description": "Date the investigation was opened (ODATE), ISO YYYY-MM-DD."
+          },
+          {
+            "name": "closed_date",
+            "description": "Date the investigation was closed (CDATE), ISO YYYY-MM-DD; NULL while it is open."
+          },
+          {
+            "name": "subject",
+            "description": "NHTSA's summary description of the investigation (SUBJECT). Full 17-character VINs of specific vehicles are masked as [VIN]; production breakpoints and ranges (e.g. vehicles built before a VIN) stay as published."
+          },
+          {
+            "name": "summary",
+            "description": "NHTSA's summary detail of the investigation (SUMMARY). Full 17-character VINs of specific vehicles are masked as [VIN]; production breakpoints and ranges (e.g. vehicles built before a VIN) stay as published."
+          },
+          {
+            "name": "source_id",
+            "description": "Foreign key into data_sources.csv: the NHTSA bulk ZIP this row was read from."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/nhtsa_investigation_vehicles.csv",
+      "description": "RecallDB public sample table: nhtsa_investigation_vehicles.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "action_number",
+            "description": "Investigation in nhtsa_investigations.csv."
+          },
+          {
+            "name": "make",
+            "description": "Vehicle or equipment make exactly as NHTSA publishes it (same vocabulary as recalled_products.csv brand)."
+          },
+          {
+            "name": "model",
+            "description": "Vehicle or equipment model exactly as NHTSA publishes it (same vocabulary as recalled_products.csv model_number)."
+          },
+          {
+            "name": "model_year",
+            "description": "Model year as published; NHTSA's 9999 'unknown' placeholder becomes NULL."
+          },
+          {
+            "name": "component",
+            "description": "NHTSA component the investigation concerns for this vehicle (COMPNAME)."
+          },
+          {
+            "name": "manufacturer_name",
+            "description": "Manufacturer name as published (MFR_NAME); one investigation can name several."
+          },
+          {
+            "name": "source_id",
+            "description": "Foreign key into data_sources.csv: the NHTSA bulk ZIP this row was read from."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/nhtsa_investigation_recalls.csv",
+      "description": "RecallDB public sample table: nhtsa_investigation_recalls.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "action_number",
+            "description": "Investigation in nhtsa_investigations.csv."
+          },
+          {
+            "name": "campaign_number_published",
+            "description": "Recall campaign number the investigation led to, exactly as NHTSA prints it (CAMPNO)."
+          },
+          {
+            "name": "campaign_number",
+            "description": "The matching NHTSA recall's external_id in recalls.csv: the published number, or a 6-character number with NHTSA's 000 suffix added; NULL when no RecallDB recall matches."
+          },
+          {
+            "name": "recall_id",
+            "description": "Foreign key into recalls.csv of the full release; this sample's recalls.csv is an older, smaller extract, so join on campaign_number = external_id instead. Empty when unmatched."
+          },
+          {
+            "name": "match_method",
+            "description": "exact, padded_000 (6-character CAMPNO + 000), or NULL (unmatched)."
+          },
+          {
+            "name": "source_id",
+            "description": "Foreign key into data_sources.csv: the NHTSA bulk ZIP this row was read from."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/nhtsa_mfr_communications.csv",
+      "description": "RecallDB public sample table: nhtsa_mfr_communications.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "nhtsa_id",
+            "description": "NHTSA ID number of the manufacturer communication."
+          },
+          {
+            "name": "document_id",
+            "description": "The manufacturer's identifier for the communication (TSB/Document ID), e.g. its bulletin number."
+          },
+          {
+            "name": "communication_type",
+            "description": "NHTSA communication type: Service Bulletin/Repair Instructions, Service Campaign, Warranty Program/Extension, Over The Air, Emissions, or Other."
+          },
+          {
+            "name": "communication_date",
+            "description": "Date the manufacturer disseminated the communication, ISO YYYY-MM-DD."
+          },
+          {
+            "name": "date_added",
+            "description": "Date NHTSA added the communication to its file, ISO YYYY-MM-DD."
+          },
+          {
+            "name": "replacement_bulletin_number",
+            "description": "Replacement service bulletin number (deprecated by NHTSA; empty for new communications)."
+          },
+          {
+            "name": "mfr_campaign_id",
+            "description": "Manufacturer's internal campaign ID or software version, when the communication relates to one."
+          },
+          {
+            "name": "mfr_component_system",
+            "description": "Manufacturer's top-level component for the communication."
+          },
+          {
+            "name": "mfr_component_subsystem",
+            "description": "Manufacturer's component subsystem."
+          },
+          {
+            "name": "summary",
+            "description": "NHTSA's summary of the communication. Full 17-character VINs of specific vehicles are masked as [VIN]; production breakpoints and ranges (e.g. vehicles built before a VIN) stay as published."
+          },
+          {
+            "name": "source_id",
+            "description": "Foreign key into data_sources.csv: the NHTSA bulk ZIP this row was read from."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/nhtsa_mfr_communication_vehicles.csv",
+      "description": "RecallDB public sample table: nhtsa_mfr_communication_vehicles.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "nhtsa_id",
+            "description": "Communication in nhtsa_mfr_communications.csv."
+          },
+          {
+            "name": "make",
+            "description": "Vehicle or equipment make exactly as NHTSA publishes it (same vocabulary as recalled_products.csv brand)."
+          },
+          {
+            "name": "model",
+            "description": "Vehicle or equipment model exactly as NHTSA publishes it (same vocabulary as recalled_products.csv model_number)."
+          },
+          {
+            "name": "model_year",
+            "description": "Model year as published; NHTSA's 9999 'unknown' placeholder becomes NULL."
+          },
+          {
+            "name": "source_id",
+            "description": "Foreign key into data_sources.csv: the NHTSA bulk ZIP this row was read from."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/nhtsa_mfr_communication_components.csv",
+      "description": "RecallDB public sample table: nhtsa_mfr_communication_components.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "nhtsa_id",
+            "description": "Communication in nhtsa_mfr_communications.csv."
+          },
+          {
+            "name": "component",
+            "description": "NHTSA component named by the communication, as published (names can contain commas)."
+          },
+          {
+            "name": "source_id",
+            "description": "Foreign key into data_sources.csv: the NHTSA bulk ZIP this row was read from."
+          }
+        ]
+      }
+    },
+    {
+      "path": "samples/nhtsa_complaint_counts.csv",
+      "description": "RecallDB public sample table: nhtsa_complaint_counts.csv.",
+      "schema": {
+        "fields": [
+          {
+            "name": "make",
+            "description": "Vehicle or equipment make exactly as NHTSA publishes it (same vocabulary as recalled_products.csv brand)."
+          },
+          {
+            "name": "model",
+            "description": "Vehicle or equipment model exactly as NHTSA publishes it (same vocabulary as recalled_products.csv model_number)."
+          },
+          {
+            "name": "model_year",
+            "description": "Model year as published; NHTSA's 9999 'unknown' placeholder becomes NULL."
+          },
+          {
+            "name": "component",
+            "description": "NHTSA component description of the complaints (COMPDESC), as published."
+          },
+          {
+            "name": "product_type",
+            "description": "V vehicle, T tires, E equipment, C child restraint (PROD_TYPE)."
+          },
+          {
+            "name": "complaints",
+            "description": "Consumer complaints (distinct ODI numbers) for this make, model, year, component and product type. A complaint naming two components counts under each."
+          },
+          {
+            "name": "complaints_crash",
+            "description": "Of those complaints, how many report a crash."
+          },
+          {
+            "name": "complaints_fire",
+            "description": "Of those complaints, how many report a fire."
+          },
+          {
+            "name": "injured",
+            "description": "Persons injured, summed over those complaints."
+          },
+          {
+            "name": "deaths",
+            "description": "Deaths, summed over those complaints."
+          },
+          {
+            "name": "first_received_date",
+            "description": "Earliest date NHTSA received one of those complaints, ISO YYYY-MM-DD."
+          },
+          {
+            "name": "last_received_date",
+            "description": "Latest date NHTSA received one of those complaints, ISO YYYY-MM-DD."
+          },
+          {
+            "name": "source_id",
+            "description": "Foreign key into data_sources.csv: the NHTSA bulk ZIP this row was read from."
           }
         ]
       }
