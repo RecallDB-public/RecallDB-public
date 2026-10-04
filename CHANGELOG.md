@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-04 (Kaggle column descriptions)
+
+- **Kaggle sample: real column descriptions**: all 42 columns in `kaggle/dataset-metadata.json` (5 sample tables) said only "<column> field from the RecallDB export." Each now says what the column holds, from the same definitions as the paid release's column dictionary, adapted to the sample. Examples: NHTSA `brand` / `model_number` are NHTSA's own make and model fields; the third character of an NHTSA campaign number is the recall type; `hazards.csv` `recall_count` counts the full release. Columns and files still match the sample CSVs, no count changed, and `scripts/check_claims.py` passes. This is the repo copy only: the live Kaggle dataset has not been updated (2026-10-04).
+
 ## Site update — 2026-10-02
 
 - **Kaggle starter notebook prints the folder name, not the full path**: Kaggle now mounts an attached dataset under a path that includes the owner's account name, and the notebook's first cell printed that whole path. It now prints only the dataset folder's name (`Data directory: recalldb-product-recalls-sample`). That one line of `kaggle/starter_notebook.ipynb` changed, and the notebook was re-run on Kaggle (version 3). `scripts/check_claims.py` still passes (2026-10-02).

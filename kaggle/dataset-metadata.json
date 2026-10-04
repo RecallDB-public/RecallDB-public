@@ -24,75 +24,75 @@
         "fields": [
           {
             "name": "recall_id",
-            "description": "recall_id field from the RecallDB export."
+            "description": "RecallDB surrogate key for the recall. Joins recalled_products.csv."
           },
           {
             "name": "source_agency",
-            "description": "source_agency field from the RecallDB export."
+            "description": "Agency that published the recall: CPSC, FDA, FSIS, NHTSA or USCG."
           },
           {
             "name": "external_id",
-            "description": "external_id field from the RecallDB export."
+            "description": "Agency-native recall identifier (CPSC recall number, NHTSA campaign number, FDA recall number or namespaced FDA alert id, FSIS or USCG recall number). Unique with source_agency."
           },
           {
             "name": "source_id",
-            "description": "source_id field from the RecallDB export."
+            "description": "Source pull that produced the recall. Joins data_sources.csv."
           },
           {
             "name": "title",
-            "description": "title field from the RecallDB export."
+            "description": "Agency-published recall title or product headline."
           },
           {
             "name": "description",
-            "description": "description field from the RecallDB export."
+            "description": "Agency-published recall reason, summary or hazard text. Empty when the agency publishes none (USCG since Aug-Sep 2026)."
           },
           {
             "name": "recalling_firm_canonical",
-            "description": "recalling_firm_canonical field from the RecallDB export."
+            "description": "Normalized firm key (lowercased, punctuation and legal suffixes removed) used to match one firm across agencies. Joins firms.csv canonical_name."
           },
           {
             "name": "recalling_firm_display",
-            "description": "recalling_firm_display field from the RecallDB export."
+            "description": "Recalling firm as spelled in the source. NHTSA: the manufacturer that filed the recall."
           },
           {
             "name": "recall_date",
-            "description": "recall_date field from the RecallDB export."
+            "description": "Recall initiation or publication date, ISO YYYY-MM-DD."
           },
           {
             "name": "severity",
-            "description": "severity field from the RecallDB export."
+            "description": "Agency classification where published: FDA Class I/II/III, FSIS risk class (e.g. High - Class I) or Public Health Alert, NHTSA do_not_drive / park_outside flags. Empty for CPSC and USCG."
           },
           {
             "name": "remedy",
-            "description": "remedy field from the RecallDB export."
+            "description": "Agency-published remedy: refund, repair, replace, dispose or the agency's instructions."
           },
           {
             "name": "units_affected",
-            "description": "units_affected field from the RecallDB export."
+            "description": "Agency-published number of affected units. Empty when the agency does not publish one."
           },
           {
             "name": "distribution_pattern",
-            "description": "distribution_pattern field from the RecallDB export."
+            "description": "Agency-published geography or distribution pattern."
           },
           {
             "name": "hazard_keys",
-            "description": "hazard_keys field from the RecallDB export."
+            "description": "Pipe-delimited hazard taxonomy keys assigned to the recall (see hazards.csv)."
           },
           {
             "name": "raw_hazard_texts",
-            "description": "raw_hazard_texts field from the RecallDB export."
+            "description": "Pipe-delimited original hazard phrases the keys were mapped from."
           },
           {
             "name": "source_url",
-            "description": "source_url field from the RecallDB export."
+            "description": "Record-level agency web page or API lookup URL for this recall."
           },
           {
             "name": "source_endpoint_url",
-            "description": "source_endpoint_url field from the RecallDB export."
+            "description": "Exact API, download or page URL whose archived payload produced the row."
           },
           {
             "name": "retrieved_at",
-            "description": "retrieved_at field from the RecallDB export."
+            "description": "UTC timestamp when that source payload was retrieved and archived."
           }
         ]
       }
@@ -104,47 +104,47 @@
         "fields": [
           {
             "name": "product_id",
-            "description": "product_id field from the RecallDB export."
+            "description": "RecallDB surrogate key for the recalled product row."
           },
           {
             "name": "recall_id",
-            "description": "recall_id field from the RecallDB export."
+            "description": "Parent recall. Joins recalls.csv."
           },
           {
             "name": "source_agency",
-            "description": "source_agency field from the RecallDB export."
+            "description": "Agency of the parent recall."
           },
           {
             "name": "external_id",
-            "description": "external_id field from the RecallDB export."
+            "description": "Agency-native id of the parent recall. NHTSA: the campaign number, whose third character is the recall type (V vehicle, E equipment, T tire, C child seat)."
           },
           {
             "name": "name",
-            "description": "name field from the RecallDB export."
+            "description": "Agency-published product, SKU, lot or vehicle name. NHTSA: make, model and model year joined as published, so an unknown year reads 9999."
           },
           {
             "name": "brand",
-            "description": "brand field from the RecallDB export."
+            "description": "Product brand when the agency publishes it separately. NHTSA: the vehicle or equipment make (MAKETXT), not the recalling manufacturer; upfitted vehicles name the upfitter (e.g. BRAUN)."
           },
           {
             "name": "model_number",
-            "description": "model_number field from the RecallDB export."
+            "description": "Agency-published model, SKU or equivalent identifier. NHTSA: the vehicle or equipment model (MODELTXT), as published."
           },
           {
             "name": "upc",
-            "description": "upc field from the RecallDB export."
+            "description": "Checksum-valid UPC-A extracted from agency text. Empty when none is published."
           },
           {
             "name": "lot_codes",
-            "description": "lot_codes field from the RecallDB export."
+            "description": "Agency-published lot, code, serial or batch text. NHTSA: the recalled component id."
           },
           {
             "name": "category",
-            "description": "category field from the RecallDB export."
+            "description": "Normalized category: consumer_product, vehicle, food, drug, device, boat, cosmetic, animal_veterinary and similar."
           },
           {
             "name": "model_year",
-            "description": "model_year field from the RecallDB export."
+            "description": "Agency-published model year: NHTSA vehicles and equipment (9999 = unknown becomes empty) and USCG boats."
           }
         ]
       }
@@ -156,27 +156,27 @@
         "fields": [
           {
             "name": "source_id",
-            "description": "source_id field from the RecallDB export."
+            "description": "RecallDB surrogate key for one archived source pull. Joined from recalls.csv source_id."
           },
           {
             "name": "source_agency",
-            "description": "source_agency field from the RecallDB export."
+            "description": "Agency whose data the pull fetched."
           },
           {
             "name": "endpoint_url",
-            "description": "endpoint_url field from the RecallDB export."
+            "description": "Exact official API URL, download URL, list or detail page that was fetched."
           },
           {
             "name": "retrieved_at",
-            "description": "retrieved_at field from the RecallDB export."
+            "description": "UTC timestamp when the payload was retrieved and archived."
           },
           {
             "name": "raw_payload_bytes",
-            "description": "raw_payload_bytes field from the RecallDB export."
+            "description": "Size in bytes of the raw payload archived in the full database."
           },
           {
             "name": "raw_payload_sha256",
-            "description": "raw_payload_sha256 field from the RecallDB export."
+            "description": "SHA-256 of the archived raw payload, for audit and replay checks."
           }
         ]
       }
@@ -188,19 +188,19 @@
         "fields": [
           {
             "name": "firm_id",
-            "description": "firm_id field from the RecallDB export."
+            "description": "RecallDB surrogate key for a canonicalized firm."
           },
           {
             "name": "canonical_name",
-            "description": "canonical_name field from the RecallDB export."
+            "description": "Normalized firm key (lowercased, punctuation and legal suffixes removed). Joins recalls.csv recalling_firm_canonical."
           },
           {
             "name": "display_name",
-            "description": "display_name field from the RecallDB export."
+            "description": "Best-known original spelling of the firm."
           },
           {
             "name": "aliases",
-            "description": "aliases field from the RecallDB export."
+            "description": "Pipe-delimited original spellings of the firm seen in source records."
           }
         ]
       }
@@ -212,15 +212,15 @@
         "fields": [
           {
             "name": "hazard_key",
-            "description": "hazard_key field from the RecallDB export."
+            "description": "Hazard taxonomy key used in recalls.csv hazard_keys (fire_burn, crash_injury, microbial_contamination, ...)."
           },
           {
             "name": "description",
-            "description": "description field from the RecallDB export."
+            "description": "Plain-language meaning of the hazard key."
           },
           {
             "name": "recall_count",
-            "description": "recall_count field from the RecallDB export."
+            "description": "Number of recalls carrying this hazard key in the full release (not in this sample)."
           }
         ]
       }
