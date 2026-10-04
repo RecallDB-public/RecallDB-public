@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-04 (Kaggle column descriptions)
+
+- **Kaggle sample: real column descriptions**: all 42 columns in `kaggle/dataset-metadata.json` (5 sample tables) said only "<column> field from the RecallDB export." Each now says what the column holds, from the same definitions as the paid release's column dictionary, adapted to the sample. Examples: NHTSA `brand` / `model_number` are NHTSA's own make and model fields; the third character of an NHTSA campaign number is the recall type; `hazards.csv` `recall_count` counts the full release. Columns and files still match the sample CSVs, no count changed, and `scripts/check_claims.py` passes. This is the repo copy only: the live Kaggle dataset has not been updated (2026-10-04).
+
 ## Site update — 2026-10-04
 
 - **NHTSA make, model and model year documented**: `DATA_DICTIONARY.md` now describes every `recalled_products.csv` column, plus a section on NHTSA rows. `brand`, `model_number` and `model_year` are NHTSA's own make, model and model-year fields (`MAKETXT`, `MODELTXT`, `YEARTXT`), copied unchanged. `brand` is not the recalling manufacturer, which is in `recalls.csv`. Upfitted vehicles keep NHTSA's own split (`BRAUN` / `CHEVROLET TRAVERSE`), and the third character of the campaign number tells vehicle (`V`) from equipment (`E`), tire (`T`) and child-seat (`C`) recalls. An example query is included. Each monthly build now also checks make, model and model-year coverage on NHTSA vehicle rows (private pipeline). No data, column or count changes, and the sample is unchanged (2026-10-04).
