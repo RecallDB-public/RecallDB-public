@@ -1,4 +1,16 @@
 {
+ "0300e5443a2b6e29": {
+  "src": "NHTSA investigations, service bulletins and complaint counts (from edition {0})",
+  "t": "Enquêtes de la NHTSA, bulletins de service et nombres de plaintes (à partir de l'édition {0})",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "03f3b11e02d499b7": {
+  "src": "Units by agency",
+  "t": "Unités par agence",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "0449b96157475965": {
   "src": "FDA recall data",
   "t": "Données de rappels FDA",
@@ -10,6 +22,18 @@
   "t": "Rappels et alertes de santé publique du FSIS pour la viande, la volaille et les ovoproduits transformés.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "057d58c74d801365": {
+  "src": "Assignments",
+  "t": "Affectations",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "05fd17974420b507": {
+  "src": "{0} classified FDA recalls, {1} to {2}",
+  "t": "{0} rappels FDA classés, de {1} à {2}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "06224616b19858ef": {
   "src": "The bucket is defined as: Choking, aspiration or strangulation hazards (incl. small parts).",
@@ -29,6 +53,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "0740533eb5aa99e6": {
+  "src": "Complaints ship as counts only: complaint text and complainant details are never published. VINs that identify one vehicle are masked; production breakpoints stay as NHTSA prints them.",
+  "t": "Les plaintes sont fournies uniquement sous forme de nombres : le texte des plaintes et les informations sur leurs auteurs ne sont jamais publiés. Les VIN qui identifient un véhicule précis sont masqués ; les points de coupure de production restent tels que la NHTSA les publie.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "07e3bcece6805185": {
   "src": "FDA-regulated products",
   "t": "Produits réglementés par la FDA",
@@ -41,11 +71,29 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "082aa914137fe82a": {
+  "src": "Share of the agency's classified hazards",
+  "t": "Part des dangers classés de l'agence",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "082bc378cd60e17a": {
+  "src": "Month",
+  "t": "Mois",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "086381cac4604d0a": {
   "src": "Provenance ledger and source links",
   "t": "Registre de provenance et liens vers les sources",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "086c2c0a94404420": {
+  "src": "Recalls per year",
+  "t": "Rappels par an",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "08ccdb6f1a318261": {
   "src": "{0} choking recalls in {1} ({2} of classified rows, rank {3} of {4}). Choking, aspiration or strangulation hazards (incl. small parts) Issued…",
@@ -58,6 +106,18 @@
   "t": "Les textes libres de la CPSC, les motifs d'application de la FDA, les composants NHTSA et les motifs du FSIS sont rattachés à un vocabulaire unique et vérifiable. Les rappels de bateaux de l'USCG sont inclus, mais la Garde côtière a cessé d'afficher la description du défaut sur ses pages de rappel entre août et septembre {0}, si bien que les lignes USCG n'ont aucune catégorie de danger.",
   "by": "claude-opus-5-5",
   "at": "2026-09-29"
+ },
+ "09ca55ca52d207f2": {
+  "src": "Share",
+  "t": "Part",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "0a29de4694bfa12e": {
+  "src": "Get the full dataset ({0})",
+  "t": "Obtenir le jeu de données complet ({0})",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "0a7c5ec28a5a6ab1": {
   "src": "consumer safety",
@@ -95,6 +155,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "0e24db36525572b3": {
+  "src": "Service bulletins and over-the-air updates",
+  "t": "Bulletins de service et mises à jour à distance (OTA)",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "0ec765f79a995bc3": {
   "src": "Get the full dataset",
   "t": "Obtenir le jeu de données complet",
@@ -112,6 +178,12 @@
   "t": "Le dépôt GitHub public contient-il le jeu de données complet ?",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "0fa0b5ee7b4cf20f": {
+  "src": "Class I share by year",
+  "t": "Part de la classe I par année",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "0fe722a1710ebf87": {
   "src": "Does {0} include provenance?",
@@ -251,6 +323,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "21c4d6d0ec124467": {
+  "src": "The {0} accounts for <1>{2}</1> of all recall records, {3} for {4} and {5} for {6}. Food-safety recalls from {7} are the smallest feed at {8} of their classified hazards are microbial contamination.",
+  "t": "La {0} représente <1>{2}</1> de l'ensemble des enregistrements de rappel, la {3} {4} et la {5} {6}. Les rappels de sécurité alimentaire du {7} constituent le plus petit flux avec {8} de leurs dangers classés relèvent de la contamination microbienne.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "21ceba494a3d7b02": {
   "src": "NHTSA recalls",
   "t": "Rappels NHTSA",
@@ -268,6 +346,12 @@
   "t": "Leurs principales catégories de danger sont incendie/brûlure ({0}), étouffement ({1}) et chute ({2}).",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "230b7757ef81efcd": {
+  "src": "Paste the snippet into your post. It links the chart back to this page, which is the only attribution we ask for.",
+  "t": "Collez l'extrait dans votre article. Il relie le graphique à cette page, seule attribution que nous demandons.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "232e7bae3193a9b2": {
   "src": "We could not send the request automatically. Please email {0} and we will handle it manually.",
@@ -287,11 +371,23 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "2427bed94ad27a1b": {
+  "src": "Only CPSC and NHTSA records in this snapshot carry a units-affected figure; FDA, FSIS and USCG records carry none, and RecallDB leaves those blank rather than estimating. Units are the agency's own figure at the time of the notice (vehicles for NHTSA, product units for CPSC) and may be revised later in the source.",
+  "t": "Dans ce snapshot, seuls les enregistrements CPSC et NHTSA comportent un nombre d'unités concernées ; les enregistrements FDA, FSIS et USCG n'en comportent aucun, et RecallDB laisse ces champs vides plutôt que de les estimer. Les unités correspondent au chiffre de l'agence elle-même au moment de l'avis (véhicules pour la NHTSA, unités de produit pour la CPSC) et peuvent être révisées ultérieurement dans la source.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "24ca4955c877f122": {
   "src": "Choking, aspiration or strangulation hazards (incl. small parts)",
   "t": "Risques d'étouffement, d'aspiration ou de strangulation (y compris petites pièces)",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "24d89abbd14031c9": {
+  "src": "Recall entries",
+  "t": "Entrées de rappel",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "25bff42a3b2d55b2": {
   "src": "CPSC recall data",
@@ -322,6 +418,12 @@
   "t": "Leurs principales catégories de danger sont contamination microbienne ({0}), allergène non déclaré ({1}) et autre / non classé ({2}) ; niveaux de gravité présents : {3}.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "2c6c9e7beb5cbf48": {
+  "src": "top {0} by reported units",
+  "t": "les {0} premiers par unités déclarées",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "2d545e8dbb0af4c1": {
   "src": "NHTSA recall data",
@@ -369,6 +471,12 @@
   "src": "RecallDB normalizes the {0} feed into the same schema as the other four agencies, keeping every row's {1} and a {2} that resolves to {3}.",
   "t": "RecallDB normalise le flux de l'agence {0} dans le même schéma que celui des quatre autres agences, en conservant pour chaque ligne {1} et un {2} qui renvoie à {3}."
  },
+ "3042d5797b486d97": {
+  "src": "All classified",
+  "t": "Total classé",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "311551b2ad3e8537": {
   "src": "Acme Compliance or Jane Doe",
   "t": "Conformité Dupont ou Marie Martin",
@@ -393,6 +501,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "336d31b7fb753718": {
+  "src": "Which agency issues the recalls",
+  "t": "Quelle agence émet les rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "34345b1936ff1ab1": {
   "src": "Agency source",
   "t": "Source de l'agence",
@@ -404,6 +518,24 @@
   "t": "Retour à l'accueil",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "34fb0b84ecdb0c23": {
+  "src": "Units affected",
+  "t": "Unités concernées",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "35a22c55ba0cbf4a": {
+  "src": "Firms with the most recall records",
+  "t": "Entreprises comptant le plus d'enregistrements de rappel",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "35dc0b20ed921ba9": {
+  "src": "{0} classified assignments",
+  "t": "{0} affectations classées",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "3614a57e834b4144": {
   "src": "Choking recalls",
@@ -441,6 +573,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "390f70cf0baaefc7": {
+  "src": "Firm names are as recorded by the issuing agency, with spelling variants merged by a deterministic rule; subsidiaries and regional entities of one corporation stay separate, so a group's true total can be higher. A high count reflects fleet size and filing conventions as much as product quality.",
+  "t": "Les noms d'entreprise sont ceux enregistrés par l'agence émettrice, les variantes orthographiques étant fusionnées par une règle déterministe ; les filiales et entités régionales d'un même groupe restent distinctes, si bien que le total réel d'un groupe peut être plus élevé. Un nombre élevé reflète la taille du parc et les conventions de déclaration autant que la qualité des produits.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "3931b13b4e9a9f31": {
   "src": "FSIS recall data",
   "t": "Données de rappels FSIS",
@@ -459,11 +597,35 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "3beef0913e88fd51": {
+  "src": "How many recalls the U.S. issues",
+  "t": "Combien de rappels les États-Unis émettent-ils ?",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "3d0064bc4bc73855": {
+  "src": "Records from",
+  "t": "Enregistrements depuis",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "3e75965d822c7389": {
   "src": "Agency free text is kept verbatim in {0}; the normalized key is {1}.",
   "t": "Le texte libre de l'agence est conservé tel quel dans {0} ; la clé normalisée est {1}.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "3f7794cc74de1a8f": {
+  "src": "How many units a recall touches",
+  "t": "Combien d'unités un rappel concerne",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "3f7e1fd9149cf557": {
+  "src": "Recall",
+  "t": "Rappel",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "3f837438684ec4e3": {
   "src": "RecallDB classifies <0>{1}</0> official recalls under <2>fall injury</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
@@ -513,6 +675,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "460ed8fb71968a74": {
+  "src": "From edition {0} the full snapshot also carries three tables from NHTSA's Office of Defects Investigation, built from the same official bulk files as the vehicle recalls. They join to recalled vehicles by make, model and model year, and every investigation links to the recalls it led to by campaign number.",
+  "t": "À partir de l'édition {0}, le snapshot complet comprend aussi trois tables de l'Office of Defects Investigation de la NHTSA, construites à partir des mêmes fichiers officiels en masse que les rappels de véhicules. Elles se relient aux véhicules rappelés par marque, modèle et année-modèle, et chaque enquête est liée, par numéro de campagne, aux rappels qu'elle a entraînés.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "4739faf7bcb0a813": {
   "src": "Hazards",
   "t": "Dangers",
@@ -548,6 +716,18 @@
   "t": "Rappels USCG",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "4eb90a006439766c": {
+  "src": "Recalled products",
+  "t": "Produits rappelés",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "4ecb2828aa960a98": {
+  "src": "NHTSA campaigns report the number of vehicles affected: <0>{1}</0> vehicle-units across {2} campaigns, a median of {3} per campaign, with {4} of campaigns above {5} units and {6} above one million. CPSC recalls report {7} units across {8} recalls, median {9}. The largest single recall on record is a {10} action from {11} covering {12} units.",
+  "t": "Les campagnes NHTSA indiquent le nombre de véhicules concernés : <0>{1}</0> unités-véhicules réparties sur {2} campagnes, soit une médiane de {3} par campagne, avec {4} des campagnes au-delà de {5} unités et {6} au-delà d'un million. Les rappels CPSC déclarent {7} unités sur {8} rappels, médiane {9}. Le plus grand rappel unique enregistré est une action {10} de {11} portant sur {12} unités.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "504faf432c8753f4": {
   "src": "Consumer product recalls from the CPSC SaferProducts recall API.",
@@ -597,6 +777,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "54af8cb0876860ae": {
+  "src": "An NHTSA campaign lists every make, model and model year it covers; RecallDB stores each as one entry ({0} per campaign on average), so this counts how often a model year appears in recall campaigns, not distinct vehicles or distinct campaigns.",
+  "t": "Une campagne NHTSA liste chaque marque, modèle et année-modèle qu'elle couvre ; RecallDB stocke chacun comme une entrée ({0} par campagne en moyenne), si bien que ce décompte mesure la fréquence d'apparition d'une année-modèle dans les campagnes de rappel, et non des véhicules distincts ni des campagnes distinctes.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "54bc0f6b845af94d": {
   "src": "RecallDB classifies <0>{1}</0> official recalls under <2>other / unmapped</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
   "t": "RecallDB classe <0>{1}</0> rappels officiels dans <2>autre / non classé</2>, soit {3} des {4} lignes de danger classées, catégorie de danger {5} sur {6}.",
@@ -645,6 +831,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "5d87f8b029659685": {
+  "src": "Hazard classes",
+  "t": "Classes de danger",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "5e0980acdd61b226": {
   "src": "{0} ({1}) recalls in {2}: food, drugs, devices, cosmetics, biologics, veterinary. Top hazards in the sample: drug defect…",
   "t": "Rappels de la {0} ({1}) dans {2} : aliments, médicaments, dispositifs, cosmétiques, produits biologiques, vétérinaire. Principaux dangers dans l'échantillon : défaut de médicament…",
@@ -662,6 +854,12 @@
   "t": "Rappels pour toxicité chimique",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "5f1fb6f665ff1094": {
+  "src": "Preliminary evaluations, engineering analyses, recall queries and defect petitions, with the vehicles they name and the recalls they led to. {0}",
+  "t": "Évaluations préliminaires, analyses techniques, demandes d'information sur des rappels et pétitions pour défaut, avec les véhicules qu'elles citent et les rappels qu'elles ont entraînés. {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "60237e45f4e46e8d": {
   "src": "{0} ({1}) recalls in {2}: recreational boats and marine equipment. Top hazards in the sample: choking. Rows link to their…",
@@ -693,6 +891,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "642d96c6560f7c34": {
+  "src": "FDA assigns Class I, II or III to each enforcement entry (I: serious health consequences or death; II: temporary or reversible effects; III: unlikely to cause harm). Only FDA rows with a class are counted; {0} is excluded from the yearly series as a partial year.",
+  "t": "La FDA attribue la classe I, II ou III à chaque entrée d'application (I : conséquences graves pour la santé ou décès ; II : effets temporaires ou réversibles ; III : peu susceptible de causer un préjudice). Seules les lignes FDA dotées d'une classe sont comptées ; {0} est exclue de la série annuelle en tant qu'année partielle.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "6524ed016e2bea2e": {
   "src": "View sample repo",
   "t": "Voir le dépôt d'échantillon",
@@ -705,17 +909,65 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "671ef834031e1d9e": {
+  "src": "Each agency publishes in its own format and granularity: one NHTSA campaign can cover many makes and model years, while FDA files one enforcement entry per product lot, which inflates FDA's share relative to distinct events. Compare within an agency, not across.",
+  "t": "Chaque agence publie dans son propre format et à sa propre granularité : une campagne NHTSA peut couvrir de nombreuses marques et années-modèles, tandis que la FDA dépose une entrée d'application par lot de produit, ce qui gonfle la part de la FDA par rapport aux événements distincts. Comparez au sein d'une même agence, pas d'une agence à l'autre.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "674bd175bb73ea6d": {
+  "src": "{0} entries, model years {1} to {2}",
+  "t": "{0} entrées, années-modèles {1} à {2}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "677e2d1335fcff16": {
   "src": "The bucket is defined as: Hazards not yet mapped to the controlled taxonomy.",
   "t": "La catégorie est définie ainsi : dangers pas encore rattachés à la taxonomie contrôlée.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "677e771a931c9fa8": {
+  "src": "NHTSA investigations, service bulletins and complaint counts.",
+  "t": "Enquêtes de la NHTSA, bulletins de service et nombres de plaintes.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "679fc17f214a2e31": {
+  "src": "Complaint counts",
+  "t": "Nombres de plaintes",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "68cb7643070e08b4": {
+  "src": "U.S. Product Recall Statistics {0} — Recalls per Year, Agencies, Hazards | {1}",
+  "t": "Statistiques des rappels aux États-Unis {0} — par an, agences, dangers | {1}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "6b21fb791ac05170": {
   "src": "About",
   "t": "À propos",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "6b40e8b827eabe71": {
+  "src": "U.S. product recalls in numbers — {0} statistics {1}",
+  "t": "Les rappels de produits aux États-Unis en chiffres — statistiques {0} {1}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "6b523a8af8d5e7c5": {
+  "src": "Class I",
+  "t": "Classe I",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "6b9b55ea9c0d3fc3": {
+  "src": "<0>{1}</0> of the {2} classified FDA recalls are Class I, the most serious category. The Class I share peaked at {3} in {4} and was {5} in {6}.",
+  "t": "<0>{1}</0> des {2} rappels FDA classés relèvent de la classe I, la catégorie la plus grave. La part de la classe I a culminé à {3} en {4} et s'établissait à {5} en {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "6bbe14b72a0de1ab": {
   "src": "In the free {0}-row sample, this hazard appears in rows issued by {1}.",
@@ -729,17 +981,41 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "6c06fa9f5cdf1fdb": {
+  "src": "Firms with the most recalls",
+  "t": "Entreprises comptant le plus de rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "6c259ed31a42c619": {
   "src": "Full name / organization {0}",
   "t": "Nom complet / organisation {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "6c7df6631172f28e": {
+  "src": "Median units",
+  "t": "Unités (médiane)",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "6cab3b4d854b54a7": {
+  "src": "Every recall with its agency ID, source URL, hazard classes, products, lots and firms, as CSV and SQLite with the provenance ledger.",
+  "t": "Chaque rappel avec son identifiant d'agence, son URL source, ses classes de danger, ses produits, ses lots et ses entreprises, en CSV et SQLite avec le registre de provenance.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "6d5fec985845db68": {
   "src": "Small enough for GitHub, shaped like the full release.",
   "t": "Assez léger pour GitHub, structuré comme la version complète.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "6e5b963bd06025dd": {
+  "src": "Leading hazard per agency",
+  "t": "Principal danger par agence",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "70c7e69a5f148148": {
   "src": "Agencies",
@@ -753,11 +1029,23 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "716133808ddd227d": {
+  "src": "Months and weekdays",
+  "t": "Mois et jours de la semaine",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "71c6ea9cbc62e78a": {
   "src": "{0} U.S. Product Recall Database",
   "t": "{0} – base de données des rappels de produits aux États-Unis",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "738d1b3e5a1df2e7": {
+  "src": "U.S. product recalls in numbers: statistics from the {0} ledger",
+  "t": "Les rappels de produits aux États-Unis en chiffres : statistiques issues du registre {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "73bb29b9258d0064": {
   "src": "{0} issuing agencies",
@@ -765,11 +1053,29 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "748cae0e73b3080e": {
+  "src": "<0>Agencies are not directly comparable.</0> One NHTSA campaign covers a fleet; FDA files one entry per lot; CPSC one notice per product. Counts describe records, not distinct safety events.",
+  "t": "<0>Les agences ne sont pas directement comparables.</0> Une campagne NHTSA couvre tout un parc ; la FDA dépose une entrée par lot ; la CPSC un avis par produit. Les décomptes décrivent des enregistrements, et non des événements de sécurité distincts.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "74c236fc8bc6812f": {
+  "src": "<0>Refresh.</0> RecallDB is refreshed monthly; this page and its charts are regenerated from a published snapshot, so figures move. Cite the snapshot date. NHTSA has flagged {1} campaigns as do-not-drive and {2} as park-outside since {3}.",
+  "t": "<0>Actualisation.</0> RecallDB est actualisé chaque mois ; cette page et ses graphiques sont régénérés à partir d'un snapshot publié, les chiffres évoluent donc. Citez la date du snapshot. La NHTSA a signalé {1} campagnes comme do-not-drive et {2} comme park-outside depuis {3}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "768e0c1c69573fb5": {
   "src": "Title",
   "t": "Titre",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "77b711146aaaf8d0": {
+  "src": "Across the five federal agencies, the United States issued an average of <0>{1} recalls a year</0> from {2} to {3}, about {4} a day. The peak year was {5} with {6} closed at {7}, and {8} stands at {9} through Sep.",
+  "t": "Sur l'ensemble des cinq agences fédérales, les États-Unis ont émis en moyenne <0>{1} rappels par an</0> de {2} à {3}, soit environ {4} par jour. L'année record a été {5} avec {6} s'est close à {7}, et {8} en est à {9} à fin septembre.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "786657ce1db02978": {
   "src": "{0} U.S. Product Recall Database — Snapshot",
@@ -782,6 +1088,12 @@
   "t": "SQLite payant",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "790703cb3bdbeb6d": {
+  "src": "{0} has the most recall records on file with <1>{2}</1>, ahead of {3} ({4}) and {5} ({6}). Vehicle makers lead because NHTSA files one campaign per defect across a whole fleet; medical-device makers follow because FDA files one entry per affected lot.",
+  "t": "{0} compte le plus d'enregistrements de rappel avec <1>{2}</1>, devant {3} ({4}) et {5} ({6}). Les constructeurs automobiles sont en tête car la NHTSA enregistre une campagne par défaut pour l'ensemble d'un parc ; les fabricants de dispositifs médicaux suivent car la FDA dépose une entrée par lot concerné.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "79ffbc4482185384": {
   "src": "<0>{1} one-time snapshot</0> · free {2}-row sample — for e-commerce sellers, compliance teams and AI agents that need offline recall data",
@@ -801,6 +1113,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "7c009078ff55b9d5": {
+  "src": "The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot, plus NHTSA investigation, service-bulletin and complaint-count rows for the sample's vehicles.",
+  "t": "L'échantillon contient des lignes équilibrées issues des cinq agences sources et les mêmes structures de tables d'export que le snapshot payant du jeu de données complet, ainsi que des lignes d'enquêtes, de bulletins de service et de nombres de plaintes de la NHTSA pour les véhicules de l'échantillon.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "7cd27ab37edd1c91": {
   "src": "federal sources",
   "t": "sources fédérales",
@@ -812,6 +1130,12 @@
   "t": "Rappels de la {0} ({1}) dans {2} : véhicules, pneus, sièges enfant et équipements. Principaux dangers dans l'échantillon : accident…",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "7e439c353ec807e1": {
+  "src": "On this page",
+  "t": "Sur cette page",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "7f9eb3494ba43724": {
   "src": "Hazard taxonomy",
@@ -837,11 +1161,23 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "811b5b9c1d281efe": {
+  "src": "Class I share",
+  "t": "Part de la classe I",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "82361b69c4ac866a": {
   "src": "NHTSA recall data | {0}",
   "t": "Données de rappels NHTSA | {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "82d135aeac20f391": {
+  "src": "Which vehicle model years get recalled most",
+  "t": "Quelles années-modèles de véhicules sont le plus rappelées",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "84ec3e71d2c9d85a": {
   "src": "Sitemap",
@@ -885,6 +1221,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "879e32326c521796": {
+  "src": "Year",
+  "t": "Année",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "882c291ec3e7e22c": {
   "src": "Data dictionary",
   "t": "Dictionnaire de données",
@@ -915,6 +1257,18 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "8ab2968795f1b666": {
+  "src": "U.S. product recalls in numbers",
+  "t": "Les rappels de produits aux États-Unis en chiffres",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "8b3be47829ad5162": {
+  "src": "Recalls",
+  "t": "Rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "8bb28cb9094ded56": {
   "src": "The bucket is defined as: Bacterial/viral contamination: Salmonella, Listeria, E. coli, etc..",
   "t": "La catégorie est définie ainsi : contamination bactérienne/virale : Salmonella, Listeria, E. coli, etc.",
@@ -926,6 +1280,18 @@
   "t": "produits de consommation",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "8c58d18aff59a0ea": {
+  "src": "Service bulletins",
+  "t": "Bulletins de service",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "8c74c61df910c9bc": {
+  "src": "Earliest",
+  "t": "Premier",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "8d6a381fc28201c8": {
   "src": "compliance data",
@@ -987,11 +1353,23 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "9297913eea881537": {
+  "src": "Copy snippet",
+  "t": "Copier l'extrait",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "92a76e4fb406f286": {
   "src": "Page not found - {0}",
   "t": "Page introuvable - {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "92cb331d8697052f": {
+  "src": "Total units",
+  "t": "Total des unités",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "946eebd2406fdb73": {
   "src": "Provenance-tracked U.S. product recall database covering CPSC, FDA, FSIS, NHTSA and USCG, with public samples and paid full-dataset access.",
@@ -999,17 +1377,35 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "94c2a3189e7f7885": {
+  "src": "Classification",
+  "t": "Classification",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "958faf7ec13d43b7": {
   "src": "Delivery email {0}",
   "t": "E-mail de livraison {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "961db893acc50f31": {
+  "src": "By weekday",
+  "t": "Par jour de la semaine",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "9756177b35e01192": {
   "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked, cost-estimated repair procedures ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
   "t": "<0>MechanicDB</0> — {1} codes défaut OBD-II associés à {2} procédures de réparation classées avec estimation des coûts ({3} SAE / {4} OEM) : le complément codes défaut des rappels de véhicules NHTSA de RecallDB.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "97b83487f19f3dcc": {
+  "src": "Leading hazard class",
+  "t": "Principale classe de danger",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "97c945bca2519af5": {
   "src": "one-time · vs {0} separately",
@@ -1023,6 +1419,18 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "9ae36e6b3e6f1729": {
+  "src": "Model year",
+  "t": "Année-modèle",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "9ae4ec86fff5155f": {
+  "src": "<0>Questions or corrections:</0> <1>contact form</1> or recalldb@dataengineered.io.",
+  "t": "<0>Questions ou corrections :</0> <1>formulaire de contact</1> ou recalldb@dataengineered.io.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "9b10914d8b0a097a": {
   "src": "Domain",
   "t": "Domaine",
@@ -1035,11 +1443,23 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "9c63937aad0852e6": {
+  "src": "Technical service bulletins, service campaigns, warranty extensions and over-the-air updates filed with NHTSA, with their vehicles and components. {0}",
+  "t": "Bulletins techniques de service, campagnes de service, extensions de garantie et mises à jour à distance (OTA) déposés auprès de la NHTSA, avec leurs véhicules et composants. {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "9ccb9c3ae2d7b5be": {
   "src": "FDA enforcement reports across food, drugs, medical devices, cosmetics, biologics and animal/veterinary products.",
   "t": "Rapports d'application de la FDA couvrant aliments, médicaments, dispositifs médicaux, cosmétiques, produits biologiques et produits pour animaux/vétérinaires.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "9ce41c1d7dcf6f59": {
+  "src": "Vehicle model years",
+  "t": "Années-modèles des véhicules",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "9e310ba506b13724": {
   "src": "RecallDB classifies <0>{1}</0> official recalls under <2>choking</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
@@ -1053,17 +1473,41 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "a2115dbdbb76b8c2": {
+  "src": "Units affected and the largest recalls",
+  "t": "Unités concernées et plus grands rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "a236cbe82b955973": {
+  "src": "Recalling firms",
+  "t": "Entreprises à l'origine des rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "a29349633a5f5dc9": {
   "src": "The bucket is defined as: Undeclared allergens: milk, peanuts, soy, wheat, etc..",
   "t": "La catégorie est définie ainsi : allergènes non déclarés : lait, arachides, soja, blé, etc.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "a3e8fcd915295b86": {
+  "src": "One row per official recall record (a vehicle campaign, an FDA enforcement entry, a CPSC recall notice, an FSIS recall or alert, a USCG campaign). FDA enforcement reports are published in bulk from {0}, so the chart starts there; earlier years hold mostly NHTSA, CPSC and USCG records back to {1}. {2} is partial (to {3}). The table shows the last {4} years by agency.",
+  "t": "Une ligne par enregistrement de rappel officiel (une campagne véhicule, une entrée d'application FDA, un avis de rappel CPSC, un rappel ou une alerte FSIS, une campagne USCG). Les rapports d'application de la FDA sont publiés en masse à partir de {0}, le graphique commence donc à cette date ; les années antérieures contiennent surtout des enregistrements NHTSA, CPSC et USCG remontant jusqu'à {1}. {2} est partielle (jusqu'au {3}). Le tableau présente les {4} dernières années par agence.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "a3f1667700227f4f": {
   "src": "Toxic chemical exposure: lead, cadmium, carbon monoxide, etc.",
   "t": "Exposition à des produits chimiques toxiques : plomb, cadmium, monoxyde de carbone, etc.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "a3fdbeccd199709c": {
+  "src": "What the recalls are for",
+  "t": "Motifs des rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "a55a275aa676930d": {
   "src": "Terms",
@@ -1083,6 +1527,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "aa06a724f56f1fcf": {
+  "src": "Complaint counts per vehicle and component",
+  "t": "Nombres de plaintes par véhicule et par composant",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "ab81021d2173002d": {
   "src": "FSIS recall data — meat, poultry and egg products | {0}",
   "t": "Données de rappels FSIS — viande, volaille et ovoproduits | {0}",
@@ -1101,6 +1551,24 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "aca023d27d62dd4e": {
+  "src": "<0>{1}</0> is the busiest recall month with {2} recalls over the period, {3} times {4}, the quietest. <5>{6}</5> is the busiest weekday; only {7} of recalls are dated on a weekend.",
+  "t": "<0>{1}</0> est le mois le plus chargé en rappels, avec {2} rappels sur la période, soit {3} fois plus que {4}, le plus calme. <5>{6}</5> est le jour de la semaine le plus chargé ; seuls {7} des rappels sont datés d'un week-end.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "ad7aa7d4a2ac42ce": {
+  "src": "Model year <0>{1}</0> carries the most recall entries, {2}, of the {3} NHTSA make-model-year entries with a model year. Recent model years are still accumulating recalls, so {4} and {5} will keep rising.",
+  "t": "L'année-modèle <0>{1}</0> compte le plus d'entrées de rappel, {2}, sur les {3} entrées NHTSA marque-modèle-année dotées d'une année-modèle. Les années-modèles récentes accumulent encore des rappels, si bien que {4} et {5} continueront d'augmenter.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "ae679b35e9b04285": {
+  "src": "top {0} of {1} recalling firms",
+  "t": "les {0} premières sur {1} entreprises à l'origine de rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "aed7a26ef012b1f7": {
   "src": "The bucket is defined as: Drug potency, contamination, mislabeling or dosage defects.",
   "t": "La catégorie est définie ainsi : défauts de puissance, de contamination, d'étiquetage ou de dosage des médicaments.",
@@ -1112,6 +1580,12 @@
   "t": "Page SEO",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "b08ae37ed0218a85": {
+  "src": "Snapshot",
+  "t": "Snapshot",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "b0a3ec639a32919f": {
   "src": "Hazards not yet mapped to the controlled taxonomy",
@@ -1131,6 +1605,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "b25928c69902557b": {
+  "src": "Total",
+  "t": "Total",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "b28666ecaf627976": {
   "src": "{0} fire burn recalls in {1} ({2} of classified rows, rank {3} of {4}). Fire, thermal burn, overheating or explosion hazards Issued by CPSC, NHTSA.",
   "t": "{0} rappels pour incendie et brûlure dans {1} ({2} des lignes classées, rang {3} sur {4}). Risques d'incendie, de brûlure thermique, de surchauffe ou d'explosion. Émis par CPSC, NHTSA.",
@@ -1148,6 +1628,12 @@
   "t": "Cette page n'existe pas. Le jeu de données complet RecallDB n'est de toute façon pas hébergé ici : il est livré en privé après l'achat d'un snapshot.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "b33b8c97ec0f7a22": {
+  "src": "Recalls by agency",
+  "t": "Rappels par agence",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "b37456c4530be810": {
   "src": "Contact",
@@ -1167,6 +1653,18 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "b59653e099a320e9": {
+  "src": "U.S. product recalls in numbers: {0} official recalls from {1}, {2}, {3}, {4} and {5}. Recalls per year, agency shares, hazard classes, {6} Class I share, largest recalls by units, vehicle model years, busiest months. Free to cite and embed.",
+  "t": "Les rappels aux États-Unis en chiffres : {0} rappels officiels de {1}, {2}, {3}, {4} et {5}. Rappels par an, parts des agences, classes de danger, part de classe I de la {6}, plus grands rappels en unités, années-modèles, mois les plus chargés. Libre de citation et d'intégration.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "b5f1f9d553fcae97": {
+  "src": "Beyond recalls",
+  "t": "Au-delà des rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "b600923755a6629b": {
   "src": "vehicles, tires, child seats and equipment",
   "t": "véhicules, pneus, sièges enfant et équipements",
@@ -1184,6 +1682,12 @@
   "t": "{0} rappels pour risque de coupure dans {1} ({2} des lignes classées, rang {3} sur {4}). Risques de coupure, de lacération ou d'amputation. Émis par FDA, CPSC.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "bac8e5e4c11ef497": {
+  "src": "Official recalls",
+  "t": "Rappels officiels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "bae56965d94e7b65": {
   "src": "{0} is a normalized dataset of official U.S. federal recall records from CPSC, FDA/openFDA plus FDA Safety Alerts, USDA FSIS, NHTSA and USCG.",
@@ -1209,11 +1713,35 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "bc3df29ade394898": {
+  "src": "Need the row-level ledger behind these numbers?",
+  "t": "Besoin du registre ligne par ligne derrière ces chiffres ?",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "be44160269a399b2": {
   "src": "Buy {0} snapshot",
   "t": "Acheter le snapshot à {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "beb258e968b16569": {
+  "src": "Weekday",
+  "t": "Jour de la semaine",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "beb4554fc3f88455": {
+  "src": "NHTSA defect investigations and the recalls they led to",
+  "t": "Enquêtes de la NHTSA sur les défauts et les rappels qu'elles ont entraînés",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "bf1be2b7ad07bae2": {
+  "src": "Definition",
+  "t": "Définition",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "bfc2f5d360e80cb7": {
   "src": "Laceration recalls",
@@ -1227,11 +1755,29 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "c184a4cbdfde3767": {
+  "src": "<0>Source.</0> The full RecallDB snapshot of {1} recall records pulled from the CPSC SaferProducts API, NHTSA's recall flat file, openFDA enforcement reports plus FDA Safety Alerts, the USDA FSIS recall API and the USCG recall list. All five are U.S. federal publications in the public domain. Every row keeps the agency's own ID, record URL, retrieval timestamp and raw-payload fingerprint; see <2>Sources</2>.",
+  "t": "<0>Source.</0> Le snapshot RecallDB complet de {1} enregistrements de rappel, issus de l'API SaferProducts de la CPSC, du fichier plat des rappels de la NHTSA, des rapports d'application openFDA ainsi que des FDA Safety Alerts, de l'API de rappels du FSIS de l'USDA et de la liste des rappels de l'USCG. Ces cinq sources sont des publications fédérales américaines relevant du domaine public. Chaque ligne conserve l'identifiant propre de l'agence, l'URL de l'enregistrement, l'horodatage de récupération et l'empreinte de la charge brute ; voir <2>Sources</2>.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "c18a7d2d19dcae4f": {
   "src": "Official U.S. recall intelligence - {0} public sample",
   "t": "Données officielles de rappels aux États-Unis - échantillon public {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "c1b28bbfb8cf890b": {
+  "src": "<0>Nothing is estimated.</0> Units, classifications, dates and firm names are the agency's own values; where an agency publishes no value the field is blank and excluded from the figure's denominator, which every section states.",
+  "t": "<0>Rien n'est estimé.</0> Unités, classifications, dates et noms d'entreprise sont les valeurs propres de l'agence ; lorsqu'une agence ne publie aucune valeur, le champ est vide et exclu du dénominateur du chiffre, ce que chaque section indique.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "c1f056048f376d7d": {
+  "src": "Aggregate statistics computed from the full RecallDB ledger: {0} official recalls and {1} recalled products joined from the five federal recall feeds (CPSC, FDA, FSIS, NHTSA, USCG), every row carrying its agency ID, source URL and retrieval time. Every figure is free to cite, quote and embed with a link to this page.",
+  "t": "Statistiques agrégées calculées à partir du registre RecallDB complet : {0} rappels officiels et {1} produits rappelés, réunis à partir des cinq flux fédéraux de rappels (CPSC, FDA, FSIS, NHTSA, USCG), chaque ligne portant son identifiant d'agence, son URL source et son heure de récupération. Chaque chiffre peut être librement cité, repris et intégré avec un lien vers cette page.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "c2a6caf050965558": {
   "src": "Food safety",
@@ -1239,11 +1785,23 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "c34e1af2fef9bc56": {
+  "src": "Download SVG",
+  "t": "Télécharger le SVG",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "c4079d60758dd01d": {
   "src": "All hazard categories",
   "t": "Toutes les catégories de danger",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "c40aa845d7b98b3c": {
+  "src": "Hazard class",
+  "t": "Classe de danger",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "c42021d20aaba8df": {
   "src": "Two instant downloads after one checkout",
@@ -1269,6 +1827,18 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "ca5fa585c5a490ba": {
+  "src": "<0>Reuse.</0> The figures and charts on this page are published under <1>CC BY {2}</1>: use them in articles, slides and posts with a link to {3}. The machine-readable version is <4>data.json</4>. The underlying row-level ledger is a separate <5>commercial product</5>; a free {6}-row sample is in the <7>public repository</7>.",
+  "t": "<0>Réutilisation.</0> Les chiffres et graphiques de cette page sont publiés sous licence <1>CC BY {2}</1> : utilisez-les dans des articles, présentations et publications avec un lien vers {3}. La version lisible par machine est <4>data.json</4>. Le registre ligne par ligne sous-jacent est un <5>produit commercial</5> distinct ; un échantillon gratuit de {6} lignes est disponible dans le <7>dépôt public</7>.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "cb00d1362e45efe4": {
+  "src": "RecallDB Vehicle adds NHTSA investigations and complaint counts from edition {0}",
+  "t": "RecallDB Vehicle ajoute les enquêtes de la NHTSA et les nombres de plaintes à partir de l'édition {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "cb53439a76083e86": {
   "src": "Commercial license on both",
   "t": "Licence commerciale pour les deux",
@@ -1286,6 +1856,18 @@
   "t": "RecallDB classe <0>{1}</0> rappels officiels dans <2>allergène non déclaré</2>, soit {3} des {4} lignes de danger classées, catégorie de danger {5} sur {6}.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "cdbb42a4ad4fb4d9": {
+  "src": "Recalling firm",
+  "t": "Entreprise à l'origine du rappel",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "cec3e9678ff0a30c": {
+  "src": "Embed this chart",
+  "t": "Intégrer ce graphique",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "cf01481f626d5127": {
   "src": "Privacy",
@@ -1317,6 +1899,24 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "d34b47b0ca17e816": {
+  "src": "Over {0}",
+  "t": "Plus de {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "d508e808abfb200c": {
+  "src": "Recalls with units",
+  "t": "Rappels avec unités",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "d96fbed934876133": {
+  "src": "Suggested citation.",
+  "t": "Citation suggérée.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "da88e5341e5dfe71": {
   "src": "{0} microbial contamination recalls in {1} ({2} of classified rows, rank {3} of {4}). Bacterial/viral contamination: Salmonella, Listeria, E.",
   "t": "{0} rappels pour contamination microbienne dans {1} ({2} des lignes classées, rang {3} sur {4}). Contamination bactérienne/virale : Salmonella, Listeria…",
@@ -1335,17 +1935,41 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "dc715e366d4a8464": {
+  "src": "Investigations",
+  "t": "Enquêtes",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "de39f4653e0c7009": {
+  "src": "Method, reuse and citation",
+  "t": "Méthode, réutilisation et citation",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "de8f60d9d9ae6e92": {
   "src": "{0} crash injury recalls in {1} ({2} of classified rows, rank {3} of {4}). Vehicle crash, airbag, braking or steering related injury risks Issued…",
   "t": "{0} rappels pour blessures en cas d'accident dans {1} ({2} des lignes classées, rang {3} sur {4}). Risques de blessure liés aux accidents, airbags, freinage ou direction. Émis…",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "decd7ca800106337": {
+  "src": "Latest",
+  "t": "Dernier",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "df1b33666c79afc7": {
   "src": "meat, poultry and egg products",
   "t": "viande, volaille et ovoproduits",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "df1bed059ff32798": {
+  "src": "{0} is the largest hazard class at <1>{2}</1> of classified hazard assignments, followed by {3} ({4}) and {5} ({6}). {7} of assignments are not yet mapped to the taxonomy and are excluded from the shares.",
+  "t": "{0} est la principale classe de danger avec <1>{2}</1> des affectations de danger classées, suivie de {3} ({4}) et de {5} ({6}). {7} des affectations ne sont pas encore rattachées à la taxonomie et sont exclues des parts.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "dfbc4a3f8dafe8fc": {
   "src": "Custom work (custom joins, refresh cadence, retail matching, schema work): from {0} — <1>contact the desk</1>",
@@ -1383,11 +2007,29 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "e3f348e6b4397cab": {
+  "src": "Consumer complaints per make, model, model year and component, with crash, fire, injury and death counts. {0}",
+  "t": "Plaintes de consommateurs par marque, modèle, année-modèle et composant, avec le nombre d'accidents, d'incendies, de blessés et de décès. {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "e4ddaf64a1ad9b6f": {
+  "src": "{0} recalls",
+  "t": "{0} rappels",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "e4e4fc5081313637": {
   "src": "Every hazard category in RecallDB, each with the recalls classified under it and their source records.",
   "t": "Toutes les catégories de danger de RecallDB, chacune avec les rappels qui y sont classés et leurs enregistrements source.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "e67f5091edaf133a": {
+  "src": "Whole calendar years {0} to {1} only, all agencies, using each record's official recall date. FDA dates are the recall initiation date reported by the firm, which is why some fall on weekends.",
+  "t": "Années civiles complètes de {0} à {1} uniquement, toutes agences confondues, d'après la date de rappel officielle de chaque enregistrement. Pour la FDA, il s'agit de la date de lancement du rappel déclarée par l'entreprise, ce qui explique que certaines tombent un week-end.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "e68d6c8f867274ff": {
   "src": "Direct desk: {0}",
@@ -1406,6 +2048,12 @@
   "t": "Données de rappels USCG",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "e96c019a6a3949a7": {
+  "src": "How serious FDA recalls are",
+  "t": "Gravité des rappels FDA",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "ea38c78086ea97da": {
   "src": "{0} electric shock recalls in {1} ({2} of classified rows, rank {3} of {4}). Electric shock or electrocution hazards Issued by federal agencies.",
@@ -1431,11 +2079,29 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "ec6d7b0b7910f3e2": {
+  "src": "Agency free-text hazard descriptions are mapped by a deterministic keyword table to {0} controlled classes; the original text is kept beside the class. A recall can carry several classes. Denominator: {1} of {2} hazard assignments that map to a class. {3} is listed without a class: the Coast Guard's recall list and detail pages have shown no defect text since August–September {4}, for new and older recalls alike, so none of its {5} recalls carries a hazard assignment; RecallDB leaves those recalls unclassified rather than guessing.",
+  "t": "Les descriptions de danger en texte libre des agences sont rattachées par une table de mots-clés déterministe à {0} classes contrôlées ; le texte d'origine est conservé à côté de la classe. Un rappel peut porter plusieurs classes. Dénominateur : {1} des {2} affectations de danger rattachées à une classe. {3} figure sans classe : la liste des rappels de la Coast Guard et ses pages de détail n'affichent plus aucun texte de défaut depuis août–septembre {4}, pour les rappels récents comme anciens, de sorte qu'aucun de ses {5} rappels ne porte d'affectation de danger ; RecallDB laisse ces rappels non classés plutôt que de deviner.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "edcf396383951e5f": {
   "src": "Undeclared allergen recalls",
   "t": "Rappels pour allergène non déclaré",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "ee12774d15cafbe5": {
+  "src": "When recalls are announced",
+  "t": "Quand les rappels sont annoncés",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "eeb692087d629b32": {
+  "src": "Full name",
+  "t": "Nom complet",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "f063dc145f59bf82": {
   "src": "MechanicDB OEM Complete: {0} codes, {1} ranked repairs, {2} parts",
@@ -1461,6 +2127,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "f3ca895753673ca0": {
+  "src": "FDA severity",
+  "t": "Gravité FDA",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "f40d25aac50e6222": {
   "src": "Sample recalls in this bucket",
   "t": "Exemples de rappels dans cette catégorie",
@@ -1484,6 +2156,18 @@
   "t": "Les {0} rappels officiels, avec le registre de provenance sur chaque ligne, livrés en privé après le paiement Stripe.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "f57904cdb01756c0": {
+  "src": "Market statistics · snapshot {0}",
+  "t": "Statistiques de marché · snapshot {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "f5cbdf6bfb51439b": {
+  "src": "Contents",
+  "t": "Sommaire",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "f5e16c7f1a33d4c7": {
   "src": "— {0} sample rows carry this hazard",
@@ -1520,6 +2204,12 @@
   "t": "La catégorie est définie ainsi : risques de chute, de basculement ou d'effondrement structurel.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "fe79a85f25979d84": {
+  "src": "{0} recalls over {1} full years",
+  "t": "{0} rappels sur {1} années complètes",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "ffa9f90ed801d5a5": {
   "src": "one-time snapshot",

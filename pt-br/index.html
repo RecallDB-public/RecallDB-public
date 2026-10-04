@@ -166,7 +166,7 @@
 <a href="#coverage">Cobertura</a>
 <a href="#provenance">Rastreabilidade</a>
 <a href="#sample">Amostra</a>
-<a href="/stats/">Estatísticas</a>
+<a href="/pt-br/stats/">Estatísticas</a>
 <a href="#pricing">Acesso</a>
 <a href="#contact">Contato</a>
 <a class="nav-cta" href="#pricing">Obter os dados completos</a>
@@ -265,13 +265,16 @@
 <div class="section-heading">
 <p class="eyebrow">Amostra pública</p>
 <h2>Pequena o suficiente para o GitHub, com o mesmo formato da versão completa.</h2>
-<p>A amostra contém linhas equilibradas das cinco agências de origem e os mesmos formatos de tabelas de exportação usados no snapshot pago do conjunto de dados completo.</p>
+<p>A amostra contém linhas equilibradas das cinco agências de origem e os mesmos formatos de tabelas de exportação usados no snapshot pago do conjunto de dados completo, além de linhas de investigações, boletins de serviço e contagens de reclamações da NHTSA para os veículos da amostra.</p>
 </div>
 <div class="sample-grid">
 <a class="sample-card" href="/samples/recalls.csv"><strong translate="no">recalls.csv</strong><span>200 recalls de amostra com linhagem via <span translate="no">source_id</span></span></a>
 <a class="sample-card" href="/samples/recalled_products.csv"><strong translate="no">recalled_products.csv</strong><span>Produtos, veículos, lotes e categorias</span></a>
 <a class="sample-card" href="/samples/data_sources.csv"><strong translate="no">data_sources.csv</strong><span>URLs de endpoints e impressões digitais de payloads</span></a>
 <a class="sample-card" href="/samples/hazards.csv"><strong translate="no">hazards.csv</strong><span>Contagens da taxonomia controlada de riscos</span></a>
+<a class="sample-card" href="/samples/nhtsa_investigations.csv"><strong translate="no">nhtsa_<wbr/>investigations.csv</strong><span>Investigações de defeitos da NHTSA e os recalls que originaram</span></a>
+<a class="sample-card" href="/samples/nhtsa_mfr_communications.csv"><strong translate="no">nhtsa_<wbr/>mfr_<wbr/>communications.csv</strong><span>Boletins de serviço e atualizações remotas (OTA)</span></a>
+<a class="sample-card" href="/samples/nhtsa_complaint_counts.csv"><strong translate="no">nhtsa_<wbr/>complaint_<wbr/>counts.csv</strong><span>Contagens de reclamações por veículo e componente</span></a>
 </div>
 <div class="table-wrap">
 <table id="recall-preview">
@@ -288,6 +291,19 @@
 <p>O texto livre da CPSC, os motivos de fiscalização da FDA, os componentes da NHTSA e os motivos do FSIS são mapeados para um único vocabulário auditável. Os recalls de embarcações da USCG estão incluídos, mas a Guarda Costeira deixou de exibir a descrição do defeito em suas páginas de recall entre agosto e setembro de 2026, por isso as linhas da USCG não têm categoria de risco.</p>
 </div>
 <div class="hazard-bars" data-hazards='{"chemical_toxic": 6721, "choking": 2160, "crash_injury": 20432, "drug_defect": 35123, "electric_shock": 708, "fall_injury": 1518, "fire_burn": 9589, "laceration": 3930, "microbial_contamination": 20224, "other": 17548, "undeclared_allergen": 9224}'></div>
+</section>
+<section class="split" id="nhtsa-defects">
+<div>
+<p class="eyebrow">Além dos recalls</p>
+<h2>Investigações da NHTSA, boletins de serviço e contagens de reclamações.</h2>
+<p>A partir da edição 2026.10, o snapshot completo também traz três tabelas do Office of Defects Investigation da NHTSA, criadas a partir dos mesmos arquivos oficiais em lote que os recalls de veículos. Elas se ligam aos veículos com recall por marca, modelo e ano-modelo, e cada investigação se vincula, pelo número da campanha, aos recalls que originou.</p>
+<p>As reclamações são entregues apenas como contagens: o texto das reclamações e os dados de quem as registrou nunca são publicados. VINs que identificam um único veículo são mascarados; os pontos de corte de produção permanecem como a NHTSA os publica.</p>
+</div>
+<div class="schema-card">
+<div class="schema-row"><strong>Investigações</strong><span>Avaliações preliminares, análises de engenharia, consultas sobre recalls e petições por defeito, com os veículos que citam e os recalls que originaram. <span translate="no">nhtsa_investigations</span></span></div>
+<div class="schema-row"><strong>Boletins de serviço</strong><span>Boletins técnicos de serviço, campanhas de serviço, extensões de garantia e atualizações remotas (OTA) registrados na NHTSA, com seus veículos e componentes. <span translate="no">nhtsa_mfr_communications</span></span></div>
+<div class="schema-row"><strong>Contagens de reclamações</strong><span>Reclamações de consumidores por marca, modelo, ano-modelo e componente, com contagens de acidentes, incêndios, feridos e mortes. <span translate="no">nhtsa_complaint_counts</span></span></div>
+</div>
 </section>
 <section class="pricing" id="pricing">
 <div class="section-heading">
@@ -306,6 +322,7 @@
 <li>294.683 produtos recolhidos vinculados</li>
 <li>Entrega em CSV + SQLite</li>
 <li>Registro de procedência e links para as fontes</li>
+<li>Investigações da NHTSA, boletins de serviço e contagens de reclamações (a partir da edição 2026.10)</li>
 <li>Entrega privada mediante solicitação</li>
 </ul>
 <a class="button primary full-width" href="https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408?client_reference_id=recalldb_pt-br_home" rel="noopener" target="_blank">Comprar o snapshot de $49</a>
@@ -318,6 +335,7 @@
 <div class="price">$179 <span>pagamento único · contra $198 separadamente</span></div>
 <ul class="tier-features">
 <li>RecallDB Vehicle: CSV + Parquet + SQLite</li>
+<li>O RecallDB Vehicle inclui investigações da NHTSA e contagens de reclamações a partir da edição 2026.10</li>
 <li>MechanicDB OEM Complete: 15.886 códigos, 56.561 reparos classificados, 75.055 peças</li>
 <li>Dois downloads imediatos após um único checkout</li>
 <li>Licença comercial para ambos</li>
@@ -375,7 +393,7 @@
 <!-- END:hub-browse -->
 <footer>
 <p>O RecallDB usa publicações oficiais de recalls do governo dos EUA. Os dados da amostra pública são CC0. Os snapshots do conjunto de dados completo e as solicitações personalizadas corporativas são pagos e entregues de forma privada.</p>
-<p><a href="/SOURCES.md">Fontes</a> - <a href="/DATA_DICTIONARY.md">Dicionário de dados</a> - <a href="/stats/">Estatísticas de recalls</a> - <a href="#contact">Contato</a> - <a href="/sitemap.xml">Mapa do site</a></p>
+<p><a href="/SOURCES.md">Fontes</a> - <a href="/DATA_DICTIONARY.md">Dicionário de dados</a> - <a href="/pt-br/stats/">Estatísticas de recalls</a> - <a href="#contact">Contato</a> - <a href="/sitemap.xml">Mapa do site</a></p>
 <div class="catalog-line" style="text-align:center; margin-top:14px; font-size:0.85rem; opacity:0.85;"><a href="https://dataengineered.io/">Parte do catálogo DataEngineered →</a> · <a href="https://dataengineered.io/about">Sobre</a> · <a href="https://dataengineered.io/terms">Termos</a> · <a href="https://dataengineered.io/privacy">Privacidade</a> · <a href="https://dataengineered.io/refund-policy">Política de reembolso</a></div>
 <!-- i18n:switcher --><nav class="i18n-switch" translate="no" aria-label="Idioma" style="text-align:center;margin:14px auto;font-size:0.85rem;opacity:0.85;"><a href="/" hreflang="en" lang="en" data-i18n-lang="en">English</a> · <a href="/es/" hreflang="es" lang="es" data-i18n-lang="es">Español</a> · <a href="/de/" hreflang="de" lang="de" data-i18n-lang="de">Deutsch</a> · <a href="/fr/" hreflang="fr" lang="fr" data-i18n-lang="fr">Français</a> · <span aria-current="true" style="font-weight:600">Português</span></nav><!-- /i18n:switcher --></footer>
 <script data-i18n="" id="i18n-strings" type="application/json">

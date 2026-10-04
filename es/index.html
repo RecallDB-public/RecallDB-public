@@ -166,7 +166,7 @@
 <a href="#coverage">Cobertura</a>
 <a href="#provenance">Trazabilidad</a>
 <a href="#sample">Muestra</a>
-<a href="/stats/">Estadísticas</a>
+<a href="/es/stats/">Estadísticas</a>
 <a href="#pricing">Acceso</a>
 <a href="#contact">Contacto</a>
 <a class="nav-cta" href="#pricing">Obtener los datos completos</a>
@@ -265,13 +265,16 @@
 <div class="section-heading">
 <p class="eyebrow">Muestra pública</p>
 <h2>Lo bastante pequeña para GitHub, con la misma estructura que la versión completa.</h2>
-<p>La muestra contiene filas equilibradas de las cinco agencias de origen y las mismas estructuras de tablas de exportación que el snapshot de pago del conjunto de datos completo.</p>
+<p>La muestra contiene filas equilibradas de las cinco agencias de origen y las mismas estructuras de tablas de exportación que el snapshot de pago del conjunto de datos completo, además de filas de investigaciones, boletines de servicio y recuentos de quejas de la NHTSA para los vehículos de la muestra.</p>
 </div>
 <div class="sample-grid">
 <a class="sample-card" href="/samples/recalls.csv"><strong translate="no">recalls.csv</strong><span>200 retiradas de muestra con linaje <span translate="no">source_id</span></span></a>
 <a class="sample-card" href="/samples/recalled_products.csv"><strong translate="no">recalled_products.csv</strong><span>Productos, vehículos, lotes y categorías</span></a>
 <a class="sample-card" href="/samples/data_sources.csv"><strong translate="no">data_sources.csv</strong><span>URL de endpoints y huellas de payloads</span></a>
 <a class="sample-card" href="/samples/hazards.csv"><strong translate="no">hazards.csv</strong><span>Recuentos de la taxonomía controlada de riesgos</span></a>
+<a class="sample-card" href="/samples/nhtsa_investigations.csv"><strong translate="no">nhtsa_<wbr/>investigations.csv</strong><span>Investigaciones de defectos de la NHTSA y las retiradas a las que dieron lugar</span></a>
+<a class="sample-card" href="/samples/nhtsa_mfr_communications.csv"><strong translate="no">nhtsa_<wbr/>mfr_<wbr/>communications.csv</strong><span>Boletines de servicio y actualizaciones inalámbricas (OTA)</span></a>
+<a class="sample-card" href="/samples/nhtsa_complaint_counts.csv"><strong translate="no">nhtsa_<wbr/>complaint_<wbr/>counts.csv</strong><span>Recuentos de quejas por vehículo y componente</span></a>
 </div>
 <div class="table-wrap">
 <table id="recall-preview">
@@ -288,6 +291,19 @@
 <p>El texto libre de la CPSC, los motivos de cumplimiento de la FDA, los componentes de la NHTSA y los motivos del FSIS se asignan a un único vocabulario auditable. Las retiradas de embarcaciones de la USCG están incluidas, pero la Guardia Costera dejó de mostrar la descripción del defecto en sus páginas de retiradas entre agosto y septiembre de 2026, por lo que las filas de la USCG no tienen categoría de riesgo.</p>
 </div>
 <div class="hazard-bars" data-hazards='{"chemical_toxic": 6721, "choking": 2160, "crash_injury": 20432, "drug_defect": 35123, "electric_shock": 708, "fall_injury": 1518, "fire_burn": 9589, "laceration": 3930, "microbial_contamination": 20224, "other": 17548, "undeclared_allergen": 9224}'></div>
+</section>
+<section class="split" id="nhtsa-defects">
+<div>
+<p class="eyebrow">Más allá de las retiradas</p>
+<h2>Investigaciones de la NHTSA, boletines de servicio y recuentos de quejas.</h2>
+<p>Desde la edición 2026.10, el snapshot completo incluye también tres tablas de la Office of Defects Investigation de la NHTSA, creadas a partir de los mismos archivos masivos oficiales que las retiradas de vehículos. Se vinculan con los vehículos retirados por marca, modelo y año de modelo, y cada investigación enlaza, por número de campaña, con las retiradas a las que dio lugar.</p>
+<p>Las quejas se entregan solo como recuentos: el texto de las quejas y los datos de quienes las presentan nunca se publican. Los VIN que identifican un vehículo concreto se enmascaran; los puntos de corte de producción se mantienen tal como los publica la NHTSA.</p>
+</div>
+<div class="schema-card">
+<div class="schema-row"><strong>Investigaciones</strong><span>Evaluaciones preliminares, análisis de ingeniería, consultas sobre retiradas y peticiones por defectos, con los vehículos que mencionan y las retiradas a las que dieron lugar. <span translate="no">nhtsa_investigations</span></span></div>
+<div class="schema-row"><strong>Boletines de servicio</strong><span>Boletines técnicos de servicio, campañas de servicio, ampliaciones de garantía y actualizaciones inalámbricas (OTA) presentados ante la NHTSA, con sus vehículos y componentes. <span translate="no">nhtsa_mfr_communications</span></span></div>
+<div class="schema-row"><strong>Recuentos de quejas</strong><span>Quejas de consumidores por marca, modelo, año de modelo y componente, con recuentos de accidentes, incendios, heridos y fallecidos. <span translate="no">nhtsa_complaint_counts</span></span></div>
+</div>
 </section>
 <section class="pricing" id="pricing">
 <div class="section-heading">
@@ -306,6 +322,7 @@
 <li>294.683 productos retirados vinculados</li>
 <li>Entrega en CSV + SQLite</li>
 <li>Registro de procedencia y enlaces a las fuentes</li>
+<li>Investigaciones de la NHTSA, boletines de servicio y recuentos de quejas (desde la edición 2026.10)</li>
 <li>Entrega privada previa solicitud</li>
 </ul>
 <a class="button primary full-width" href="https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408?client_reference_id=recalldb_es_home" rel="noopener" target="_blank">Comprar el snapshot de $49</a>
@@ -318,6 +335,7 @@
 <div class="price">$179 <span>pago único · frente a $198 por separado</span></div>
 <ul class="tier-features">
 <li>RecallDB Vehicle: CSV + Parquet + SQLite</li>
+<li>RecallDB Vehicle añade investigaciones de la NHTSA y recuentos de quejas desde la edición 2026.10</li>
 <li>MechanicDB OEM Complete: 15.886 códigos, 56.561 reparaciones clasificadas, 75.055 piezas</li>
 <li>Dos descargas inmediatas tras un único pago</li>
 <li>Licencia comercial en ambos</li>
@@ -375,7 +393,7 @@
 <!-- END:hub-browse -->
 <footer>
 <p>RecallDB usa publicaciones oficiales de retiradas del gobierno de EE. UU. Los datos de la muestra pública son CC0. Los snapshots del conjunto de datos completo y las solicitudes personalizadas para empresas son de pago y se entregan de forma privada.</p>
-<p><a href="/SOURCES.md">Fuentes</a> - <a href="/DATA_DICTIONARY.md">Diccionario de datos</a> - <a href="/stats/">Estadísticas de retiradas</a> - <a href="#contact">Contacto</a> - <a href="/sitemap.xml">Mapa del sitio</a></p>
+<p><a href="/SOURCES.md">Fuentes</a> - <a href="/DATA_DICTIONARY.md">Diccionario de datos</a> - <a href="/es/stats/">Estadísticas de retiradas</a> - <a href="#contact">Contacto</a> - <a href="/sitemap.xml">Mapa del sitio</a></p>
 <div class="catalog-line" style="text-align:center; margin-top:14px; font-size:0.85rem; opacity:0.85;"><a href="https://dataengineered.io/">Parte del catálogo de DataEngineered →</a> · <a href="https://dataengineered.io/about">Acerca de</a> · <a href="https://dataengineered.io/terms">Términos</a> · <a href="https://dataengineered.io/privacy">Privacidad</a> · <a href="https://dataengineered.io/refund-policy">Política de reembolso</a></div>
 <!-- i18n:switcher --><nav class="i18n-switch" translate="no" aria-label="Idioma" style="text-align:center;margin:14px auto;font-size:0.85rem;opacity:0.85;"><a href="/" hreflang="en" lang="en" data-i18n-lang="en">English</a> · <span aria-current="true" style="font-weight:600">Español</span> · <a href="/de/" hreflang="de" lang="de" data-i18n-lang="de">Deutsch</a> · <a href="/fr/" hreflang="fr" lang="fr" data-i18n-lang="fr">Français</a> · <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-i18n-lang="pt-br">Português</a></nav><!-- /i18n:switcher --></footer>
 <script data-i18n="" id="i18n-strings" type="application/json">
