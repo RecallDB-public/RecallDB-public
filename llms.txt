@@ -12,6 +12,7 @@
 
 ## Core Capabilities & Specs
 - **Data Formats:** CSV and SQLite (full dataset); CSV (public sample)
+- **NHTSA defect data (from edition 2026.10):** NHTSA defect investigations (with links to the recalls they led to), manufacturer communications (technical service bulletins, service campaigns, warranty extensions, over-the-air updates) and consumer complaint counts per make / model / model year / component, from NHTSA's official Office of Defects Investigation bulk files and joined to recalled vehicles by make / model / model year. Complaints are counts only (no complaint text or complainant data); VINs of single vehicles are masked. Free sample rows: `samples/nhtsa_*.csv`; columns in the [Data Dictionary](https://recalldb.dataengineered.io/DATA_DICTIONARY.md).
 - **Data Sources:** CPSC (8,304), FDA/openFDA + FDA Safety Alerts (87,387), NHTSA (30,316), USDA FSIS (1,236), USCG (1,693)
 - **Attribution:** Public sample released under CC0 1.0 Universal. Source records originate from official U.S. federal government publications (public domain). Attribution to the publishing agencies and RecallDB is appreciated for auditability.
 - **Licensing Tiers:**

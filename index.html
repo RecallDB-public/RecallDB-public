@@ -203,13 +203,16 @@
       <div class="section-heading">
         <p class="eyebrow">Public sample</p>
         <h2>Small enough for GitHub, shaped like the full release.</h2>
-        <p>The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot.</p>
+        <p>The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot, plus NHTSA investigation, service-bulletin and complaint-count rows for the sample's vehicles.</p>
       </div>
       <div class="sample-grid">
         <a class="sample-card" href="samples/recalls.csv"><strong translate="no">recalls.csv</strong><span>200 sample recalls with <span translate="no">source_id</span> lineage</span></a>
         <a class="sample-card" href="samples/recalled_products.csv"><strong translate="no">recalled_products.csv</strong><span>Products, vehicles, lots and categories</span></a>
         <a class="sample-card" href="samples/data_sources.csv"><strong translate="no">data_sources.csv</strong><span>Endpoint URLs and payload fingerprints</span></a>
         <a class="sample-card" href="samples/hazards.csv"><strong translate="no">hazards.csv</strong><span>Controlled hazard taxonomy counts</span></a>
+        <a class="sample-card" href="samples/nhtsa_investigations.csv"><strong translate="no">nhtsa_<wbr>investigations.csv</strong><span>NHTSA defect investigations and the recalls they led to</span></a>
+        <a class="sample-card" href="samples/nhtsa_mfr_communications.csv"><strong translate="no">nhtsa_<wbr>mfr_<wbr>communications.csv</strong><span>Service bulletins and over-the-air updates</span></a>
+        <a class="sample-card" href="samples/nhtsa_complaint_counts.csv"><strong translate="no">nhtsa_<wbr>complaint_<wbr>counts.csv</strong><span>Complaint counts per vehicle and component</span></a>
       </div>
       <div class="table-wrap">
         <table id="recall-preview">
@@ -226,6 +229,19 @@
         <p>CPSC free text, FDA enforcement reasons, NHTSA components and FSIS reasons map into one auditable vocabulary. USCG boating recalls are included, but the Coast Guard stopped showing defect text on its recall pages in August–September 2026, so USCG rows carry no hazard class.</p>
       </div>
       <div class="hazard-bars" data-hazards='{"chemical_toxic": 6721, "choking": 2160, "crash_injury": 20432, "drug_defect": 35123, "electric_shock": 708, "fall_injury": 1518, "fire_burn": 9589, "laceration": 3930, "microbial_contamination": 20224, "other": 17548, "undeclared_allergen": 9224}'></div>
+    </section>
+    <section class="split" id="nhtsa-defects">
+      <div>
+        <p class="eyebrow">Beyond recalls</p>
+        <h2>NHTSA investigations, service bulletins and complaint counts.</h2>
+        <p>From edition 2026.10 the full snapshot also carries three tables from NHTSA's Office of Defects Investigation, built from the same official bulk files as the vehicle recalls. They join to recalled vehicles by make, model and model year, and every investigation links to the recalls it led to by campaign number.</p>
+        <p>Complaints ship as counts only: complaint text and complainant details are never published. VINs that identify one vehicle are masked; production breakpoints stay as NHTSA prints them.</p>
+      </div>
+      <div class="schema-card">
+        <div class="schema-row"><strong>Investigations</strong><span>Preliminary evaluations, engineering analyses, recall queries and defect petitions, with the vehicles they name and the recalls they led to. <span translate="no">nhtsa_investigations</span></span></div>
+        <div class="schema-row"><strong>Service bulletins</strong><span>Technical service bulletins, service campaigns, warranty extensions and over-the-air updates filed with NHTSA, with their vehicles and components. <span translate="no">nhtsa_mfr_communications</span></span></div>
+        <div class="schema-row"><strong>Complaint counts</strong><span>Consumer complaints per make, model, model year and component, with crash, fire, injury and death counts. <span translate="no">nhtsa_complaint_counts</span></span></div>
+      </div>
     </section>
     <section class="pricing" id="pricing">
       <div class="section-heading">
@@ -244,6 +260,7 @@
             <li>294,683 linked recalled products</li>
             <li>CSV + SQLite delivery</li>
             <li>Provenance ledger and source links</li>
+            <li>NHTSA investigations, service bulletins and complaint counts (from edition 2026.10)</li>
             <li>Private delivery after request</li>
           </ul>
           <a class="button primary full-width" href="https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408?client_reference_id=recalldb_en_home" target="_blank" rel="noopener">Buy $49 snapshot</a>
@@ -256,6 +273,7 @@
           <div class="price">$179 <span>one-time · vs $198 separately</span></div>
           <ul class="tier-features">
             <li>RecallDB Vehicle: CSV + Parquet + SQLite</li>
+            <li>RecallDB Vehicle adds NHTSA investigations and complaint counts from edition 2026.10</li>
             <li>MechanicDB OEM Complete: 15,886 codes, 56,561 ranked repairs, 75,055 parts</li>
             <li>Two instant downloads after one checkout</li>
             <li>Commercial license on both</li>

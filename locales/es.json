@@ -1,4 +1,10 @@
 {
+ "0300e5443a2b6e29": {
+  "src": "NHTSA investigations, service bulletins and complaint counts (from edition {0})",
+  "t": "Investigaciones de la NHTSA, boletines de servicio y recuentos de quejas (desde la edición {0})",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "0449b96157475965": {
   "src": "FDA recall data",
   "t": "Datos de retiradas de la FDA",
@@ -28,6 +34,12 @@
   "t": "Riesgos de lesión relacionados con choques, airbags, frenos o dirección del vehículo",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "0740533eb5aa99e6": {
+  "src": "Complaints ship as counts only: complaint text and complainant details are never published. VINs that identify one vehicle are masked; production breakpoints stay as NHTSA prints them.",
+  "t": "Las quejas se entregan solo como recuentos: el texto de las quejas y los datos de quienes las presentan nunca se publican. Los VIN que identifican un vehículo concreto se enmascaran; los puntos de corte de producción se mantienen tal como los publica la NHTSA.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "07e3bcece6805185": {
   "src": "FDA-regulated products",
@@ -92,6 +104,12 @@
   "t": "Enviar otra solicitud",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "0e24db36525572b3": {
+  "src": "Service bulletins and over-the-air updates",
+  "t": "Boletines de servicio y actualizaciones inalámbricas (OTA)",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "0ec765f79a995bc3": {
   "src": "Get the full dataset",
@@ -511,6 +529,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "460ed8fb71968a74": {
+  "src": "From edition {0} the full snapshot also carries three tables from NHTSA's Office of Defects Investigation, built from the same official bulk files as the vehicle recalls. They join to recalled vehicles by make, model and model year, and every investigation links to the recalls it led to by campaign number.",
+  "t": "Desde la edición {0}, el snapshot completo incluye también tres tablas de la Office of Defects Investigation de la NHTSA, creadas a partir de los mismos archivos masivos oficiales que las retiradas de vehículos. Se vinculan con los vehículos retirados por marca, modelo y año de modelo, y cada investigación enlaza, por número de campaña, con las retiradas a las que dio lugar.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "4739faf7bcb0a813": {
   "src": "Hazards",
   "t": "Riesgos",
@@ -661,6 +685,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "5f1fb6f665ff1094": {
+  "src": "Preliminary evaluations, engineering analyses, recall queries and defect petitions, with the vehicles they name and the recalls they led to. {0}",
+  "t": "Evaluaciones preliminares, análisis de ingeniería, consultas sobre retiradas y peticiones por defectos, con los vehículos que mencionan y las retiradas a las que dieron lugar. {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "60237e45f4e46e8d": {
   "src": "{0} ({1}) recalls in {2}: recreational boats and marine equipment. Top hazards in the sample: choking. Rows link to their…",
   "t": "Retiradas de {0} ({1}) en {2}: embarcaciones de recreo y equipamiento náutico. Principales riesgos en la muestra: asfixia. Las filas enlazan con su…",
@@ -708,6 +738,18 @@
   "t": "La categoría se define así: riesgos aún no asignados a la taxonomía controlada.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "677e771a931c9fa8": {
+  "src": "NHTSA investigations, service bulletins and complaint counts.",
+  "t": "Investigaciones de la NHTSA, boletines de servicio y recuentos de quejas.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
+ "679fc17f214a2e31": {
+  "src": "Complaint counts",
+  "t": "Recuentos de quejas",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "6b21fb791ac05170": {
   "src": "About",
@@ -798,6 +840,12 @@
   "t": "Recuentos de la taxonomía controlada de riesgos",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "7c009078ff55b9d5": {
+  "src": "The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot, plus NHTSA investigation, service-bulletin and complaint-count rows for the sample's vehicles.",
+  "t": "La muestra contiene filas equilibradas de las cinco agencias de origen y las mismas estructuras de tablas de exportación que el snapshot de pago del conjunto de datos completo, además de filas de investigaciones, boletines de servicio y recuentos de quejas de la NHTSA para los vehículos de la muestra.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "7cd27ab37edd1c91": {
   "src": "federal sources",
@@ -925,6 +973,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "8c58d18aff59a0ea": {
+  "src": "Service bulletins",
+  "t": "Boletines de servicio",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "8d6a381fc28201c8": {
   "src": "compliance data",
   "t": "datos de cumplimiento normativo",
@@ -1031,6 +1085,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "9c63937aad0852e6": {
+  "src": "Technical service bulletins, service campaigns, warranty extensions and over-the-air updates filed with NHTSA, with their vehicles and components. {0}",
+  "t": "Boletines técnicos de servicio, campañas de servicio, ampliaciones de garantía y actualizaciones inalámbricas (OTA) presentados ante la NHTSA, con sus vehículos y componentes. {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "9ccb9c3ae2d7b5be": {
   "src": "FDA enforcement reports across food, drugs, medical devices, cosmetics, biologics and animal/veterinary products.",
   "t": "Informes de cumplimiento de la FDA sobre alimentos, medicamentos, dispositivos médicos, cosméticos, productos biológicos y productos veterinarios.",
@@ -1078,6 +1138,12 @@
   "t": "{0} retiradas por tóxicos químicos en {1} ({2} de las filas clasificadas, puesto {3} de {4}). Exposición a sustancias químicas tóxicas: plomo, cadmio, monóxido de carbono, etc. Emitidas…",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "aa06a724f56f1fcf": {
+  "src": "Complaint counts per vehicle and component",
+  "t": "Recuentos de quejas por vehículo y componente",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "ab81021d2173002d": {
   "src": "FSIS recall data — meat, poultry and egg products | {0}",
@@ -1161,6 +1227,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "b5f1f9d553fcae97": {
+  "src": "Beyond recalls",
+  "t": "Más allá de las retiradas",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "b600923755a6629b": {
   "src": "vehicles, tires, child seats and equipment",
   "t": "vehículos, neumáticos, sillas infantiles y equipamiento",
@@ -1206,6 +1278,12 @@
   "t": "Comprar el snapshot de {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "beb4554fc3f88455": {
+  "src": "NHTSA defect investigations and the recalls they led to",
+  "t": "Investigaciones de defectos de la NHTSA y las retiradas a las que dieron lugar",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "bfc2f5d360e80cb7": {
   "src": "Laceration recalls",
@@ -1260,6 +1338,12 @@
   "t": "Las filas enlazan con {0} y {1} mediante {2}.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "cb00d1362e45efe4": {
+  "src": "RecallDB Vehicle adds NHTSA investigations and complaint counts from edition {0}",
+  "t": "RecallDB Vehicle añade investigaciones de la NHTSA y recuentos de quejas desde la edición {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "cb53439a76083e86": {
   "src": "Commercial license on both",
@@ -1327,6 +1411,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "dc715e366d4a8464": {
+  "src": "Investigations",
+  "t": "Investigaciones",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
+ },
  "de8f60d9d9ae6e92": {
   "src": "{0} crash injury recalls in {1} ({2} of classified rows, rank {3} of {4}). Vehicle crash, airbag, braking or steering related injury risks Issued…",
   "t": "{0} retiradas por lesiones en choques en {1} ({2} de las filas clasificadas, puesto {3} de {4}). Riesgos de lesión relacionados con choques, airbags, frenos o dirección del vehículo. Emitidas…"
@@ -1372,6 +1462,12 @@
   "t": "retiradas oficiales",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "e3f348e6b4397cab": {
+  "src": "Consumer complaints per make, model, model year and component, with crash, fire, injury and death counts. {0}",
+  "t": "Quejas de consumidores por marca, modelo, año de modelo y componente, con recuentos de accidentes, incendios, heridos y fallecidos. {0}",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-04"
  },
  "e4e4fc5081313637": {
   "src": "Every hazard category in RecallDB, each with the recalls classified under it and their source records.",

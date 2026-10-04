@@ -265,13 +265,16 @@
 <div class="section-heading">
 <p class="eyebrow">Öffentliche Beispieldaten</p>
 <h2>Klein genug für GitHub, aufgebaut wie das vollständige Release.</h2>
-<p>Die Beispieldaten enthalten ausgewogen verteilte Zeilen aus allen fünf Quellbehörden und dieselben Exporttabellen-Strukturen wie der kostenpflichtige vollständige Datensatz-Snapshot.</p>
+<p>Die Beispieldaten enthalten ausgewogen verteilte Zeilen aus allen fünf Quellbehörden und dieselben Exporttabellen-Strukturen wie der kostenpflichtige vollständige Datensatz-Snapshot, dazu Zeilen aus den NHTSA-Tabellen zu Untersuchungen, Service-Bulletins und Beschwerdezahlen für die Fahrzeuge der Beispieldaten.</p>
 </div>
 <div class="sample-grid">
 <a class="sample-card" href="/samples/recalls.csv"><strong translate="no">recalls.csv</strong><span>200 Beispielrückrufe mit <span translate="no">source_id</span>-Herkunftskette</span></a>
 <a class="sample-card" href="/samples/recalled_products.csv"><strong translate="no">recalled_products.csv</strong><span>Produkte, Fahrzeuge, Chargen und Kategorien</span></a>
 <a class="sample-card" href="/samples/data_sources.csv"><strong translate="no">data_sources.csv</strong><span>Endpunkt-URLs und Payload-Fingerabdrücke</span></a>
 <a class="sample-card" href="/samples/hazards.csv"><strong translate="no">hazards.csv</strong><span>Anzahl je Kategorie der kontrollierten Gefahrentaxonomie</span></a>
+<a class="sample-card" href="/samples/nhtsa_investigations.csv"><strong translate="no">nhtsa_<wbr/>investigations.csv</strong><span>NHTSA-Mängeluntersuchungen und die Rückrufe, zu denen sie geführt haben</span></a>
+<a class="sample-card" href="/samples/nhtsa_mfr_communications.csv"><strong translate="no">nhtsa_<wbr/>mfr_<wbr/>communications.csv</strong><span>Service-Bulletins und Over-the-Air-Updates</span></a>
+<a class="sample-card" href="/samples/nhtsa_complaint_counts.csv"><strong translate="no">nhtsa_<wbr/>complaint_<wbr/>counts.csv</strong><span>Beschwerdezahlen je Fahrzeug und Komponente</span></a>
 </div>
 <div class="table-wrap">
 <table id="recall-preview">
@@ -288,6 +291,19 @@
 <p>CPSC-Freitexte, FDA-Rückrufgründe, NHTSA-Komponenten und FSIS-Gründe werden auf ein einheitliches, prüfbares Vokabular abgebildet. USCG-Bootsrückrufe sind enthalten, doch die Küstenwache zeigt seit August/September 2026 auf ihren Rückrufseiten keine Mängelbeschreibung mehr, daher haben USCG-Zeilen keine Gefahrenkategorie.</p>
 </div>
 <div class="hazard-bars" data-hazards='{"chemical_toxic": 6721, "choking": 2160, "crash_injury": 20432, "drug_defect": 35123, "electric_shock": 708, "fall_injury": 1518, "fire_burn": 9589, "laceration": 3930, "microbial_contamination": 20224, "other": 17548, "undeclared_allergen": 9224}'></div>
+</section>
+<section class="split" id="nhtsa-defects">
+<div>
+<p class="eyebrow">Über Rückrufe hinaus</p>
+<h2>NHTSA-Untersuchungen, Service-Bulletins und Beschwerdezahlen.</h2>
+<p>Ab Ausgabe 2026.10 enthält der vollständige Snapshot zusätzlich drei Tabellen des Office of Defects Investigation der NHTSA, erstellt aus denselben offiziellen Massendateien wie die Fahrzeugrückrufe. Sie lassen sich über Marke, Modell und Modelljahr mit den zurückgerufenen Fahrzeugen verknüpfen, und jede Untersuchung ist über die Kampagnennummer mit den Rückrufen verbunden, zu denen sie geführt hat.</p>
+<p>Beschwerden werden nur als Anzahlen geliefert: Beschwerdetexte und Angaben zu den Beschwerdeführenden werden nie veröffentlicht. VINs, die ein einzelnes Fahrzeug identifizieren, werden maskiert; Produktions-Breakpoints bleiben so, wie die NHTSA sie veröffentlicht.</p>
+</div>
+<div class="schema-card">
+<div class="schema-row"><strong>Untersuchungen</strong><span>Vorprüfungen, technische Analysen, Rückrufanfragen und Mängelpetitionen, mit den genannten Fahrzeugen und den Rückrufen, zu denen sie geführt haben. <span translate="no">nhtsa_investigations</span></span></div>
+<div class="schema-row"><strong>Service-Bulletins</strong><span>Technische Service-Bulletins, Servicekampagnen, Garantieverlängerungen und Over-the-Air-Updates, die bei der NHTSA eingereicht wurden, mit ihren Fahrzeugen und Komponenten. <span translate="no">nhtsa_mfr_communications</span></span></div>
+<div class="schema-row"><strong>Beschwerdezahlen</strong><span>Verbraucherbeschwerden je Marke, Modell, Modelljahr und Komponente, mit Anzahlen zu Unfällen, Bränden, Verletzten und Todesfällen. <span translate="no">nhtsa_complaint_counts</span></span></div>
+</div>
 </section>
 <section class="pricing" id="pricing">
 <div class="section-heading">
@@ -306,6 +322,7 @@
 <li>294.683 verknüpfte zurückgerufene Produkte</li>
 <li>Lieferung als CSV + SQLite</li>
 <li>Herkunftsnachweis und Quelllinks</li>
+<li>NHTSA-Untersuchungen, Service-Bulletins und Beschwerdezahlen (ab Ausgabe 2026.10)</li>
 <li>Private Zustellung nach Anfrage</li>
 </ul>
 <a class="button primary full-width" href="https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408?client_reference_id=recalldb_de_home" rel="noopener" target="_blank">$49-Snapshot kaufen</a>
@@ -318,6 +335,7 @@
 <div class="price">$179 <span>einmalig · statt $198 einzeln</span></div>
 <ul class="tier-features">
 <li>RecallDB Vehicle: CSV + Parquet + SQLite</li>
+<li>RecallDB Vehicle enthält ab Ausgabe 2026.10 zusätzlich NHTSA-Untersuchungen und Beschwerdezahlen</li>
 <li>MechanicDB OEM Complete: 15.886 Codes, 56.561 priorisierte Reparaturen, 75.055 Teile</li>
 <li>Zwei sofortige Downloads nach einem Checkout</li>
 <li>Kommerzielle Lizenz für beide</li>
