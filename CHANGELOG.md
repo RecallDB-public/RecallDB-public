@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-04
+
+- **NHTSA make, model and model year documented**: `DATA_DICTIONARY.md` now describes every `recalled_products.csv` column, plus a section on NHTSA rows. `brand`, `model_number` and `model_year` are NHTSA's own make, model and model-year fields (`MAKETXT`, `MODELTXT`, `YEARTXT`), copied unchanged. `brand` is not the recalling manufacturer, which is in `recalls.csv`. Upfitted vehicles keep NHTSA's own split (`BRAUN` / `CHEVROLET TRAVERSE`), and the third character of the campaign number tells vehicle (`V`) from equipment (`E`), tire (`T`) and child-seat (`C`) recalls. An example query is included. Each monthly build now also checks make, model and model-year coverage on NHTSA vehicle rows (private pipeline). No data, column or count changes, and the sample is unchanged (2026-10-04).
+
 ## Site update — 2026-10-02
 
 - **Kaggle starter notebook prints the folder name, not the full path**: Kaggle now mounts an attached dataset under a path that includes the owner's account name, and the notebook's first cell printed that whole path. It now prints only the dataset folder's name (`Data directory: recalldb-product-recalls-sample`). That one line of `kaggle/starter_notebook.ipynb` changed, and the notebook was re-run on Kaggle (version 3). `scripts/check_claims.py` still passes (2026-10-02).
