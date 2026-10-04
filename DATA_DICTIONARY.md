@@ -98,13 +98,19 @@ Controlled hazard taxonomy and full-release recall counts.
 
 Seven tables built from NHTSA's Office of Defects Investigation (ODI) bulk files, the same
 official public-domain source tree as the recall flat files. They are in the full snapshot; the
-Vehicle Cut carries the investigations and the complaint counts. They are not in the free sample.
+Vehicle Cut carries the investigations and the complaint counts. The free sample (`samples/`) has
+rows of all seven, taken from NHTSA's files of 2026-10-04 around the NHTSA vehicles in the sample's
+`recalled_products.csv`. In the sample, `nhtsa_investigation_recalls.csv` `recall_id` points into the
+full release (the sample's `recalls.csv` is an older extract), so join on `campaign_number` =
+`external_id` there.
 All three sources use NHTSA's make, model and model-year vocabulary, so they join to NHTSA rows
 of `recalled_products.csv` on `brand` = `make`, `model_number` = `model`, `model_year` =
 `model_year`. A match means the same vehicle, not that a complaint or bulletin concerns that
 recall: only investigations link to recalls directly, by campaign number. Every row carries the
-`source_id` of the NHTSA file it was read from. Model year `9999` (unknown) becomes empty, and
-full 17-character VINs in NHTSA's text are masked as `[VIN]`.
+`source_id` of the NHTSA file it was read from. Model year `9999` (unknown) becomes empty. A full
+17-character VIN in NHTSA's text that identifies one specific vehicle (an owner letter, an incident
+report, a list of affected vehicles) is masked as `[VIN]`; production breakpoints and ranges
+("vehicles built before VIN ...", "VIN start: ... VIN end: ...") stay as published.
 
 ### nhtsa_investigations.csv
 
