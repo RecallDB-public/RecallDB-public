@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-04 (NHTSA investigations, bulletins and complaint counts)
+
+- **Seven new tables documented, from edition 2026.10**: `DATA_DICTIONARY.md` describes the NHTSA defect investigations (with the vehicles they name and the recalls they led to), the manufacturer communications filed with NHTSA (technical service bulletins, service campaigns, warranty extensions, over-the-air updates, with their vehicles and components) and consumer complaint counts per make, model, model year and component. They come from NHTSA's official investigation, manufacturer-communication and complaint files, listed in `SOURCES.md`. Complaint records themselves are not included, only counts, because they contain consumers' own words and identifying details. Full VINs in NHTSA's text are masked. An example query is included. The full snapshot carries all seven; the Vehicle Cut carries the investigations and the complaint counts. The existing files and columns are unchanged, the free sample is unchanged, and no stated count changes with this update. They ship from the first monthly build after the private pipeline change merges (next scheduled run: 2026-10-11) (2026-10-04).
+
 ## Site update — 2026-10-04 (Kaggle column descriptions)
 
 - **Kaggle sample: real column descriptions**: all 42 columns in `kaggle/dataset-metadata.json` (5 sample tables) said only "<column> field from the RecallDB export." Each now says what the column holds, from the same definitions as the paid release's column dictionary, adapted to the sample. Examples: NHTSA `brand` / `model_number` are NHTSA's own make and model fields; the third character of an NHTSA campaign number is the recall type; `hazards.csv` `recall_count` counts the full release. Columns and files still match the sample CSVs, no count changed, and `scripts/check_claims.py` passes. This is the repo copy only: the live Kaggle dataset has not been updated (2026-10-04).
