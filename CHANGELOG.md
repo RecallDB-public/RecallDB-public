@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-10 (Fault & Recall bundle: bulletin index)
+
+- **Bundle card, README, llms.txt**: the Fault & Recall bundle now lists its bundle-only bulletin index (NHTSA service bulletins that cite each trouble code, with the vehicles they cover), built monthly by the private pipeline and delivered with the bundle. The copy carries no count, so no claim key was added (`scripts/check_claims.py` passes). "Two instant downloads after one checkout" now reads "Instant downloads after one checkout". `DATA_DICTIONARY.md` gains a section with the five tables and their columns. Translated into es, de, fr and pt-br (2 segments per language, 0 rejected; `i18n_common.py check`: 105 pages, 0 errors). Sitemap: the five home URLs dated 2026-10-10 (2026-10-10).
+
 ## Site update — 2026-10-04 (/stats/ in es, de, fr and pt-br)
 
 - **Statistics page translated**: `/stats/` was English-only (its 99 segments had never been translated, so the build skipped the locale pages). 14 segments per language reuse other DataEngineered sites' translations of the identical text; 85 were translated following `scripts/i18n_style.md` and the site's existing terms (merge: 0 rejected). All 21 pages now publish in every language at 100% coverage; `i18n_common.py check`: 105 pages, 0 errors. The sitemap gains `/es/stats/`, `/de/stats/`, `/fr/stats/` and `/pt-br/stats/`, and the localized homepages link them. Chart text, month names and agency names stay as the generator writes them (2026-10-04).
