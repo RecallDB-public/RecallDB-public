@@ -36,7 +36,7 @@ This public repository contains only the sample files, documentation, SEO pages,
 | :--- | :--- | ---: |
 | Dataset Snapshot | Current full CSV + SQLite export with provenance ledger and source links. Stripe checkout routes to the verified delivery worker. | [$49 one-time](https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408) |
 | Custom work | Custom joins, refresh cadence, retail matching, enrichment or schema work — quoted per engagement. | from $99, via the [request form](https://recalldb.dataengineered.io/#contact) |
-| Fault & Recall Bundle | RecallDB Vehicle (NHTSA vehicle & equipment recalls, CSV + Parquet + SQLite) + [MechanicDB OEM Complete](https://mechanicdb.dataengineered.io/) — two instant downloads, one checkout. | [$179 one-time](https://buy.stripe.com/3cI3cw1cQevsazVaaA3840h) · vs $198 separately |
+| Fault & Recall Bundle | RecallDB Vehicle (NHTSA vehicle & equipment recalls, CSV + Parquet + SQLite) + [MechanicDB OEM Complete](https://mechanicdb.dataengineered.io/) + a bundle-only bulletin index (NHTSA service bulletins that cite each trouble code, with their vehicles) — instant downloads, one checkout. | [$179 one-time](https://buy.stripe.com/3cI3cw1cQevsazVaaA3840h) · vs $198 separately |
 
 Buy the $49 snapshot through **[Stripe checkout](https://buy.stripe.com/aFacN69Jm2MK8rN5Uk38408)**. For custom work (from $99), use the [request form](https://recalldb.dataengineered.io/#contact) or write to recalldb@dataengineered.io.
 

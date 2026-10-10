@@ -190,3 +190,22 @@ SELECT DISTINCT p.external_id AS recall,
 FROM recalled_products p
 WHERE p.source_agency = 'NHTSA' AND p.brand = 'HONDA' AND p.model_number = 'ACCORD' AND p.model_year = 2018;
 ```
+
+## Fault & Recall bundle: bulletin index (bundle only)
+
+Ships only in the $179 Fault & Recall bundle, as one archive (`csv/`, `parquet/` and
+`fault-recall-bulletins.sqlite`). It holds the NHTSA manufacturer communications whose summary
+cites a diagnostic trouble code. The rows come from the tables above, filtered to those bulletins.
+Codes are read from NHTSA's summary text only, not the bulletin documents. The archive README
+gives the rule, a dated precision check, and SQL that joins it to MechanicDB OEM Complete.
+
+| Table | Columns |
+| :-- | :-- |
+| `bulletins` | `nhtsa_id` (PK), `document_id`, `communication_type`, `communication_date`, `date_added`, `mfr_campaign_id`, `mfr_component_system`, `mfr_component_subsystem`, `summary` (single-vehicle VINs masked as `[VIN]`), `source_id` |
+| `bulletin_vehicles` | `nhtsa_id`, `make`, `model`, `model_year` (NHTSA's 9999 is NULL) |
+| `bulletin_components` | `nhtsa_id`, `component` |
+| `bulletin_codes` | `nhtsa_id`, `dtc_code` (5 characters, upper case), `code_scope` (`sae` or `manufacturer`, by SAE J2012 code range), `cued` (1 when a cue word such as DTC, CODE or MIL precedes the code, or it is part of a code list), `first_position` (offset of its first mention in the summary). PK (`nhtsa_id`, `dtc_code`) |
+| `data_sources` | `source_id`, `source_agency`, `endpoint_url`, `retrieved_at`, `raw_payload_bytes`, `raw_payload_sha256`: the NHTSA bulk file each bulletin came from |
+
+A manufacturer code joined on make is the same code string, not a verified meaning for that
+model year.
