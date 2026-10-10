@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-10 (Spanish bundle line: código de avería)
+
+- The Spanish bulletin-index line on the bundle card said "código de falla"; the rest of this site's Spanish copy says "código de avería". One catalog entry changed (`i18n_common.py check`: 105 pages, 0 errors; `scripts/check_claims.py` passes) (2026-10-10).
+
 ## Site update — 2026-10-10 (Fault & Recall bundle: bulletin index)
 
 - **Bundle card, README, llms.txt**: the Fault & Recall bundle now lists its bundle-only bulletin index (NHTSA service bulletins that cite each trouble code, with the vehicles they cover), built monthly by the private pipeline and delivered with the bundle. The copy carries no count, so no claim key was added (`scripts/check_claims.py` passes). "Two instant downloads after one checkout" now reads "Instant downloads after one checkout". `DATA_DICTIONARY.md` gains a section with the five tables and their columns. Translated into es, de, fr and pt-br (2 segments per language, 0 rejected; `i18n_common.py check`: 105 pages, 0 errors). Sitemap: the five home URLs dated 2026-10-10 (2026-10-10).
