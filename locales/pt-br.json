@@ -23,6 +23,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "04e58da71219e1b7": {
+  "src": "{0} crash injury recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Vehicle crash, airbag, braking or steering related injury risks Issued…",
+  "t": "{0} recalls por lesões em colisões no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Riscos de lesão relacionados a colisão, airbag, frenagem ou direção do veículo. Emitidos…",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "04f7cae8f3a19a91": {
   "src": "FSIS recalls and public health alerts for meat, poultry and processed egg products.",
   "t": "Recalls e alertas de saúde pública do FSIS para carnes, aves e produtos de ovos processados.",
@@ -47,12 +53,6 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "068ea0af105886df": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>crash injury</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>lesão em colisão</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "06dbcceefa117771": {
   "src": "Vehicle crash, airbag, braking or steering related injury risks",
   "t": "Riscos de lesão relacionados a colisão, airbag, frenagem ou direção do veículo",
@@ -64,6 +64,12 @@
   "t": "As reclamações são entregues apenas como contagens: o texto das reclamações e os dados de quem as registrou nunca são publicados. VINs que identificam um único veículo são mascarados; os pontos de corte de produção permanecem como a NHTSA os publica.",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
+ },
+ "07b897a863f4293d": {
+  "src": "{0} chemical toxic recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Toxic chemical exposure: lead, cadmium, carbon monoxide, etc. Issued…",
+  "t": "{0} recalls por tóxicos químicos no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Exposição a substâncias químicas tóxicas: chumbo, cádmio, monóxido de carbono etc. Emitidos…",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "07e3bcece6805185": {
   "src": "FDA-regulated products",
@@ -100,10 +106,6 @@
   "t": "Recalls por ano",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "08ccdb6f1a318261": {
-  "src": "{0} choking recalls in {1} ({2} of classified rows, rank {3} of {4}). Choking, aspiration or strangulation hazards (incl. small parts) Issued…",
-  "t": "{0} recalls por asfixia no {1} ({2} das linhas classificadas, posição {3} de {4}). Riscos de asfixia, aspiração ou estrangulamento (incl. peças pequenas). Emitidos…"
  },
  "094e4dbca2298b04": {
   "src": "CPSC free text, FDA enforcement reasons, NHTSA components and FSIS reasons map into one auditable vocabulary. USCG boating recalls are included, but the Coast Guard stopped showing defect text on its recall pages in August–September {0}, so USCG rows carry no hazard class.",
@@ -291,6 +293,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "1fd4530e5ee2f007": {
+  "src": "{0} drug defect recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Drug potency, contamination, mislabeling or dosage defects Issued…",
+  "t": "{0} recalls por defeitos em medicamentos no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Defeitos de potência, contaminação, rotulagem incorreta ou dosagem de medicamentos. Emitidos…",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "1fe5029c676e1755": {
   "src": "Dataset snapshot",
   "t": "Snapshot do conjunto de dados",
@@ -314,12 +322,6 @@
   "t": "Estatísticas",
   "by": "claude-fable-5-1",
   "at": "2026-09-18"
- },
- "20d2fbbdfb3b9a62": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>laceration</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>laceração</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
  },
  "217046addb144cb4": {
   "src": "You might also need",
@@ -453,6 +455,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "2e21c30c0b2fb5cb": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>laceration</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>laceração</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "2eb56be3c2d93cda": {
   "src": "Sources",
   "t": "Fontes",
@@ -492,6 +500,12 @@
   "t": "Baixar amostra CSV",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "324e82a8275fef13": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>choking</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>asfixia</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "3259a184ef8498ab": {
   "src": "In the free {0}-row sample, this hazard appears in rows issued by no agency in the free sample.",
@@ -558,6 +572,12 @@
   "t": "Recalls do {0} ({1}) no {2}: carnes, aves e produtos de ovos. Principais riscos na amostra: contaminação microbiana…",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "369cae0e41ba1c29": {
+  "src": "{0} fire burn recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Fire, thermal burn, overheating or explosion hazards Issued by CPSC, NHTSA.",
+  "t": "{0} recalls por incêndio ou queimaduras no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Riscos de incêndio, queimadura térmica, superaquecimento ou explosão. Emitidos por CPSC, NHTSA.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "36b5dd0585e984d4": {
   "src": "The bucket is defined as: Toxic chemical exposure: lead, cadmium, carbon monoxide, etc..",
@@ -631,12 +651,6 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
- "3f837438684ec4e3": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>fall injury</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>lesão por queda</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "3fe7ec1723c594f9": {
   "src": "Their leading hazard buckets are crash injury ({0}), fire burn ({1}), chemical toxic ({2}); severity labels present: {3}.",
   "t": "As principais categorias de risco são lesões em colisões ({0}), incêndio ou queimaduras ({1}) e tóxicos químicos ({2}); classificações de gravidade presentes: {3}.",
@@ -649,25 +663,9 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "41478c79da452c9a": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>electric shock</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>choque elétrico</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "4220ef2dc809b19b": {
   "src": "Full Dataset Snapshot",
   "t": "Snapshot do conjunto de dados completo",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
- "43157fed24ec6552": {
-  "src": "{0} drug defect recalls in {1} ({2} of classified rows, rank {3} of {4}). Drug potency, contamination, mislabeling or dosage defects Issued…",
-  "t": "{0} recalls por defeitos em medicamentos no {1} ({2} das linhas classificadas, posição {3} de {4}). Defeitos de potência, contaminação, rotulagem incorreta ou dosagem de medicamentos. Emitidos…"
- },
- "44b68db7c6972522": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>microbial contamination</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>contaminação microbiana</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
@@ -737,6 +735,12 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
+ "4f43e49649c42e17": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>other / unmapped</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>outros / não mapeados</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "504faf432c8753f4": {
   "src": "Consumer product recalls from the CPSC SaferProducts recall API.",
   "t": "Recalls de produtos de consumo da API de recalls SaferProducts da CPSC.",
@@ -791,11 +795,11 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
- "54bc0f6b845af94d": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>other / unmapped</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>outros / não mapeados</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
+ "54d58067b5b19c45": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>undeclared allergen</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>alérgeno não declarado</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "5653cdbe9b813e2d": {
   "src": "Open samples/{0} to view the public sample.",
@@ -832,6 +836,12 @@
   "t": "Parte do catálogo DataEngineered →",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "5bf64f4e350f1e28": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>fall injury</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>lesão por queda</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "5c47e26c6ad20d72": {
   "src": "Agency",
@@ -878,12 +888,6 @@
  "60261ed2752b78de": {
   "src": "Vehicles",
   "t": "Veículos",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
- "6134409fc17eb43c": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>drug defect</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>defeito em medicamento</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
@@ -1251,12 +1255,6 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "89e41ecf89bb4ef4": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>fire burn</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>incêndio ou queimadura</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "8a6bfd4fa391bccb": {
   "src": "Fall injury recalls",
   "t": "Recalls por lesões por queda",
@@ -1268,6 +1266,12 @@
   "t": "Recalls de produtos nos EUA em números",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
+ },
+ "8b1b48bc6e68f08f": {
+  "src": "{0} undeclared allergen recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Undeclared allergens: milk, peanuts, soy, wheat, etc. Issued…",
+  "t": "{0} recalls por alérgenos não declarados no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Alérgenos não declarados: leite, amendoim, soja, trigo etc. Emitidos…",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "8b3be47829ad5162": {
   "src": "Recalls",
@@ -1341,15 +1345,23 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "90a0f5eb08383727": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>drug defect</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>defeito em medicamento</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "9101c40388b70691": {
   "src": "RecallDB Vehicle — the NHTSA vehicle &amp; equipment recall cut — together with MechanicDB OEM Complete, its fault-code companion.",
   "t": "RecallDB Vehicle — o recorte de recalls de veículos e equipamentos da NHTSA — junto com o MechanicDB OEM Complete, seu complemento de códigos de falha.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "91d75be29691124e": {
-  "src": "{0} fall injury recalls in {1} ({2} of classified rows, rank {3} of {4}). Fall, tip-over or structural collapse hazards Issued by CPSC.",
-  "t": "{0} recalls por lesões por queda no {1} ({2} das linhas classificadas, posição {3} de {4}). Riscos de queda, tombamento ou colapso estrutural. Emitidos pela CPSC."
+ "9124fe26ed017cc4": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>fire burn</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>incêndio ou queimadura</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "924142769bce50ce": {
   "src": "Your request email has been sent.",
@@ -1392,6 +1404,12 @@
   "t": "E-mail para entrega {0}",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "95f858c6d6ff54b9": {
+  "src": "{0} other / unmapped recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Hazards not yet mapped to the controlled taxonomy Issued by FDA…",
+  "t": "{0} recalls de outros riscos / não mapeados no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Riscos ainda não mapeados para a taxonomia controlada. Emitidos pela FDA…",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "961db893acc50f31": {
   "src": "By weekday",
@@ -1453,6 +1471,12 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
+ "9c8b18ca3e29f925": {
+  "src": "{0} choking recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Choking, aspiration or strangulation hazards (incl. small parts) Issued…",
+  "t": "{0} recalls por asfixia no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Riscos de asfixia, aspiração ou estrangulamento (incl. peças pequenas). Emitidos…",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "9ccb9c3ae2d7b5be": {
   "src": "FDA enforcement reports across food, drugs, medical devices, cosmetics, biologics and animal/veterinary products.",
   "t": "Relatórios de fiscalização da FDA sobre alimentos, medicamentos, dispositivos médicos, cosméticos, produtos biológicos e produtos veterinários.",
@@ -1464,12 +1488,6 @@
   "t": "Anos-modelo de veículos",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "9e310ba506b13724": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>choking</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>asfixia</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
  },
  "9fb64803b9ffb9cd": {
   "src": "{0} one-time snapshot · free {1}-row sample",
@@ -1525,12 +1543,6 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "a91683a93d4c1aa1": {
-  "src": "{0} chemical toxic recalls in {1} ({2} of classified rows, rank {3} of {4}). Toxic chemical exposure: lead, cadmium, carbon monoxide, etc. Issued…",
-  "t": "{0} recalls por tóxicos químicos no {1} ({2} das linhas classificadas, posição {3} de {4}). Exposição a substâncias químicas tóxicas: chumbo, cádmio, monóxido de carbono etc. Emitidos…",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "aa06a724f56f1fcf": {
   "src": "Complaint counts per vehicle and component",
   "t": "Contagens de reclamações por veículo e componente",
@@ -1566,6 +1578,12 @@
   "t": "O ano-modelo <0>{1}</0> tem o maior número de entradas de recall, {2}, entre as {3} entradas de marca-modelo-ano da NHTSA com ano-modelo. Os anos-modelo recentes ainda estão acumulando recalls, então {4} e {5} continuarão subindo.",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
+ },
+ "ae4492e9a7f2da90": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>chemical toxic</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>tóxico químico</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "ae679b35e9b04285": {
   "src": "top {0} of {1} recalling firms",
@@ -1614,10 +1632,6 @@
   "t": "Total",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "b28666ecaf627976": {
-  "src": "{0} fire burn recalls in {1} ({2} of classified rows, rank {3} of {4}). Fire, thermal burn, overheating or explosion hazards Issued by CPSC, NHTSA.",
-  "t": "{0} recalls por incêndio ou queimaduras no {1} ({2} das linhas classificadas, posição {3} de {4}). Riscos de incêndio, queimadura térmica, superaquecimento ou explosão. Emitidos por CPSC, NHTSA."
  },
  "b28893c312ab305c": {
   "src": "Browse every page",
@@ -1673,10 +1687,6 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "b9decbe1677ffeb1": {
-  "src": "{0} laceration recalls in {1} ({2} of classified rows, rank {3} of {4}). Cut, laceration or amputation hazards Issued by FDA, CPSC.",
-  "t": "{0} recalls por laceração no {1} ({2} das linhas classificadas, posição {3} de {4}). Riscos de corte, laceração ou amputação. Emitidos por FDA, CPSC."
- },
  "bac8e5e4c11ef497": {
   "src": "Official recalls",
   "t": "Recalls oficiais",
@@ -1688,6 +1698,12 @@
   "t": "O {0} é um conjunto de dados normalizado de registros oficiais de recalls federais dos EUA provenientes de CPSC, FDA/openFDA mais FDA Safety Alerts, USDA FSIS, NHTSA e USCG.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "bb2475f7dbe4e513": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>microbial contamination</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>contaminação microbiana</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "bc0595937e94640f": {
   "src": "Their leading hazard buckets are drug defect ({0}), other / unmapped ({1}), microbial contamination ({2}); severity labels present: {3}.",
@@ -1742,6 +1758,12 @@
   "t": "Recalls por laceração",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "c0c7d553d03da57c": {
+  "src": "{0} electric shock recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Electric shock or electrocution hazards Issued by federal agencies.",
+  "t": "{0} recalls por choque elétrico no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Riscos de choque elétrico ou eletrocussão. Emitidos por agências federais.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "c163b9b251190653": {
   "src": "Secure Stripe checkout. The full snapshot is never committed to this repo and delivery is gated by payment verification.",
@@ -1803,17 +1825,17 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "c4594454dfce1862": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>chemical toxic</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>tóxico químico</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "c85dfbda27cc34e3": {
   "src": "Rows link to {0} and {1} through {2}.",
   "t": "As linhas se vinculam a {0} e {1} por meio de {2}.",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "c99fa9730b039279": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>electric shock</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>choque elétrico</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "ca5fa585c5a490ba": {
   "src": "<0>Reuse.</0> The figures and charts on this page are published under <1>CC BY {2}</1>: use them in articles, slides and posts with a link to {3}. The machine-readable version is <4>data.json</4>. The underlying row-level ledger is a separate <5>commercial product</5>; a free {6}-row sample is in the <7>public repository</7>.",
@@ -1839,11 +1861,11 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "cd46a2b755711635": {
-  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>undeclared allergen</2>, {3} of the {4} classified hazard rows and the {5} hazard bucket of {6}.",
-  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>alérgeno não declarado</2>: {3} das {4} linhas com risco classificado e a categoria de risco {5} de {6}.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
+ "cda12367b8f9cdc5": {
+  "src": "{0} fall injury recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Fall, tip-over or structural collapse hazards Issued by CPSC.",
+  "t": "{0} recalls por lesões por queda no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Riscos de queda, tombamento ou colapso estrutural. Emitidos pela CPSC.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "cdbb42a4ad4fb4d9": {
   "src": "Recalling firm",
@@ -1899,17 +1921,17 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
+ "d96613ebe1619b46": {
+  "src": "{0} laceration recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Cut, laceration or amputation hazards Issued by FDA, CPSC.",
+  "t": "{0} recalls por laceração no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Riscos de corte, laceração ou amputação. Emitidos por FDA, CPSC.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "d96fbed934876133": {
   "src": "Suggested citation.",
   "t": "Citação sugerida.",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "da88e5341e5dfe71": {
-  "src": "{0} microbial contamination recalls in {1} ({2} of classified rows, rank {3} of {4}). Bacterial/viral contamination: Salmonella, Listeria, E.",
-  "t": "{0} recalls por contaminação microbiana no {1} ({2} das linhas classificadas, posição {3} de {4}). Contaminação bacteriana/viral: Salmonella, Listeria, E.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
  },
  "daa05df0ba78aba4": {
   "src": "Crash injury recalls",
@@ -1934,10 +1956,6 @@
   "t": "Método, reutilização e citação",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "de8f60d9d9ae6e92": {
-  "src": "{0} crash injury recalls in {1} ({2} of classified rows, rank {3} of {4}). Vehicle crash, airbag, braking or steering related injury risks Issued…",
-  "t": "{0} recalls por lesões em colisões no {1} ({2} das linhas classificadas, posição {3} de {4}). Riscos de lesão relacionados a colisão, airbag, frenagem ou direção do veículo. Emitidos…"
  },
  "decd7ca800106337": {
   "src": "Latest",
@@ -1980,6 +1998,12 @@
   "t": "Risco",
   "by": "claude-opus-5",
   "at": "2026-09-17"
+ },
+ "e1e629f211031b96": {
+  "src": "RecallDB classifies <0>{1}</0> official recalls under <2>crash injury</2>, {3} of all {4} hazard rows (unmapped ones included) and the {5} hazard bucket of {6}.",
+  "t": "O RecallDB classifica <0>{1}</0> recalls oficiais como <2>lesão em colisão</2>: {3} de todas as {4} linhas de risco (incluindo as não mapeadas) e a categoria de risco {5} de {6}.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
  },
  "e3a62e7970a58e35": {
   "src": "FSIS recalls",
@@ -2035,21 +2059,17 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "e95c07aa65e029a4": {
+  "src": "{0} microbial contamination recalls in {1} ({2} of all hazard rows, rank {3} of {4}). Bacterial/viral contamination: Salmonella, Listeria, E.",
+  "t": "{0} recalls por contaminação microbiana no {1} ({2} de todas as linhas de risco, posição {3} de {4}). Contaminação bacteriana/viral: Salmonella, Listeria, E.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "e96c019a6a3949a7": {
   "src": "How serious FDA recalls are",
   "t": "A gravidade dos recalls da FDA",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "ea38c78086ea97da": {
-  "src": "{0} electric shock recalls in {1} ({2} of classified rows, rank {3} of {4}). Electric shock or electrocution hazards Issued by federal agencies.",
-  "t": "{0} recalls por choque elétrico no {1} ({2} das linhas classificadas, posição {3} de {4}). Riscos de choque elétrico ou eletrocussão. Emitidos por agências federais."
- },
- "eb05edc2f71494cf": {
-  "src": "{0} undeclared allergen recalls in {1} ({2} of classified rows, rank {3} of {4}). Undeclared allergens: milk, peanuts, soy, wheat, etc. Issued…",
-  "t": "{0} recalls por alérgenos não declarados no {1} ({2} das linhas classificadas, posição {3} de {4}). Alérgenos não declarados: leite, amendoim, soja, trigo etc. Emitidos…",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
  },
  "eb66ae2e95ef2ace": {
   "src": "The public repository contains only the sample files and documentation. The full CSV + SQLite export is not hosted on GitHub, GitHub Pages, Kaggle, or any free public download.",
@@ -2104,10 +2124,6 @@
   "t": "— {0} registros",
   "by": "claude-opus-5",
   "at": "2026-09-17"
- },
- "f225ea6b66949986": {
-  "src": "{0} other / unmapped recalls in {1} ({2} of classified rows, rank {3} of {4}). Hazards not yet mapped to the controlled taxonomy Issued by FDA…",
-  "t": "{0} recalls de outros riscos / não mapeados no {1} ({2} das linhas classificadas, posição {3} de {4}). Riscos ainda não mapeados para a taxonomia controlada. Emitidos pela FDA…"
  },
  "f3ca895753673ca0": {
   "src": "FDA severity",

@@ -69,7 +69,7 @@ RecallDB copies them unchanged:
   (KENWAY lights) is an equipment recall. All NHTSA product rows have `category` `vehicle`,
   so use the campaign number to tell them apart. Equipment, tire and child-seat rows often
   have no model year.
-- **Coverage (2026.09 edition)**: make and model are filled on every NHTSA row. Model year is
+- **Coverage (2026.10 edition)**: make and model are filled on every NHTSA row. Model year is
   filled on 99.7% of vehicle-campaign rows; the empty ones are NHTSA's own `9999`. Every
   monthly build checks these shares and stops if they drop (make or model below 99%, model
   year below 97%), so an edition with broken make/model/year columns cannot ship.
