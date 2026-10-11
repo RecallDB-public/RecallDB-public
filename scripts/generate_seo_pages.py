@@ -102,7 +102,7 @@ def page(url, title, desc, h1, eyebrow, lede, body, crumbs, header, cta, rel):
 def main(write_pages=True, write_sm=True):
     hazards = read("hazards.csv"); recalls = read("recalls.csv"); sources = read("data_sources.csv")
     header, cta = chrome()
-    total_classified = sum(int(h["recall_count"]) for h in hazards)
+    total_hazard_rows = sum(int(h["recall_count"]) for h in hazards)
     ranked = sorted(hazards, key=lambda h: -int(h["recall_count"]))
     # sample cross-tabs (200-row sample only — labelled as such in copy)
     ag_hz = Counter(); hz_ag = defaultdict(Counter); ex = defaultdict(list); ag_sev = defaultdict(Counter); ag_rows = Counter()
@@ -127,19 +127,19 @@ def main(write_pages=True, write_sm=True):
         url = f"{BASE}/hazards/{key}"; fp = ROOT / "hazards" / f"{key}.html"
         entries.append((url, fp, "weekly", "0.7"))
         if not write_pages: continue
-        share = 100.0 * n / total_classified
+        share = 100.0 * n / total_hazard_rows
         rank = ranked.index(h) + 1
         agencies = hz_ag[key].most_common()
         ag_txt = ", ".join(f"{AGENCIES[a.lower()][0]} ({c})" for a, c in agencies) if agencies else "no agency in the free sample"
         title = fit_title(f"{name} recalls", f"{n:,} records", BRAND)
-        desc = fit_desc(f"{n:,} {name.lower()} recalls in RecallDB ({share:.1f}% of classified rows, rank {rank} of {len(hazards)}). "
+        desc = fit_desc(f"{n:,} {name.lower()} recalls in RecallDB ({share:.1f}% of all hazard rows, rank {rank} of {len(hazards)}). "
                         f"{h['description']} Issued by {', '.join(AGENCIES[a.lower()][0] for a, _ in agencies) or 'federal agencies'}.")
         # One plain <span> per sentence (each is its own translation segment) and
         # translate="no" on data values (agency lists, recall titles): i18n_common.py keeps
         # those verbatim in localized copies. English rendering is unchanged.
         ag_html = f'<span translate="no">{html.escape(ag_txt)}</span>' if agencies else html.escape(ag_txt)
         prose = (f"<p><span>RecallDB classifies <strong>{n:,}</strong> official recalls under <em>{html.escape(name.lower())}</em>, "
-                 f"{share:.1f}% of the {total_classified:,} classified hazard rows and the #{rank} hazard bucket of {len(hazards)}.</span> "
+                 f"{share:.1f}% of all {total_hazard_rows:,} hazard rows (unmapped ones included) and the #{rank} hazard bucket of {len(hazards)}.</span> "
                  f"<span>The bucket is defined as: {html.escape(h['description'])}.</span></p>"
                  f"<p><span>In the free 200-row sample, this hazard appears in rows issued by {ag_html}.</span> "
                  f"<span>Agency free text is kept verbatim in <code>raw_hazard_texts</code>; the normalized key is <code>{key}</code>.</span></p>")

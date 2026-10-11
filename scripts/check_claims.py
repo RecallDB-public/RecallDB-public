@@ -21,7 +21,7 @@ step with it. It checks, and with --fix rewrites, the hand-written surfaces:
                                copies it into all 16 hazard and agency pages)
 
 and reports (never rewrites) the generated pages that derive from them: the 11 hazard
-pages' counts and "of the N classified hazard rows", the CTA band on all 16 pages, and the
+pages' counts and "of all N hazard rows", the CTA band on all 16 pages, and the
 data-* attributes of the locale home pages. /stats/ is generated from the full SQLite by
 scripts/generate_stats.py; a snapshot mismatch there is printed as a note, not an error.
 
@@ -178,7 +178,7 @@ def generated(c, locales):
     for key, n in sorted(hz.items()):
         page = f"hazards/{key}.html"
         specs += [(page, "hazard count", f"RecallDB classifies <strong>(?P<v>{N})</strong> official recalls under", fmt(n), 1),
-                  (page, "classified-rows total", f"% of the (?P<v>{N}) classified hazard rows", fmt(sum(hz.values())), 1),
+                  (page, "hazard-rows total", f"% of all (?P<v>{N}) hazard rows", fmt(sum(hz.values())), 1),
                   (page, "CTA band", CTA, r, 1)]
     specs += [(f"agencies/{a.lower()}.html", "CTA band", CTA, r, 1) for a in AGENCIES]
     for lang in locales:
