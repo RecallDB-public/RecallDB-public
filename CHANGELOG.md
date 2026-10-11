@@ -1,5 +1,9 @@
 # Changelog
 
+## Site update — 2026-10-11 (edition 2026.10 re-sync)
+
+- **Every public count now matches edition 2026.10** (snapshot 2026-10-11, the scheduled build of run 38130039533, which buyers download now): `scripts/check_claims.py --fix --claims` adopted the private build's `recalldb-claims-latest.json`. Recalls 128,936 → 129,279; recalled products 294,683 → 295,319; CPSC 8,304 → 8,335, FDA 87,387 → 87,649, FSIS 1,236 (unchanged), NHTSA 30,316 → 30,362, USCG 1,693 → 1,697; firms 21,054 → 21,112; source pulls 519 → 2,226 (one row per USCG detail page); full ZIP 384 → 555 MB; all hazard counts except electric shock moved. The hazard and agency pages, sitemap and locale pages were regenerated. `/stats/` was regenerated from the shipped `recalldb.sqlite`; its units note now names USCG among the agencies with a units figure, because the build fills USCG units from the detail pages. 2 segments per language were translated and 2 orphaned catalog entries pruned. `i18n_common.py check`: 105 pages, 0 errors; `scripts/check_claims.py` passes (2026-10-11).
+
 ## Site update — 2026-10-10 (Spanish bundle line: código de avería)
 
 - The Spanish bulletin-index line on the bundle card said "código de falla"; the rest of this site's Spanish copy says "código de avería". One catalog entry changed (`i18n_common.py check`: 105 pages, 0 errors; `scripts/check_claims.py` passes) (2026-10-10).

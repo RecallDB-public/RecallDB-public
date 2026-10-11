@@ -1,31 +1,31 @@
 {
   "dataset": "RecallDB",
-  "edition": "2026.09",
-  "snapshot": "2026-09-20",
-  "recalls": 128936,
-  "recalled_products": 294683,
+  "edition": "2026.10",
+  "snapshot": "2026-10-11",
+  "recalls": 129279,
+  "recalled_products": 295319,
   "by_agency": {
-    "CPSC": 8304,
-    "FDA": 87387,
+    "CPSC": 8335,
+    "FDA": 87649,
     "FSIS": 1236,
-    "NHTSA": 30316,
-    "USCG": 1693
+    "NHTSA": 30362,
+    "USCG": 1697
   },
-  "fda_safety_alerts": 73,
+  "fda_safety_alerts": 69,
   "hazards": {
-    "chemical_toxic": 6721,
-    "choking": 2160,
-    "crash_injury": 20432,
-    "drug_defect": 35123,
+    "chemical_toxic": 6745,
+    "choking": 2170,
+    "crash_injury": 20471,
+    "drug_defect": 35200,
     "electric_shock": 708,
-    "fall_injury": 1518,
-    "fire_burn": 9589,
-    "laceration": 3930,
-    "microbial_contamination": 20224,
-    "other": 17548,
-    "undeclared_allergen": 9224
+    "fall_injury": 1519,
+    "fire_burn": 9615,
+    "laceration": 3949,
+    "microbial_contamination": 20310,
+    "other": 17596,
+    "undeclared_allergen": 9233
   },
-  "firms": 21054,
-  "data_sources": 519,
-  "zip_bytes": 383802473
+  "firms": 21112,
+  "data_sources": 2226,
+  "zip_bytes": 554636205
 }

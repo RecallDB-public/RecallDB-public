@@ -381,12 +381,6 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "2427bed94ad27a1b": {
-  "src": "Only CPSC and NHTSA records in this snapshot carry a units-affected figure; FDA, FSIS and USCG records carry none, and RecallDB leaves those blank rather than estimating. Units are the agency's own figure at the time of the notice (vehicles for NHTSA, product units for CPSC) and may be revised later in the source.",
-  "t": "En este snapshot, solo los registros de la CPSC y la NHTSA incluyen una cifra de unidades afectadas; los registros de la FDA, el FSIS y la USCG no incluyen ninguna, y RecallDB deja esos campos en blanco en lugar de estimarlos. Las unidades son la cifra propia de la agencia en el momento del aviso (vehículos en la NHTSA, unidades de producto en la CPSC) y pueden revisarse más adelante en la fuente.",
-  "by": "claude-opus-5-5",
-  "at": "2026-10-04"
- },
  "24ca4955c877f122": {
   "src": "Choking, aspiration or strangulation hazards (incl. small parts)",
   "t": "Riesgos de asfixia, aspiración o estrangulamiento (incl. piezas pequeñas)",
@@ -697,6 +691,12 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
+ "476a2d2f6fefab16": {
+  "src": "Only CPSC, NHTSA and USCG records in this snapshot carry a units-affected figure; FDA and FSIS records carry none, and RecallDB leaves those blank rather than estimating. Units are the agency's own figure at the time of the notice (vehicles for NHTSA, product units for CPSC) and may be revised later in the source.",
+  "t": "En este snapshot, solo los registros de la CPSC, la NHTSA y la USCG incluyen una cifra de unidades afectadas; los registros de la FDA y el FSIS no incluyen ninguna, y RecallDB deja esos campos en blanco en lugar de estimarlos. Las unidades son la cifra propia de la agencia en el momento del aviso (vehículos en la NHTSA, unidades de producto en la CPSC) y pueden revisarse más adelante en la fuente.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "47e94085695afeac": {
   "src": "Undeclared allergen recalls — {0} records | {1}",
   "t": "Retiradas por alérgenos no declarados — {0} registros | {1}",
@@ -955,6 +955,12 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
+ "6a76ba187c0ccfcd": {
+  "src": "Across the five federal agencies, the United States issued an average of <0>{1} recalls a year</0> from {2} to {3}, about {4} a day. The peak year was {5} with {6} closed at {7}, and {8} stands at {9} through Oct.",
+  "t": "Sumando las cinco agencias federales, Estados Unidos emitió una media de <0>{1} retiradas al año</0> de {2} a {3}, unas {4} al día. El año récord fue {5} con {6} cerró con {7}, y {8} acumula {9} hasta octubre.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-11"
+ },
  "6b21fb791ac05170": {
   "src": "About",
   "t": "Acerca de",
@@ -1080,12 +1086,6 @@
   "t": "Título",
   "by": "claude-opus-5",
   "at": "2026-09-17"
- },
- "77b711146aaaf8d0": {
-  "src": "Across the five federal agencies, the United States issued an average of <0>{1} recalls a year</0> from {2} to {3}, about {4} a day. The peak year was {5} with {6} closed at {7}, and {8} stands at {9} through Sep.",
-  "t": "Sumando las cinco agencias federales, Estados Unidos emitió una media de <0>{1} retiradas al año</0> de {2} a {3}, unas {4} al día. El año récord fue {5} con {6} cerró con {7}, y {8} acumula {9} hasta septiembre.",
-  "by": "claude-opus-5-5",
-  "at": "2026-10-04"
  },
  "786657ce1db02978": {
   "src": "{0} U.S. Product Recall Database — Snapshot",
@@ -1653,12 +1653,6 @@
   "by": "claude-opus-5",
   "at": "2026-09-17"
  },
- "b50492cbb883695e": {
-  "src": "The sample contains balanced rows from all five source agencies and the same export table shapes used in the paid full dataset snapshot.",
-  "t": "La muestra contiene filas equilibradas de las cinco agencias de origen y las mismas estructuras de tablas de exportación que el snapshot de pago del conjunto de datos completo.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "b59653e099a320e9": {
   "src": "U.S. product recalls in numbers: {0} official recalls from {1}, {2}, {3}, {4} and {5}. Recalls per year, agency shares, hazard classes, {6} Class I share, largest recalls by units, vehicle model years, busiest months. Free to cite and embed.",
   "t": "Las retiradas de productos en EE. UU. en cifras: {0} retiradas oficiales de {1}, {2}, {3}, {4} y {5}. Retiradas por año, proporción por agencia, clases de riesgo, proporción de Clase I de la {6}, mayores retiradas por unidades, años de modelo de vehículos y meses con más retiradas. Libre para citar e insertar.",
@@ -1806,12 +1800,6 @@
   "t": "Clase de riesgo",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "c42021d20aaba8df": {
-  "src": "Two instant downloads after one checkout",
-  "t": "Dos descargas inmediatas tras un único pago",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
  },
  "c44f31e04de277d0": {
   "src": "Electric shock recalls — {0} records | {1}",
