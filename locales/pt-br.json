@@ -543,6 +543,12 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
+ "355f11a6f9e6433f": {
+  "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked repair procedures with parts-cost ranges and labor estimates where known ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
+  "t": "<0>MechanicDB</0> — {1} códigos de falha OBD-II mapeados para {2} procedimentos de reparo classificados, com faixas de custo de peças e estimativas de mão de obra quando conhecidas ({3} SAE / {4} OEM): o complemento de códigos de falha para os recalls de veículos da NHTSA no RecallDB.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-23"
+ },
  "35a22c55ba0cbf4a": {
   "src": "Firms with the most recall records",
   "t": "Empresas com mais registros de recall",
@@ -1416,12 +1422,6 @@
   "t": "Por dia da semana",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "9756177b35e01192": {
-  "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked, cost-estimated repair procedures ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
-  "t": "<0>MechanicDB</0> — {1} códigos de falha OBD-II mapeados para {2} procedimentos de reparo classificados e com custo estimado ({3} SAE / {4} OEM): o complemento de códigos de falha para os recalls de veículos da NHTSA no RecallDB.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
  },
  "97b83487f19f3dcc": {
   "src": "Leading hazard class",

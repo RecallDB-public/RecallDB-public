@@ -545,6 +545,12 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
+ "355f11a6f9e6433f": {
+  "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked repair procedures with parts-cost ranges and labor estimates where known ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
+  "t": "<0>MechanicDB</0> — {1} códigos de avería OBD-II asignados a {2} procedimientos de reparación clasificados, con rangos de costes de piezas y estimaciones de mano de obra cuando se conocen ({3} SAE / {4} OEM): el complemento de códigos de avería para las retiradas de vehículos de la NHTSA de RecallDB.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-23"
+ },
  "35a22c55ba0cbf4a": {
   "src": "Firms with the most recall records",
   "t": "Empresas con más registros de retiradas",
@@ -1420,12 +1426,6 @@
   "t": "Por día de la semana",
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
- },
- "9756177b35e01192": {
-  "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked, cost-estimated repair procedures ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
-  "t": "<0>MechanicDB</0> — {1} códigos de avería OBD-II asignados a {2} procedimientos de reparación clasificados y con coste estimado ({3} SAE / {4} OEM): el complemento de códigos de avería para las retiradas de vehículos de la NHTSA de RecallDB.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
  },
  "97b83487f19f3dcc": {
   "src": "Leading hazard class",

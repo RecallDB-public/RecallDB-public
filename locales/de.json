@@ -543,6 +543,12 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
+ "355f11a6f9e6433f": {
+  "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked repair procedures with parts-cost ranges and labor estimates where known ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
+  "t": "<0>MechanicDB</0> — {1} OBD-II-Fehlercodes, zugeordnet zu {2} geordneten Reparaturverfahren mit Teilekostenspannen und, soweit bekannt, Arbeitszeitschätzungen ({3} SAE / {4} OEM): der Fehlercode-Begleiter zu den NHTSA-Fahrzeugrückrufen von RecallDB.",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-23"
+ },
  "35a22c55ba0cbf4a": {
   "src": "Firms with the most recall records",
   "t": "Unternehmen mit den meisten Rückrufdatensätzen",
@@ -1419,12 +1425,6 @@
   "by": "claude-opus-5-5",
   "at": "2026-10-04"
  },
- "9756177b35e01192": {
-  "src": "<0>MechanicDB</0> — {1} OBD-II trouble codes mapped to {2} ranked, cost-estimated repair procedures ({3} SAE / {4} OEM): the fault-code companion to RecallDB's NHTSA vehicle recalls.",
-  "t": "<0>MechanicDB</0> — {1} OBD-II-Fehlercodes, zugeordnet zu {2} priorisierten Reparaturverfahren mit Kostenschätzung ({3} SAE / {4} OEM): der Fehlercode-Begleiter zu den NHTSA-Fahrzeugrückrufen von RecallDB.",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
- },
  "97b83487f19f3dcc": {
   "src": "Leading hazard class",
   "t": "Häufigste Gefahrenkategorie",
@@ -2111,9 +2111,9 @@
  },
  "f063dc145f59bf82": {
   "src": "MechanicDB OEM Complete: {0} codes, {1} ranked repairs, {2} parts",
-  "t": "MechanicDB OEM Complete: {0} Codes, {1} priorisierte Reparaturen, {2} Teile",
-  "by": "claude-opus-5",
-  "at": "2026-09-17"
+  "t": "MechanicDB OEM Complete: {0} Codes, {1} geordnete Reparaturen, {2} Teile",
+  "by": "claude-opus-5-5",
+  "at": "2026-10-23"
  },
  "f0e60ba6e70bb0ff": {
   "src": "Crash injury recalls — {0} records | {1}",
